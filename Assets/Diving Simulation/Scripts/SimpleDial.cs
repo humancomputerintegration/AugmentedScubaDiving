@@ -33,6 +33,7 @@ public class SimpleDial : MonoBehaviour
 
     public bool IncomingCall(AudioClip speaker, int freq)
     {
+        Debug.Log(" incoming:" + freq);
         if (!isBusy && !isIncomingCall)
         {
             incomingCall = speaker;

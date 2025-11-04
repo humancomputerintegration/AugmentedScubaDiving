@@ -18,6 +18,9 @@ public class CallTowerManager : MonoBehaviour
 
     public AudioClip wrongFrequency;
     public AudioClip emergencyAudio;
+    public float min_wait = 10f;
+    public float max_wait = 120f;
+
     private int emergencyFrequency = 1001;
 
     public SimpleDial playerTransmitter;
