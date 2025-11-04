@@ -13021,6 +13021,8 @@ MonoBehaviour:
   waterPlane: {fileID: 1123430339}
   cameraRig: {fileID: 1351296249}
   underwaterAudio: {fileID: 746461938}
+  oxygenConsumpsionRate: -1
+  batteryConsumptionRate: -0.6
 --- !u!82 &746461938
 AudioSource:
   m_ObjectHideFlags: 0
@@ -30147,7 +30149,7 @@ MonoBehaviour:
   wrongFrequency: {fileID: 8300000, guid: a8092adf9cf23934fb85dc7c09c1aefb, type: 3}
   emergencyAudio: {fileID: 8300000, guid: bfaa54b4eb35c394fb613160b23db05a, type: 3}
   min_wait: 10
-  max_wait: 120
+  max_wait: 45
   playerTransmitter: {fileID: 1618581351}
 --- !u!4 &1901407918
 Transform:

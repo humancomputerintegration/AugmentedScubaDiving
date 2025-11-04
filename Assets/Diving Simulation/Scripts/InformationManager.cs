@@ -21,13 +21,13 @@ public class InformationManager : MonoBehaviour
     // Oxygen info
     private float oxygenLevelMax = 100f;
     private float currentOxygenLevel = 100f;
-    private float oxygenConsumpsionRate = -2.54f; // in oxygen/second.
-    private float oxygenReplenishRate = 1.66f; // in oxygen/second.
+    public float oxygenConsumpsionRate = -1.00f; // in oxygen/second.
+    private float oxygenReplenishRate = 3.66f; // in oxygen/second.
 
     // Battery info
     private float batteryLevelMax = 100f;
     private float currentBatteryLevel = 100f;
-    private float batteryConsumptionRate = -1.6f; // in batt/second.
+    public float batteryConsumptionRate = -0.6f; // in batt/second.
     
     /*
      * INFORMATION RETRIEVAL FUNCTIONS
@@ -149,6 +149,7 @@ public class InformationManager : MonoBehaviour
             cameraRig.rotation = Quaternion.identity;
             currentBatteryLevel = 100f;
             currentOxygenLevel = 100f;
+
     }
 
 }
