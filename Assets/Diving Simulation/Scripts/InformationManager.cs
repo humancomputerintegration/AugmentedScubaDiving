@@ -15,6 +15,9 @@ public class InformationManager : MonoBehaviour
 
     public Transform cameraRig; // XR origin
 
+    [Header("Audio")]
+    public AudioSource underwaterAudio;
+
     // Oxygen info
     private float oxygenLevelMax = 100f;
     private float currentOxygenLevel = 100f;
@@ -95,6 +98,7 @@ public class InformationManager : MonoBehaviour
     {
         OxygenUpdate();
         BatteryUpdate();
+        HandleUnderwaterAudio(); 
     }
 
     void FixedUpdate()
@@ -106,6 +110,22 @@ public class InformationManager : MonoBehaviour
         else
         {
             RenderSettings.fog = false;
+        }
+    }
+
+    void HandleUnderwaterAudio()
+    {
+        if (underwaterAudio == null) return;
+
+        if (GetDepth() < 0f)
+        {
+            if (!underwaterAudio.isPlaying)
+                underwaterAudio.Play();
+        }
+        else
+        {
+            if (underwaterAudio.isPlaying)
+                underwaterAudio.Stop();
         }
     }
 

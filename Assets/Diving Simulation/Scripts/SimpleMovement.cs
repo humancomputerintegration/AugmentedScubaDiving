@@ -25,7 +25,7 @@ public class SimpleMovement : MonoBehaviour
     [Tooltip("Time window in seconds for both hands to touch their side zones.")]
     [SerializeField] float strokeWindow = 0.5f;
     [Tooltip("Meters of forward impulse per valid stroke.")]
-    [SerializeField] float strokeDistance = 0.8f;
+    [SerializeField] float strokeDistance = 2.4f;
     [Tooltip("Seconds over which the impulse is applied (smoother than instant teleport).")]
     [SerializeField] float strokeDuration = 0.25f;
     [Tooltip("Cooldown between strokes to prevent rapid re-trigger.")]
