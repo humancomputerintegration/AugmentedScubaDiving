@@ -1,0 +1,106 @@
+{
+  "checkedAtUtc": "2026-11-18T06:33:54.9022269Z",
+  "scope": "Actual production C# compiled and executed under .NET 10 with deliberately narrow Unity API doubles. Not Unity assembly compilation, Quest hand tracking, physics collision, scene import, UI rendering or Android build.",
+  "unityExecuted": false,
+  "questExecuted": false,
+  "unityApiAssembliesReferenced": false,
+  "cases": 12,
+  "assertions": 59,
+  "results": [
+    {
+      "name": "Open-to-fist produces one onset; hold never repeats",
+      "passed": true,
+      "assertions": 5
+    },
+    {
+      "name": "Thumb up/down is world vertical and mutually exclusive with fist",
+      "passed": true,
+      "assertions": 7
+    },
+    {
+      "name": "Missing joint, hand loss, provider stop, pause and focus clear signals",
+      "passed": true,
+      "assertions": 8
+    },
+    {
+      "name": "Aim requires position and rotation validity; stale aim falls back",
+      "passed": true,
+      "assertions": 5
+    },
+    {
+      "name": "Body initialization uses one CC and removes gravity/duplicate capsule",
+      "passed": true,
+      "assertions": 6
+    },
+    {
+      "name": "Simultaneous forward and vertical combine in one capped displacement",
+      "passed": true,
+      "assertions": 3
+    },
+    {
+      "name": "Neutral, UI ownership and tracking loss stop next movement immediately",
+      "passed": true,
+      "assertions": 4
+    },
+    {
+      "name": "Thumb vertical requires water and upward step stops at surface",
+      "passed": true,
+      "assertions": 4
+    },
+    {
+      "name": "Left forward preserves gaze direction; XR ignores keyboard and mouse",
+      "passed": true,
+      "assertions": 4
+    },
+    {
+      "name": "PC keyboard path remains available; absent input is neutral",
+      "passed": true,
+      "assertions": 4
+    },
+    {
+      "name": "Wrist button restricts opposite hand; disabled targets cannot run",
+      "passed": true,
+      "assertions": 4
+    },
+    {
+      "name": "Button cooldown is recorded before callbacks and closes stale hover",
+      "passed": true,
+      "assertions": 5
+    }
+  ],
+  "productionSources": [
+    {
+      "path": "HandsInput.cs",
+      "sha256": "3cf0eba1f2c504aaa225277897d0f1b1e9af74cceca8bcc39514041ca8df767a"
+    },
+    {
+      "path": "SimpleMovement.cs",
+      "sha256": "a4e580938a3406445a04c7493d7b982ee1373f7b285316423ce7b8a4cbb6375e"
+    },
+    {
+      "path": "StrokeZone.cs",
+      "sha256": "7e98f21587a06fa7ff625ffd66d72e4f34a0b8378117aa82fbaa8c877c76d697"
+    },
+    {
+      "path": "HandUIButton.cs",
+      "sha256": "f2cbccdc1cb437e109b3b378c95793af9ee83e40c0cce0d5caa60c6eaf2f8c1c"
+    }
+  ],
+  "buildWarningsObserved": [
+    {
+      "id": "CS0649",
+      "field": "HandsInput.leftAim",
+      "reason": "Assigned by Unity serialization in production; reflection in harness."
+    },
+    {
+      "id": "CS0649",
+      "field": "HandsInput.rightAim",
+      "reason": "Assigned by Unity serialization in production; reflection in harness."
+    },
+    {
+      "id": "CS0649",
+      "field": "SimpleMovement.informationManager",
+      "reason": "Assigned by Unity serialization in production; reflection in harness."
+    }
+  ]
+}

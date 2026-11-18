@@ -1,0 +1,260 @@
+{
+  "runtimeVerified": false,
+  "sceneNotEditedByThisGenerator": true,
+  "prefabRootMeaning": "For CreatureSwim, Scene root position is ellipse center, not necessarily first visible animal position. Root scale must be 1; modelScale sets fish size. Runtime Resources models become visible on Play.",
+  "scripts": {
+    "CreatureSwim": {
+      "path": "Assets/Diving Simulation/Scripts/World/CreatureSwim.cs",
+      "guid": "9006efc48208540991921f4a5a296bc5"
+    },
+    "ReefModel": {
+      "path": "Assets/Diving Simulation/Scripts/World/ReefModel.cs",
+      "guid": "db6b22febf5351f6957572d6c6c2b02b"
+    },
+    "ClearWaterLook": {
+      "path": "Assets/Diving Simulation/Scripts/World/ClearWaterLook.cs",
+      "guid": "ee36ecde63615267b03fbea5ba874b77"
+    }
+  },
+  "shader": {
+    "path": "Assets/Diving Simulation/Shaders/SeaweedSway.shader",
+    "guid": "5e1858839a70526fa93b8acb3177df91"
+  },
+  "prefabs": [
+    {
+      "name": "Swimmer_RoyalGramma",
+      "kind": "animated-fish",
+      "path": "Assets/Diving Simulation/Prefabs/World/Swimmer_RoyalGramma.prefab",
+      "guid": "3e231af48ec85f16802a6302c605239f",
+      "rootGameObjectFileID": 100000,
+      "rootTransformFileID": 400000,
+      "componentFileID": 11400000,
+      "modelResource": "MarineLife/RoyalGramma",
+      "modelScale": 0.15,
+      "modelEuler": [
+        0,
+        0,
+        0
+      ],
+      "bodyRadius": 0.5,
+      "recommendedInstances": 3,
+      "animation": "source embedded Swimming_Normal; Playables; Unity runtime unverified"
+    },
+    {
+      "name": "Swimmer_ButterflyFish",
+      "kind": "animated-fish",
+      "path": "Assets/Diving Simulation/Prefabs/World/Swimmer_ButterflyFish.prefab",
+      "guid": "4ef4a4790c9c59acbd01f5f980abc738",
+      "rootGameObjectFileID": 100000,
+      "rootTransformFileID": 400000,
+      "componentFileID": 11400000,
+      "modelResource": "MarineLife/ButterflyFish",
+      "modelScale": 0.15,
+      "modelEuler": [
+        0,
+        0,
+        0
+      ],
+      "bodyRadius": 0.55,
+      "recommendedInstances": 3,
+      "animation": "source embedded Swimming_Normal; Playables; Unity runtime unverified"
+    },
+    {
+      "name": "Swimmer_Lionfish",
+      "kind": "animated-fish",
+      "path": "Assets/Diving Simulation/Prefabs/World/Swimmer_Lionfish.prefab",
+      "guid": "ab1e9e0c38ff5f2d86d976e173102aed",
+      "rootGameObjectFileID": 100000,
+      "rootTransformFileID": 400000,
+      "componentFileID": 11400000,
+      "modelResource": "MarineLife/Lionfish",
+      "modelScale": 0.12,
+      "modelEuler": [
+        0,
+        0,
+        0
+      ],
+      "bodyRadius": 0.65,
+      "recommendedInstances": 3,
+      "animation": "source embedded Swimming_Normal; Playables; Unity runtime unverified"
+    },
+    {
+      "name": "Swimmer_Turtle",
+      "kind": "original-prefab-swimmer",
+      "path": "Assets/Diving Simulation/Prefabs/World/Swimmer_Turtle.prefab",
+      "guid": "53ed6f47dcf35420a6b561d63e8cce26",
+      "rootGameObjectFileID": 100000,
+      "rootTransformFileID": 400000,
+      "componentFileID": 11400000,
+      "modelResource": "Ocean Assets/Prefabs/Turtle",
+      "modelScale": 0.7,
+      "modelEuler": [
+        0,
+        0,
+        0
+      ],
+      "bodyRadius": 0.9,
+      "animation": "rig-free static original Turtle; smooth translation/turn/roll, no invented fin animation"
+    },
+    {
+      "name": "Swimmer_OriginalFish",
+      "kind": "original-prefab-swimmer",
+      "path": "Assets/Diving Simulation/Prefabs/World/Swimmer_OriginalFish.prefab",
+      "guid": "5f6e4d29b29c523485c404775619732d",
+      "rootGameObjectFileID": 100000,
+      "rootTransformFileID": 400000,
+      "componentFileID": 11400000,
+      "modelResource": "Ocean Assets/Prefabs/Fish",
+      "modelScale": 0.35,
+      "modelEuler": [
+        0,
+        -90,
+        0
+      ],
+      "bodyRadius": 0.8,
+      "animation": "original legacy animation preserved"
+    },
+    {
+      "name": "Reef_CoralReef",
+      "kind": "external-static-model",
+      "path": "Assets/Diving Simulation/Prefabs/World/Reef_CoralReef.prefab",
+      "guid": "a5ac103c14795346b8c6c1ef9fcf24f0",
+      "rootGameObjectFileID": 100000,
+      "rootTransformFileID": 400000,
+      "componentFileID": 11400000,
+      "modelResource": "Grab3D/CoralReef/coral-reef",
+      "recommendedRootScale": 4,
+      "localBounds": {
+        "min": [
+          -0.322407,
+          0.0,
+          -0.241449
+        ],
+        "max": [
+          0.322407,
+          0.272647,
+          0.241449
+        ]
+      },
+      "surfaceOrigin": "Y=0 is bottom; place at terrain floor + small clearance",
+      "render": "Runtime resource model; actual OBJ + UV textures",
+      "collision": "decoration; Terrain provides floor collision"
+    },
+    {
+      "name": "Reef_Seaweed",
+      "kind": "external-vertex-sway-model",
+      "path": "Assets/Diving Simulation/Prefabs/World/Reef_Seaweed.prefab",
+      "guid": "aebcfa005f2c512f829e8f86ab15891a",
+      "rootGameObjectFileID": 100000,
+      "rootTransformFileID": 400000,
+      "componentFileID": 11400000,
+      "modelResource": "Grab3D/Seaweed/seaweed",
+      "recommendedRootScale": 1.6,
+      "localBounds": {
+        "min": [
+          -0.270333,
+          0.0,
+          -0.258735
+        ],
+        "max": [
+          0.270333,
+          1.2,
+          0.258735
+        ]
+      },
+      "surfaceOrigin": "Y=0 is bottom; place at terrain floor + small clearance",
+      "render": "Runtime resource model; actual OBJ + UV textures; seaweed vertex bend only",
+      "collision": "decoration; Terrain provides floor collision"
+    },
+    {
+      "name": "Reef_Submarine",
+      "kind": "external-static-model",
+      "path": "Assets/Diving Simulation/Prefabs/World/Reef_Submarine.prefab",
+      "guid": "ce88d20968fc570f949f34d6c268763f",
+      "rootGameObjectFileID": 100000,
+      "rootTransformFileID": 400000,
+      "componentFileID": 11400000,
+      "modelResource": "Grab3D/Submarine/submarine",
+      "recommendedRootScale": 0.65,
+      "localBounds": {
+        "min": [
+          -1.69,
+          0.0,
+          -3.635
+        ],
+        "max": [
+          1.69,
+          4.106954,
+          3.635
+        ]
+      },
+      "surfaceOrigin": "Y=0 is bottom; place at terrain floor + small clearance",
+      "render": "Runtime resource model; actual OBJ + UV textures",
+      "collision": "conservative full-bounds BoxCollider"
+    },
+    {
+      "name": "Swimmer_ElinaPrimitiveDiver",
+      "kind": "primitive-diver-with-alternating-kick",
+      "path": "Assets/Diving Simulation/Prefabs/World/Swimmer_ElinaPrimitiveDiver.prefab",
+      "guid": "01b6688805385ef88e18bf9d58f7bad7",
+      "rootGameObjectFileID": 100000,
+      "rootTransformFileID": 400000,
+      "componentFileID": 11400000,
+      "visualTransformFileID": 400001,
+      "leftLegTransformFileID": 400008,
+      "rightLegTransformFileID": 400011,
+      "bodyRadius": 1.45,
+      "recommendedRootScale": 1,
+      "forward": "+Z, head at z=0.57, fins toward -Z",
+      "contactIntegration": "Add one CrewmateBehavior to THIS root; register this root as Elina in CallTowerManager, not a stationary duplicate. No contact component or audio is automatically invented here."
+    }
+  ],
+  "waterMaterial": {
+    "path": "Assets/Diving Simulation/Materials/World/ClearLagoonWater.mat",
+    "guid": "e58127b389b1578695390bc67c7e9610"
+  },
+  "sceneRequiredReferences": {
+    "waterSurfaceTransformFileID": 1793043608,
+    "waterSurfaceY": 13,
+    "terrainColliderFileID": 1994264211,
+    "terrainDataGUID": "427b32d391da3c14892a9a0366dc86c3"
+  },
+  "packages": [
+    {
+      "name": "CoralReef",
+      "creator": "Grab3D",
+      "page": "https://grab3d.com/models/nature/coral-reef/",
+      "download": "https://grab3d.com/dl/coral-reef/coral-reef-obj.zip",
+      "license": "CC0 1.0 Universal",
+      "licenseURL": "https://grab3d.com/license/",
+      "licenseFile": "Assets/ThirdParty/Grab3D/Resources/Grab3D/CoralReef/LICENSE.txt",
+      "zipSha256": "093516ab93cb4c43cb3b47c0629c7dc9c52baaea569f9db8301d958987d6b5a3",
+      "zipBytes": 1420606,
+      "importChanges": "Original OBJ/MTL/JPG content retained; importer max texture size 1024, URP materials added; no external package dependency. Roughness/metallic source maps preserved but constant URP values used."
+    },
+    {
+      "name": "Seaweed",
+      "creator": "Grab3D",
+      "page": "https://grab3d.com/models/nature/seaweed/",
+      "download": "https://grab3d.com/dl/seaweed/seaweed-obj.zip",
+      "license": "CC0 1.0 Universal",
+      "licenseURL": "https://grab3d.com/license/",
+      "licenseFile": "Assets/ThirdParty/Grab3D/Resources/Grab3D/Seaweed/LICENSE.txt",
+      "zipSha256": "f5765ff0b46763838b250e56adf42da4ef6a36c569ec7e08b187210aaa3b8ae4",
+      "zipBytes": 1107720,
+      "importChanges": "Original OBJ/MTL/JPG content retained; importer max texture size 1024, URP materials added; no external package dependency. Roughness/metallic source maps preserved but constant URP values used."
+    },
+    {
+      "name": "Submarine",
+      "creator": "Grab3D",
+      "page": "https://grab3d.com/models/vehicles/submarine/",
+      "download": "https://grab3d.com/dl/submarine/submarine-obj.zip",
+      "license": "CC0 1.0 Universal",
+      "licenseURL": "https://grab3d.com/license/",
+      "licenseFile": "Assets/ThirdParty/Grab3D/Resources/Grab3D/Submarine/LICENSE.txt",
+      "zipSha256": "f0b9d3dbbeaf7703f6d902e4a337f2f602512cb63df938d400660dd7162c02e4",
+      "zipBytes": 921979,
+      "importChanges": "Original OBJ/MTL/JPG content retained; importer max texture size 1024, URP materials added; no external package dependency. Roughness/metallic source maps preserved but constant URP values used."
+    }
+  ]
+}

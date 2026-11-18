@@ -1,0 +1,196 @@
+{
+  "checkedAtUtc": "2026-11-18T06:37:52.0536549Z",
+  "scope": "Actual production .cs text parsed by Roslyn using C# 9 in Editor/Android preprocessor profiles. Syntax only; no Unity assemblies, package resolution, shaders, Scene import, Android build or Quest execution.",
+  "unityExecuted": false,
+  "questExecuted": false,
+  "unityApiAssembliesReferenced": false,
+  "sourceRoot": "/workspace/scratch/425325bd7160/output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Scripts",
+  "sourceCount": 40,
+  "profiles": {
+    "UnityEditor_CSharp9": [
+      "UNITY_EDITOR",
+      "UNITY_EDITOR_WIN",
+      "UNITY_STANDALONE_WIN",
+      "UNITY_6000_3",
+      "UNITY_6000_3_OR_NEWER",
+      "UNITY_6000_0_OR_NEWER",
+      "ENABLE_INPUT_SYSTEM",
+      "USE_INPUT_SYSTEM_POSE_CONTROL",
+      "USE_STICK_CONTROL_THUMBSTICKS"
+    ],
+    "Android_CSharp9": [
+      "UNITY_ANDROID",
+      "UNITY_6000_3",
+      "UNITY_6000_3_OR_NEWER",
+      "UNITY_6000_0_OR_NEWER",
+      "ENABLE_INPUT_SYSTEM",
+      "USE_INPUT_SYSTEM_POSE_CONTROL",
+      "USE_STICK_CONTROL_THUMBSTICKS"
+    ]
+  },
+  "errors": 0,
+  "warnings": 0,
+  "diagnostics": [],
+  "files": [
+    {
+      "path": "BatteryLevel.cs",
+      "sha256": "a941b84d1fb5e5641f0aca3b73c661a8d321b7feb23360da9265a81227f39ba5"
+    },
+    {
+      "path": "CallAudioDucking.cs",
+      "sha256": "a4c682f9bce7aa5b563e0cd9deb8957c372c0cd997947f0a184684e4cd513b66"
+    },
+    {
+      "path": "CallDashboardManager.cs",
+      "sha256": "0eb07b444237d298f56b5ed467325c0a5462a1c0fe3431142e865ed8851aac36"
+    },
+    {
+      "path": "CallTowerManager.cs",
+      "sha256": "c6196b16a56f06f5020c45d04c661aa62439c9a50d903533e83a287fb043945d"
+    },
+    {
+      "path": "CircleGraphic.cs",
+      "sha256": "f322f43476c91c1e82a0ae8d2b305c95c83dc30ac0b76fa0d941a44e475f51b0"
+    },
+    {
+      "path": "Compass.cs",
+      "sha256": "7e6d760969763c1c34f71afb2f7df349a5720cad6bb92f0caa01c962b040b872"
+    },
+    {
+      "path": "CrewArrowNavigator.cs",
+      "sha256": "2651126b3d8789c6d1d92899e30be27c32f3a92fe60c53c175415e84ec28548b"
+    },
+    {
+      "path": "CrewInfo.cs",
+      "sha256": "0597c37f1dfafc787b1dca0d431688dd557eb71c8fe58743fccf8375aba88c85"
+    },
+    {
+      "path": "CrewInfodashboardManager.cs",
+      "sha256": "942c8f6d603bb24ec8d2e09d20ff35a0ab2cfe635a30c0d232c4a045f96b2d45"
+    },
+    {
+      "path": "CrewmateBehavior.cs",
+      "sha256": "b131888e5424d411267b2bd9238f849f2447a8d7a02eeb28c2ecfc6a9a3d1d3b"
+    },
+    {
+      "path": "CrewmateNames.cs",
+      "sha256": "b2fdefbd885b0e2b9ab863f383de8a476b0a2490e510a386a77e69bc49be35f7"
+    },
+    {
+      "path": "DiveInfo.cs",
+      "sha256": "cdd15ef6002cf5a718df1d64faca8ccd432445c5974b3088628ccb7078f82325"
+    },
+    {
+      "path": "DiveStatusHUD.cs",
+      "sha256": "f1edc4eb2bce6a927b082bb5cd5bcc9028d44afd0ab0d13e8a02a9a2b24feb09"
+    },
+    {
+      "path": "Editor/HandsDemoValidator.cs",
+      "sha256": "822bd9ff1f190873c221d65935fa62ad8505a78bf660da2d47f2c30a299e8e63"
+    },
+    {
+      "path": "FishMovements.cs",
+      "sha256": "7973dd466c4f111ad05b5c688ecc1ec063f5bb88b0ab5a3c2285b1204003b774"
+    },
+    {
+      "path": "HandColliderFollower.cs",
+      "sha256": "05d62624f61738c7e8a759ae0156e1837c81074dc5e2ac3436376f353e921761"
+    },
+    {
+      "path": "HandPointerLight.cs",
+      "sha256": "53eee6ac5eace48302f1b9fbc59773723f49a643cbd6fa50ec063685ac248bb3"
+    },
+    {
+      "path": "HandUIAnchor.cs",
+      "sha256": "9ae25e1eebefcb0744fa6470534a570a6e5435d6b15b3be13fe1a9b735ccb826"
+    },
+    {
+      "path": "HandUIButton.cs",
+      "sha256": "f2cbccdc1cb437e109b3b378c95793af9ee83e40c0cce0d5caa60c6eaf2f8c1c"
+    },
+    {
+      "path": "HandUIInteractor.cs",
+      "sha256": "264f533a848b5f0212228f76ad07e44835e773180bd67cdf59736f72b609401a"
+    },
+    {
+      "path": "HandsInput.cs",
+      "sha256": "3cf0eba1f2c504aaa225277897d0f1b1e9af74cceca8bcc39514041ca8df767a"
+    },
+    {
+      "path": "HeadMountedUI.cs",
+      "sha256": "9b45f9b3106adae19dafd3548e116429850bbfc0a1c291f39ab3357080ad005d"
+    },
+    {
+      "path": "IncomingCallPopup.cs",
+      "sha256": "3558f46db40adfee094fd6967160667ea22bb6f8d900549bb22bbebd4e737a8d"
+    },
+    {
+      "path": "InformationManager.cs",
+      "sha256": "e59682d2cdd87336310a3c55aac4fe3fea8456c4242d9683d8bdcb5df812bf5b"
+    },
+    {
+      "path": "MinimapUI.cs",
+      "sha256": "d9002d38559ebe7e761522d95103ca2b2cf02450c79a1ebb8e897e3427da3424"
+    },
+    {
+      "path": "MudPinchNavigator.cs",
+      "sha256": "3e2ec468047bc219377389dd4dca4876a66b398e2854435173d9bafe79fb2d48"
+    },
+    {
+      "path": "MudStorm.cs",
+      "sha256": "d0d94260ea3b06398d8673918047e426c95b866760777e57b089e269110118c0"
+    },
+    {
+      "path": "OxygenBar.cs",
+      "sha256": "7d9d2cec067ed80c8271594590b224f74cf0d0085a1823b061731edd448a8c4f"
+    },
+    {
+      "path": "ScreenManager.cs",
+      "sha256": "aae58ba1e66b797a4fdc3b9c12d6b4151bbd0310f8025874e499c72c2a605d47"
+    },
+    {
+      "path": "SimpleDial.cs",
+      "sha256": "06dec9dc0b4f39fc706d3237978144895affd2ac4d01b6a009758eea21000bb8"
+    },
+    {
+      "path": "SimpleMovement.cs",
+      "sha256": "a4e580938a3406445a04c7493d7b982ee1373f7b285316423ce7b8a4cbb6375e"
+    },
+    {
+      "path": "StrokeZone.cs",
+      "sha256": "7e98f21587a06fa7ff625ffd66d72e4f34a0b8378117aa82fbaa8c877c76d697"
+    },
+    {
+      "path": "ThumbsUpAscend.cs",
+      "sha256": "79c38f2b45fecc77709e155baa1f71e01e40d50d4b02e507d4d8afcccc614493"
+    },
+    {
+      "path": "ToggleTracking.cs",
+      "sha256": "4f12dc2294e267ebff22b2b8cdb670f0a9b94791f79cecf5a990092216878906"
+    },
+    {
+      "path": "UnderwaterWarning.cs",
+      "sha256": "64dd544e1ff2d74402c0a65ea9b0ad4be636b1b4385f8c2a8bc870c77bc86eae"
+    },
+    {
+      "path": "WaveMenuController.cs",
+      "sha256": "da74843cb7edf2ec12b82392b7aefdb2f82007eacd8e6e0aefb37173d9983232"
+    },
+    {
+      "path": "World/ClearWaterLook.cs",
+      "sha256": "bd8269378ad559ae53d628a251f7c63093530fddd309f340617de9473023aa5b"
+    },
+    {
+      "path": "World/CreatureSwim.cs",
+      "sha256": "2ad1c5f474c3e494fef4be2f3dd4c671ed01a3e6d24958f7041674f2cff17503"
+    },
+    {
+      "path": "World/ReefModel.cs",
+      "sha256": "fd07616352499676876cdf4ce5590e48c4e6e631953287248ac51b23918e2914"
+    },
+    {
+      "path": "graphics/WaterMirrorReflection.cs",
+      "sha256": "7e4a22ff395dfb1366314916c948fd636f7f79d5aa4fd416e376a967ef22e025"
+    }
+  ]
+}

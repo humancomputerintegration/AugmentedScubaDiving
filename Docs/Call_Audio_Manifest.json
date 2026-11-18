@@ -1,0 +1,137 @@
+{
+  "validation": "Decoded signals measured only; not listened to or tested in Unity/Quest.",
+  "assets": [
+    {
+      "path": "Assets/Diving Simulation/Audio/CallFeedback/Button_Click.wav",
+      "guid": "51a33d8cda3a58e2b862088677757d22",
+      "purpose": "Short deterministic keypad click; generated sine signal, no sampled external audio.",
+      "sha256": "71a1ad94651e5220602bacd503b96f5f4c736810ce84619645003e0a18a9a98b",
+      "duration_s": 0.065,
+      "channels": 1,
+      "sample_rate": 44100,
+      "peak_dbfs": -12.854,
+      "rms_dbfs": -18.712,
+      "full_scale_samples": 0
+    },
+    {
+      "path": "Assets/Diving Simulation/Audio/CallFeedback/Call_Connected.wav",
+      "guid": "855a127f28c85002b01ccb5d3f4a9776",
+      "purpose": "Two rising confirmation notes for real connected state.",
+      "sha256": "60af42f18dd0d75fbb63fe6ca198816ed79e53e2adb7e463974059ad4942047d",
+      "duration_s": 0.405,
+      "channels": 1,
+      "sample_rate": 44100,
+      "peak_dbfs": -11.165,
+      "rms_dbfs": -19.917,
+      "full_scale_samples": 0
+    },
+    {
+      "path": "Assets/Diving Simulation/Audio/CallFeedback/Call_Ended.wav",
+      "guid": "9461f9444f4d53f589a8b180978b1dc9",
+      "purpose": "Two falling confirmation notes for real ended state.",
+      "sha256": "405671c50dab43da6eafa368a5f4add24bfaa1179467ab6a7b4376a8d1708c8d",
+      "duration_s": 0.365,
+      "channels": 1,
+      "sample_rate": 44100,
+      "peak_dbfs": -12.272,
+      "rms_dbfs": -20.648,
+      "full_scale_samples": 0
+    },
+    {
+      "path": "Assets/Diving Simulation/Audio/Elina/Elina_answering.wav",
+      "guid": "fea885d660925eed8abe47f879e32bdb",
+      "purpose": "User-provided actual Elina recording; decoded to PCM WAV with constant gain only.",
+      "sha256": "9be889a912fe978efa6375c1de478797b590466804f829c8a36f8279678c54d8",
+      "duration_s": 4.3307,
+      "channels": 1,
+      "sample_rate": 48000,
+      "peak_dbfs": -2.001,
+      "rms_dbfs": -21.009,
+      "full_scale_samples": 0,
+      "source": "Docs/Audio_Sources/Elina_answering_original.m4a",
+      "source_sha256": "db69da361a14faf40a86bb0be1c8c1eb6c02fb5a27fa0dbb017dcb7462e5bf13",
+      "source_signal": {
+        "duration_s": 4.3307,
+        "channels": 1,
+        "sample_rate": 48000,
+        "peak_dbfs": -0.043,
+        "rms_dbfs": -19.052,
+        "full_scale_samples": 0
+      },
+      "gain_db": -1.957,
+      "speech_synthesized": false,
+      "content_trimmed": false
+    },
+    {
+      "path": "Assets/Diving Simulation/Audio/Elina/Elina_calling.wav",
+      "guid": "3eb62d3408b25d869dd850963990a5a3",
+      "purpose": "User-provided actual Elina recording; decoded to PCM WAV with constant gain only.",
+      "sha256": "383f5de708bebb44a3559ebd4491d39028c1140366d6bd5757c0f041b06078f1",
+      "duration_s": 4.3093,
+      "channels": 1,
+      "sample_rate": 48000,
+      "peak_dbfs": -2.0,
+      "rms_dbfs": -21.528,
+      "full_scale_samples": 0,
+      "source": "Docs/Audio_Sources/Elina_calling_original.m4a",
+      "source_sha256": "0b0d9f3b95193cf43a114bd23c257e1f6dcef111be2c717e984a0851e042f1ad",
+      "source_signal": {
+        "duration_s": 4.3093,
+        "channels": 1,
+        "sample_rate": 48000,
+        "peak_dbfs": -0.363,
+        "rms_dbfs": -19.891,
+        "full_scale_samples": 0
+      },
+      "gain_db": -1.637,
+      "speech_synthesized": false,
+      "content_trimmed": false
+    },
+    {
+      "path": "Assets/Diving Simulation/Audio/ElizaLevelAdjusted/Eliza_answering_level_adjusted.wav",
+      "guid": "bcf7131ef3e950e58fb64f7b413ce166",
+      "purpose": "Same original Eliza recording, decoded with constant volume gain only; original MP3 and metadata preserved.",
+      "sha256": "0d4c3ea1d0ff06591440d81f42eb2f1c840b7c4153a0b6c808f170265fc7c8e2",
+      "duration_s": 2.3893,
+      "channels": 2,
+      "sample_rate": 48000,
+      "peak_dbfs": -2.0,
+      "rms_dbfs": -20.028,
+      "full_scale_samples": 0,
+      "source": "Assets/Diving Simulation/Audio/Eliza_answering.mp3",
+      "source_sha256": "3f7e67e40f256c6e3c535d8d0cf3b7c92893b9d04e8666a71ce9d94f793e08c3",
+      "source_signal": {
+        "duration_s": 2.3893,
+        "channels": 2,
+        "sample_rate": 48000,
+        "peak_dbfs": -8.323,
+        "rms_dbfs": -26.351,
+        "full_scale_samples": 0
+      },
+      "gain_db": 6.323
+    },
+    {
+      "path": "Assets/Diving Simulation/Audio/ElizaLevelAdjusted/Eliza_calling_level_adjusted.wav",
+      "guid": "64d8a10c111c5706acf51e0d0d552bea",
+      "purpose": "Same original Eliza recording, decoded with constant volume gain only; original MP3 and metadata preserved.",
+      "sha256": "d9f6980c0e70c03b755e864b535baf0d935d80cf56828f12537f00a9bb985014",
+      "duration_s": 3.84,
+      "channels": 2,
+      "sample_rate": 48000,
+      "peak_dbfs": -2.0,
+      "rms_dbfs": -19.538,
+      "full_scale_samples": 0,
+      "source": "Assets/Diving Simulation/Audio/Eliza_calling.mp3",
+      "source_sha256": "a8590651310b61d97af9fa38163b04621d61230898c0395a4dffff06543638b0",
+      "source_signal": {
+        "duration_s": 3.84,
+        "channels": 2,
+        "sample_rate": 48000,
+        "peak_dbfs": -9.801,
+        "rms_dbfs": -27.339,
+        "full_scale_samples": 0
+      },
+      "gain_db": 7.801
+    }
+  ]
+}
