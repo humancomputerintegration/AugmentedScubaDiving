@@ -1,0 +1,68 @@
+{
+  "Eliza_answering.mp3": {
+    "duration_s": 2.389,
+    "peak_dbfs": -7.37,
+    "rms_dbfs": -23.48,
+    "samples_at_or_above_0dbfs": 0
+  },
+  "Eliza_calling.mp3": {
+    "duration_s": 3.84,
+    "peak_dbfs": -11.54,
+    "rms_dbfs": -25.5,
+    "samples_at_or_above_0dbfs": 0
+  },
+  "Ringtone.mp3": {
+    "duration_s": 25.043,
+    "peak_dbfs": -7.07,
+    "rms_dbfs": -20.57,
+    "samples_at_or_above_0dbfs": 0
+  },
+  "Bike Bell Ding.mp3": {
+    "duration_s": 3.02,
+    "peak_dbfs": -1.81,
+    "rms_dbfs": -26.53,
+    "samples_at_or_above_0dbfs": 0
+  },
+  "emergency_answer_clean.mp3": {
+    "duration_s": 9.346,
+    "peak_dbfs": -4.39,
+    "rms_dbfs": -19.0,
+    "samples_at_or_above_0dbfs": 0
+  },
+  "pedro_asnwer.mp3": {
+    "duration_s": 10.321,
+    "peak_dbfs": -2.22,
+    "rms_dbfs": -18.7,
+    "samples_at_or_above_0dbfs": 0
+  },
+  "pedro_calling.mp3": {
+    "duration_s": 6.432,
+    "peak_dbfs": -2.45,
+    "rms_dbfs": -20.16,
+    "samples_at_or_above_0dbfs": 0
+  },
+  "Romain_answering_howsitgoing.mp3": {
+    "duration_s": 2.069,
+    "peak_dbfs": -3.67,
+    "rms_dbfs": -20.87,
+    "samples_at_or_above_0dbfs": 0
+  },
+  "Romain_calling_boat.mp3": {
+    "duration_s": 5.589,
+    "peak_dbfs": -4.72,
+    "rms_dbfs": -20.66,
+    "samples_at_or_above_0dbfs": 0
+  },
+  "suzie_answer.mp3": {
+    "duration_s": 6.676,
+    "peak_dbfs": 0.1,
+    "rms_dbfs": -20.73,
+    "samples_at_or_above_0dbfs": 2
+  },
+  "suzie_calling.mp3": {
+    "duration_s": 7.349,
+    "peak_dbfs": -2.82,
+    "rms_dbfs": -21.76,
+    "samples_at_or_above_0dbfs": 0
+  }
+}

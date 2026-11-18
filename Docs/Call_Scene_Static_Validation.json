@@ -1,0 +1,2790 @@
+{
+  "scope": "Static YAML/GUID/public callback and prefab added-component audit; no Unity import/render/Quest execution.",
+  "scene": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Scenes/Simulation.unity",
+  "scene_sha256": "cd63ba065cb0c585cb2708af49e730aed77e17b01c07fa0ce806ce3f647180b7",
+  "checks": 238,
+  "failures": 0,
+  "issues": [],
+  "crew": [
+    {
+      "index": 0,
+      "name": "Pedro",
+      "extension": "2001",
+      "transform": 264486946,
+      "gameObject": 873617699,
+      "instance": 264486945,
+      "behavior": 873617700,
+      "receiver": "pedro_asnwer.mp3",
+      "caller": "pedro_calling.mp3"
+    },
+    {
+      "index": 1,
+      "name": "Romain",
+      "extension": "2002",
+      "transform": 1150354825,
+      "gameObject": 1639722121,
+      "instance": 1150354824,
+      "behavior": 1639722122,
+      "receiver": "Romain_answering_howsitgoing.mp3",
+      "caller": "Romain_calling_boat.mp3"
+    },
+    {
+      "index": 2,
+      "name": "Suzie",
+      "extension": "2003",
+      "transform": 1740762272,
+      "gameObject": 1226253112,
+      "instance": 1740762271,
+      "behavior": 1226253113,
+      "receiver": "suzie_answer.mp3",
+      "caller": "suzie_calling.mp3"
+    },
+    {
+      "index": 3,
+      "name": "Eliza",
+      "extension": "2004",
+      "transform": 9400000083,
+      "gameObject": 9400000084,
+      "instance": 9400000082,
+      "behavior": 9400000085,
+      "receiver": "Eliza_answering_level_adjusted.wav",
+      "caller": "Eliza_calling_level_adjusted.wav"
+    },
+    {
+      "index": 4,
+      "name": "Elina",
+      "extension": "2005",
+      "transform": 9400000043,
+      "gameObject": 9400000044,
+      "instance": 9400000042,
+      "behavior": 9400000045,
+      "receiver": "Elina_answering.wav",
+      "caller": "Elina_calling.wav"
+    }
+  ],
+  "callButtons": [
+    {
+      "name": "Call Pedro",
+      "button": 9300000143,
+      "target": 122658819,
+      "method": "SelectContact",
+      "mode": 3,
+      "integerArgument": 0,
+      "handButton": 9300000152
+    },
+    {
+      "name": "Call Romain",
+      "button": 9300000158,
+      "target": 122658819,
+      "method": "SelectContact",
+      "mode": 3,
+      "integerArgument": 1,
+      "handButton": 9300000167
+    },
+    {
+      "name": "Call Suzie",
+      "button": 9300000173,
+      "target": 122658819,
+      "method": "SelectContact",
+      "mode": 3,
+      "integerArgument": 2,
+      "handButton": 9300000182
+    },
+    {
+      "name": "Call Eliza",
+      "button": 9300000188,
+      "target": 122658819,
+      "method": "SelectContact",
+      "mode": 3,
+      "integerArgument": 3,
+      "handButton": 9300000197
+    },
+    {
+      "name": "Call Elina",
+      "button": 9300000203,
+      "target": 122658819,
+      "method": "SelectContact",
+      "mode": 3,
+      "integerArgument": 4,
+      "handButton": 9300000212
+    },
+    {
+      "name": "Frequency Mode",
+      "button": 9300000218,
+      "target": 122658819,
+      "method": "SetFrequencyMode",
+      "mode": 1,
+      "integerArgument": null,
+      "handButton": 9300000227
+    },
+    {
+      "name": "Phone Mode",
+      "button": 9300000233,
+      "target": 122658819,
+      "method": "SetPhoneMode",
+      "mode": 1,
+      "integerArgument": null,
+      "handButton": 9300000242
+    },
+    {
+      "name": "Key 1",
+      "button": 9300000256,
+      "target": 122658819,
+      "method": "PressDigit",
+      "mode": 3,
+      "integerArgument": 1,
+      "handButton": 9300000265
+    },
+    {
+      "name": "Key 2",
+      "button": 9300000271,
+      "target": 122658819,
+      "method": "PressDigit",
+      "mode": 3,
+      "integerArgument": 2,
+      "handButton": 9300000280
+    },
+    {
+      "name": "Key 3",
+      "button": 9300000286,
+      "target": 122658819,
+      "method": "PressDigit",
+      "mode": 3,
+      "integerArgument": 3,
+      "handButton": 9300000295
+    },
+    {
+      "name": "Key 4",
+      "button": 9300000301,
+      "target": 122658819,
+      "method": "PressDigit",
+      "mode": 3,
+      "integerArgument": 4,
+      "handButton": 9300000310
+    },
+    {
+      "name": "Key 5",
+      "button": 9300000316,
+      "target": 122658819,
+      "method": "PressDigit",
+      "mode": 3,
+      "integerArgument": 5,
+      "handButton": 9300000325
+    },
+    {
+      "name": "Key 6",
+      "button": 9300000331,
+      "target": 122658819,
+      "method": "PressDigit",
+      "mode": 3,
+      "integerArgument": 6,
+      "handButton": 9300000340
+    },
+    {
+      "name": "Key 7",
+      "button": 9300000346,
+      "target": 122658819,
+      "method": "PressDigit",
+      "mode": 3,
+      "integerArgument": 7,
+      "handButton": 9300000355
+    },
+    {
+      "name": "Key 8",
+      "button": 9300000361,
+      "target": 122658819,
+      "method": "PressDigit",
+      "mode": 3,
+      "integerArgument": 8,
+      "handButton": 9300000370
+    },
+    {
+      "name": "Key 9",
+      "button": 9300000376,
+      "target": 122658819,
+      "method": "PressDigit",
+      "mode": 3,
+      "integerArgument": 9,
+      "handButton": 9300000385
+    },
+    {
+      "name": "Key CLEAR",
+      "button": 9300000391,
+      "target": 122658819,
+      "method": "ClearNumber",
+      "mode": 1,
+      "integerArgument": null,
+      "handButton": 9300000400
+    },
+    {
+      "name": "Key 0",
+      "button": 9300000406,
+      "target": 122658819,
+      "method": "PressDigit",
+      "mode": 3,
+      "integerArgument": 0,
+      "handButton": 9300000415
+    },
+    {
+      "name": "Key <",
+      "button": 9300000421,
+      "target": 122658819,
+      "method": "Backspace",
+      "mode": 1,
+      "integerArgument": null,
+      "handButton": 9300000430
+    },
+    {
+      "name": "Dial Address",
+      "button": 9300000436,
+      "target": 122658819,
+      "method": "DialAddress",
+      "mode": 1,
+      "integerArgument": null,
+      "handButton": 9300000445
+    },
+    {
+      "name": "End Call",
+      "button": 9300000451,
+      "target": 122658819,
+      "method": "EndCall",
+      "mode": 1,
+      "integerArgument": null,
+      "handButton": 9300000460
+    },
+    {
+      "name": "SOS",
+      "button": 9300000658,
+      "target": 122658819,
+      "method": "CallEmergency",
+      "mode": 1,
+      "integerArgument": null,
+      "handButton": 9300000667
+    },
+    {
+      "name": "SOS",
+      "button": 9300000762,
+      "target": 122658819,
+      "method": "CallEmergency",
+      "mode": 1,
+      "integerArgument": null,
+      "handButton": 9300000771
+    },
+    {
+      "name": "Answer Call",
+      "button": 9300000927,
+      "target": 2126120168,
+      "method": "Answer",
+      "mode": 1,
+      "integerArgument": null,
+      "handButton": 9300000936
+    },
+    {
+      "name": "Hang Up",
+      "button": 9300000942,
+      "target": 2126120168,
+      "method": "HangUp",
+      "mode": 1,
+      "integerArgument": null,
+      "handButton": 9300000951
+    }
+  ],
+  "textLayoutData": [
+    {
+      "textComponent": 9300000151,
+      "name": "Call Pedro - Label",
+      "fontSize": 29,
+      "rectSize": {
+        "x": 374,
+        "y": 80
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "horizontalOverflow": 0,
+      "verticalOverflow": 0
+    },
+    {
+      "textComponent": 9300000166,
+      "name": "Call Romain - Label",
+      "fontSize": 29,
+      "rectSize": {
+        "x": 374,
+        "y": 80
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "horizontalOverflow": 0,
+      "verticalOverflow": 0
+    },
+    {
+      "textComponent": 9300000181,
+      "name": "Call Suzie - Label",
+      "fontSize": 29,
+      "rectSize": {
+        "x": 374,
+        "y": 80
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "horizontalOverflow": 0,
+      "verticalOverflow": 0
+    },
+    {
+      "textComponent": 9300000196,
+      "name": "Call Eliza - Label",
+      "fontSize": 29,
+      "rectSize": {
+        "x": 374,
+        "y": 80
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "horizontalOverflow": 0,
+      "verticalOverflow": 0
+    },
+    {
+      "textComponent": 9300000211,
+      "name": "Call Elina - Label",
+      "fontSize": 29,
+      "rectSize": {
+        "x": 374,
+        "y": 80
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "horizontalOverflow": 0,
+      "verticalOverflow": 0
+    },
+    {
+      "textComponent": 9300000917,
+      "name": "Caller and Connection",
+      "fontSize": 34,
+      "rectSize": {
+        "x": 740,
+        "y": 170
+      },
+      "position": {
+        "x": 0,
+        "y": 65
+      },
+      "horizontalOverflow": 0,
+      "verticalOverflow": 0
+    },
+    {
+      "textComponent": 9300000921,
+      "name": "Call Action Hint",
+      "fontSize": 23,
+      "rectSize": {
+        "x": 740,
+        "y": 56
+      },
+      "position": {
+        "x": 0,
+        "y": -28
+      },
+      "horizontalOverflow": 0,
+      "verticalOverflow": 0
+    },
+    {
+      "textComponent": 9300000464,
+      "name": "Call Feedback",
+      "fontSize": 22,
+      "rectSize": {
+        "x": 384,
+        "y": 83
+      },
+      "position": {
+        "x": 215,
+        "y": -292
+      },
+      "horizontalOverflow": 0,
+      "verticalOverflow": 0
+    }
+  ],
+  "details": [
+    {
+      "name": "SimpleDial.cs host / enabled",
+      "passed": true,
+      "detail": {
+        "component": 1618581351,
+        "host": 9300000006
+      }
+    },
+    {
+      "name": "CallDashboardManager.cs host / enabled",
+      "passed": true,
+      "detail": {
+        "component": 122658819,
+        "host": 9300000006
+      }
+    },
+    {
+      "name": "IncomingCallPopup.cs host / enabled",
+      "passed": true,
+      "detail": {
+        "component": 2126120168,
+        "host": 9300000006
+      }
+    },
+    {
+      "name": "Always-active call host ancestry",
+      "passed": true,
+      "detail": [
+        {
+          "gameObject": 9300000006,
+          "name": "Call System",
+          "active": true
+        },
+        {
+          "gameObject": 9300000000,
+          "name": "00_Systems",
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "Always-active call tower ancestry",
+      "passed": true,
+      "detail": [
+        {
+          "gameObject": 1901407916,
+          "name": "Call Tower Manager",
+          "active": true
+        },
+        {
+          "gameObject": 9300000000,
+          "name": "00_Systems",
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "One selected transmitter across managers",
+      "passed": true,
+      "detail": {
+        "playerTransmitter": 1618581351
+      }
+    },
+    {
+      "name": "Correct tower for all call managers",
+      "passed": true,
+      "detail": {
+        "tower": 1901407917
+      }
+    },
+    {
+      "name": "GetComponent finds main voice source first",
+      "passed": true,
+      "detail": {
+        "audioSourcesInComponentOrder": [
+          1618581352,
+          9300000012,
+          1081674936
+        ]
+      }
+    },
+    {
+      "name": "voice AudioSource valid and separate",
+      "passed": true,
+      "detail": {
+        "audioSource": 1618581352
+      }
+    },
+    {
+      "name": "voice initial 2D / no auto loop",
+      "passed": true,
+      "detail": {
+        "volume": 1,
+        "loop": 0
+      }
+    },
+    {
+      "name": "feedback AudioSource valid and separate",
+      "passed": true,
+      "detail": {
+        "audioSource": 9300000012
+      }
+    },
+    {
+      "name": "feedback initial 2D / no auto loop",
+      "passed": true,
+      "detail": {
+        "volume": 0.8,
+        "loop": 0
+      }
+    },
+    {
+      "name": "buttonCue audio GUID",
+      "passed": true,
+      "detail": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Audio/CallFeedback/Button_Click.wav"
+    },
+    {
+      "name": "connectedCue audio GUID",
+      "passed": true,
+      "detail": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Audio/CallFeedback/Call_Connected.wav"
+    },
+    {
+      "name": "endedCue audio GUID",
+      "passed": true,
+      "detail": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Audio/CallFeedback/Call_Ended.wav"
+    },
+    {
+      "name": "ringtone audio exists",
+      "passed": true,
+      "detail": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Audio/Ringtone.mp3"
+    },
+    {
+      "name": "wrongFrequency audio exists",
+      "passed": true,
+      "detail": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Audio/Busy Signal _ Interrupted Call (Sound Effect).mp3"
+    },
+    {
+      "name": "emergencyAudio audio exists",
+      "passed": true,
+      "detail": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Audio/emergency_answer_clean.mp3"
+    },
+    {
+      "name": "Audio hash Button_Click.wav",
+      "passed": true,
+      "detail": {
+        "guid": "51a33d8cda3a58e2b862088677757d22",
+        "path": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Audio/CallFeedback/Button_Click.wav"
+      }
+    },
+    {
+      "name": "Audio hash Call_Connected.wav",
+      "passed": true,
+      "detail": {
+        "guid": "855a127f28c85002b01ccb5d3f4a9776",
+        "path": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Audio/CallFeedback/Call_Connected.wav"
+      }
+    },
+    {
+      "name": "Audio hash Call_Ended.wav",
+      "passed": true,
+      "detail": {
+        "guid": "9461f9444f4d53f589a8b180978b1dc9",
+        "path": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Audio/CallFeedback/Call_Ended.wav"
+      }
+    },
+    {
+      "name": "Audio hash Elina_answering.wav",
+      "passed": true,
+      "detail": {
+        "guid": "fea885d660925eed8abe47f879e32bdb",
+        "path": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Audio/Elina/Elina_answering.wav"
+      }
+    },
+    {
+      "name": "Audio hash Elina_calling.wav",
+      "passed": true,
+      "detail": {
+        "guid": "3eb62d3408b25d869dd850963990a5a3",
+        "path": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Audio/Elina/Elina_calling.wav"
+      }
+    },
+    {
+      "name": "Audio hash Eliza_answering_level_adjusted.wav",
+      "passed": true,
+      "detail": {
+        "guid": "bcf7131ef3e950e58fb64f7b413ce166",
+        "path": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Audio/ElizaLevelAdjusted/Eliza_answering_level_adjusted.wav"
+      }
+    },
+    {
+      "name": "Audio hash Eliza_calling_level_adjusted.wav",
+      "passed": true,
+      "detail": {
+        "guid": "64d8a10c111c5706acf51e0d0d552bea",
+        "path": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Audio/ElizaLevelAdjusted/Eliza_calling_level_adjusted.wav"
+      }
+    },
+    {
+      "name": "Five ordered phone entries",
+      "passed": true,
+      "detail": [
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005"
+      ]
+    },
+    {
+      "name": "Dynamic radio mode and SOS source",
+      "passed": true,
+      "detail": {
+        "fixedMode": 0,
+        "min_wait": 10,
+        "max_wait": 45
+      }
+    },
+    {
+      "name": "Pedro Transform reference",
+      "passed": true,
+      "detail": {
+        "transform": 264486946
+      }
+    },
+    {
+      "name": "Pedro matching stripped GameObject",
+      "passed": true,
+      "detail": {
+        "transform": 264486946,
+        "gameObject": 873617699
+      }
+    },
+    {
+      "name": "Pedro source prefab contract",
+      "passed": true,
+      "detail": {
+        "instance": 264486945,
+        "asset": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Resources/Ocean Assets/Prefabs/Boat.prefab"
+      }
+    },
+    {
+      "name": "Pedro runtime name",
+      "passed": true,
+      "detail": {
+        "actual": "Pedro"
+      }
+    },
+    {
+      "name": "Pedro active ancestry",
+      "passed": true,
+      "detail": [
+        {
+          "gameObject": 873617699,
+          "name": "Pedro",
+          "active": true
+        },
+        {
+          "gameObject": 9500000002,
+          "name": "05_Crew_Boats",
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "Pedro exactly one added CrewmateBehavior",
+      "passed": true,
+      "detail": [
+        {
+          "targetCorrespondingSourceObject": {
+            "fileID": 100002,
+            "guid": "37aa9932f21a5324b8955f268ae625df",
+            "type": 3
+          },
+          "insertIndex": -1,
+          "addedObject": {
+            "fileID": 873617700
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pedro no duplicate source behavior",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Pedro added component belongs to correct instance",
+      "passed": true,
+      "detail": {
+        "component": 873617700,
+        "gameObject": 873617699
+      }
+    },
+    {
+      "name": "Pedro callAudioReceiver",
+      "passed": true,
+      "detail": {
+        "asset": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Audio/pedro_asnwer.mp3",
+        "guid": "d7ac86e0626cea148b72abd92a1353de"
+      }
+    },
+    {
+      "name": "Pedro callAudioCaller",
+      "passed": true,
+      "detail": {
+        "asset": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Audio/pedro_calling.mp3",
+        "guid": "f9e31261c646927489c2d1fa3ac0cb31"
+      }
+    },
+    {
+      "name": "Romain Transform reference",
+      "passed": true,
+      "detail": {
+        "transform": 1150354825
+      }
+    },
+    {
+      "name": "Romain matching stripped GameObject",
+      "passed": true,
+      "detail": {
+        "transform": 1150354825,
+        "gameObject": 1639722121
+      }
+    },
+    {
+      "name": "Romain source prefab contract",
+      "passed": true,
+      "detail": {
+        "instance": 1150354824,
+        "asset": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Resources/Ocean Assets/Prefabs/Boat.prefab"
+      }
+    },
+    {
+      "name": "Romain runtime name",
+      "passed": true,
+      "detail": {
+        "actual": "Romain"
+      }
+    },
+    {
+      "name": "Romain active ancestry",
+      "passed": true,
+      "detail": [
+        {
+          "gameObject": 1639722121,
+          "name": "Romain",
+          "active": true
+        },
+        {
+          "gameObject": 9500000002,
+          "name": "05_Crew_Boats",
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "Romain exactly one added CrewmateBehavior",
+      "passed": true,
+      "detail": [
+        {
+          "targetCorrespondingSourceObject": {
+            "fileID": 100002,
+            "guid": "37aa9932f21a5324b8955f268ae625df",
+            "type": 3
+          },
+          "insertIndex": -1,
+          "addedObject": {
+            "fileID": 1639722122
+          }
+        }
+      ]
+    },
+    {
+      "name": "Romain no duplicate source behavior",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Romain added component belongs to correct instance",
+      "passed": true,
+      "detail": {
+        "component": 1639722122,
+        "gameObject": 1639722121
+      }
+    },
+    {
+      "name": "Romain callAudioReceiver",
+      "passed": true,
+      "detail": {
+        "asset": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Audio/Romain_answering_howsitgoing.mp3",
+        "guid": "9a27cf99fd3cb2740b478a58ebaa52c3"
+      }
+    },
+    {
+      "name": "Romain callAudioCaller",
+      "passed": true,
+      "detail": {
+        "asset": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Audio/Romain_calling_boat.mp3",
+        "guid": "be800e478c6477a49a5d866f269be876"
+      }
+    },
+    {
+      "name": "Suzie Transform reference",
+      "passed": true,
+      "detail": {
+        "transform": 1740762272
+      }
+    },
+    {
+      "name": "Suzie matching stripped GameObject",
+      "passed": true,
+      "detail": {
+        "transform": 1740762272,
+        "gameObject": 1226253112
+      }
+    },
+    {
+      "name": "Suzie source prefab contract",
+      "passed": true,
+      "detail": {
+        "instance": 1740762271,
+        "asset": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Resources/Ocean Assets/Prefabs/Boat.prefab"
+      }
+    },
+    {
+      "name": "Suzie runtime name",
+      "passed": true,
+      "detail": {
+        "actual": "Suzie"
+      }
+    },
+    {
+      "name": "Suzie active ancestry",
+      "passed": true,
+      "detail": [
+        {
+          "gameObject": 1226253112,
+          "name": "Suzie",
+          "active": true
+        },
+        {
+          "gameObject": 9500000002,
+          "name": "05_Crew_Boats",
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "Suzie exactly one added CrewmateBehavior",
+      "passed": true,
+      "detail": [
+        {
+          "targetCorrespondingSourceObject": {
+            "fileID": 100002,
+            "guid": "37aa9932f21a5324b8955f268ae625df",
+            "type": 3
+          },
+          "insertIndex": -1,
+          "addedObject": {
+            "fileID": 1226253113
+          }
+        }
+      ]
+    },
+    {
+      "name": "Suzie no duplicate source behavior",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Suzie added component belongs to correct instance",
+      "passed": true,
+      "detail": {
+        "component": 1226253113,
+        "gameObject": 1226253112
+      }
+    },
+    {
+      "name": "Suzie callAudioReceiver",
+      "passed": true,
+      "detail": {
+        "asset": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Audio/suzie_answer.mp3",
+        "guid": "5fa41ffac1d3de34eac36471a4b819d1"
+      }
+    },
+    {
+      "name": "Suzie callAudioCaller",
+      "passed": true,
+      "detail": {
+        "asset": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Audio/suzie_calling.mp3",
+        "guid": "3ed0ae9ab7173ea4fb88c129e9939a25"
+      }
+    },
+    {
+      "name": "Eliza Transform reference",
+      "passed": true,
+      "detail": {
+        "transform": 9400000083
+      }
+    },
+    {
+      "name": "Eliza matching stripped GameObject",
+      "passed": true,
+      "detail": {
+        "transform": 9400000083,
+        "gameObject": 9400000084
+      }
+    },
+    {
+      "name": "Eliza source prefab contract",
+      "passed": true,
+      "detail": {
+        "instance": 9400000082,
+        "asset": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Resources/Ocean Assets/Prefabs/Boat.prefab"
+      }
+    },
+    {
+      "name": "Eliza runtime name",
+      "passed": true,
+      "detail": {
+        "actual": "Eliza"
+      }
+    },
+    {
+      "name": "Eliza active ancestry",
+      "passed": true,
+      "detail": [
+        {
+          "gameObject": 9400000084,
+          "name": "Eliza",
+          "active": true
+        },
+        {
+          "gameObject": 9400000000,
+          "name": "03_Reef_and_Marine_Life",
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "Eliza exactly one added CrewmateBehavior",
+      "passed": true,
+      "detail": [
+        {
+          "targetCorrespondingSourceObject": {
+            "fileID": 100002,
+            "guid": "37aa9932f21a5324b8955f268ae625df",
+            "type": 3
+          },
+          "insertIndex": -1,
+          "addedObject": {
+            "fileID": 9400000085
+          }
+        }
+      ]
+    },
+    {
+      "name": "Eliza no duplicate source behavior",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Eliza added component belongs to correct instance",
+      "passed": true,
+      "detail": {
+        "component": 9400000085,
+        "gameObject": 9400000084
+      }
+    },
+    {
+      "name": "Eliza callAudioReceiver",
+      "passed": true,
+      "detail": {
+        "asset": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Audio/ElizaLevelAdjusted/Eliza_answering_level_adjusted.wav",
+        "guid": "bcf7131ef3e950e58fb64f7b413ce166"
+      }
+    },
+    {
+      "name": "Eliza callAudioCaller",
+      "passed": true,
+      "detail": {
+        "asset": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Audio/ElizaLevelAdjusted/Eliza_calling_level_adjusted.wav",
+        "guid": "64d8a10c111c5706acf51e0d0d552bea"
+      }
+    },
+    {
+      "name": "Elina Transform reference",
+      "passed": true,
+      "detail": {
+        "transform": 9400000043
+      }
+    },
+    {
+      "name": "Elina matching stripped GameObject",
+      "passed": true,
+      "detail": {
+        "transform": 9400000043,
+        "gameObject": 9400000044
+      }
+    },
+    {
+      "name": "Elina source prefab contract",
+      "passed": true,
+      "detail": {
+        "instance": 9400000042,
+        "asset": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Prefabs/World/Swimmer_ElinaPrimitiveDiver.prefab"
+      }
+    },
+    {
+      "name": "Elina runtime name",
+      "passed": true,
+      "detail": {
+        "actual": "Elina"
+      }
+    },
+    {
+      "name": "Elina active ancestry",
+      "passed": true,
+      "detail": [
+        {
+          "gameObject": 9400000044,
+          "name": "Elina",
+          "active": true
+        },
+        {
+          "gameObject": 9400000000,
+          "name": "03_Reef_and_Marine_Life",
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "Elina exactly one added CrewmateBehavior",
+      "passed": true,
+      "detail": [
+        {
+          "targetCorrespondingSourceObject": {
+            "fileID": 100000,
+            "guid": "01b6688805385ef88e18bf9d58f7bad7",
+            "type": 3
+          },
+          "insertIndex": -1,
+          "addedObject": {
+            "fileID": 9400000045
+          }
+        }
+      ]
+    },
+    {
+      "name": "Elina no duplicate source behavior",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Elina added component belongs to correct instance",
+      "passed": true,
+      "detail": {
+        "component": 9400000045,
+        "gameObject": 9400000044
+      }
+    },
+    {
+      "name": "Elina callAudioReceiver",
+      "passed": true,
+      "detail": {
+        "asset": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Audio/Elina/Elina_answering.wav",
+        "guid": "fea885d660925eed8abe47f879e32bdb"
+      }
+    },
+    {
+      "name": "Elina callAudioCaller",
+      "passed": true,
+      "detail": {
+        "asset": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Audio/Elina/Elina_calling.wav",
+        "guid": "3eb62d3408b25d869dd850963990a5a3"
+      }
+    },
+    {
+      "name": "Eliza world contract matches tower",
+      "passed": true,
+      "detail": {
+        "instance": 9400000082,
+        "gameObject": 9400000084,
+        "transform": 9400000083,
+        "behavior": 9400000085
+      }
+    },
+    {
+      "name": "Elina world contract matches tower",
+      "passed": true,
+      "detail": {
+        "instance": 9400000042,
+        "gameObject": 9400000044,
+        "transform": 9400000043,
+        "behavior": 9400000045
+      }
+    },
+    {
+      "name": "CallDashboardManager.cs.numberDisplay",
+      "passed": true,
+      "detail": {
+        "target": 9300000246,
+        "expected": "text"
+      }
+    },
+    {
+      "name": "CallDashboardManager.cs.modeDisplay",
+      "passed": true,
+      "detail": {
+        "target": 9300000250,
+        "expected": "text"
+      }
+    },
+    {
+      "name": "CallDashboardManager.cs.feedbackText",
+      "passed": true,
+      "detail": {
+        "target": 9300000464,
+        "expected": "text"
+      }
+    },
+    {
+      "name": "IncomingCallPopup.cs.callerText",
+      "passed": true,
+      "detail": {
+        "target": 9300000917,
+        "expected": "text"
+      }
+    },
+    {
+      "name": "IncomingCallPopup.cs.actionHintText",
+      "passed": true,
+      "detail": {
+        "target": 9300000921,
+        "expected": "text"
+      }
+    },
+    {
+      "name": "IncomingCallPopup.cs.head",
+      "passed": true,
+      "detail": {
+        "target": 1692552786,
+        "expected": "transform"
+      }
+    },
+    {
+      "name": "IncomingCallPopup.cs.popupRoot",
+      "passed": true,
+      "detail": {
+        "target": 9300000906,
+        "expected": "go"
+      }
+    },
+    {
+      "name": "IncomingCallPopup.cs.answerButtonRoot",
+      "passed": true,
+      "detail": {
+        "target": 9300000922,
+        "expected": "go"
+      }
+    },
+    {
+      "name": "IncomingCallPopup.cs.hangUpButtonRoot",
+      "passed": true,
+      "detail": {
+        "target": 9300000937,
+        "expected": "go"
+      }
+    },
+    {
+      "name": "Popup root differs from always-on host",
+      "passed": true,
+      "detail": {
+        "popupRoot": 9300000906,
+        "host": 9300000006
+      }
+    },
+    {
+      "name": "Popup / InformationManager use actual head transform",
+      "passed": true,
+      "detail": {
+        "head": 1692552786
+      }
+    },
+    {
+      "name": "Head inherited prefab reference resolves statically",
+      "passed": true,
+      "detail": [
+        "f6336ac4ac8b4d34bc5072418cdc62a0",
+        1767192434,
+        [
+          {
+            "variant": "d6878e1999eb4b44a9f5a263af86c185",
+            "instance": 657184243840976483,
+            "nested": "f6336ac4ac8b4d34bc5072418cdc62a0",
+            "mappedFileID": 1767192434
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Head transform really belongs to a Camera",
+      "passed": true,
+      "detail": {
+        "sourceName": "Main Camera",
+        "cameraComponents": [
+          1767192439
+        ],
+        "inheritedMapping": [
+          {
+            "variant": "d6878e1999eb4b44a9f5a263af86c185",
+            "instance": 657184243840976483,
+            "nested": "f6336ac4ac8b4d34bc5072418cdc62a0",
+            "mappedFileID": 1767192434
+          }
+        ]
+      }
+    },
+    {
+      "name": "Popup three-second transient feedback",
+      "passed": true,
+      "detail": 3
+    },
+    {
+      "name": "Five contact labels and buttons",
+      "passed": true,
+      "detail": {
+        "labels": [
+          {
+            "fileID": 9300000151
+          },
+          {
+            "fileID": 9300000166
+          },
+          {
+            "fileID": 9300000181
+          },
+          {
+            "fileID": 9300000196
+          },
+          {
+            "fileID": 9300000211
+          }
+        ],
+        "buttons": [
+          {
+            "fileID": 9300000143
+          },
+          {
+            "fileID": 9300000158
+          },
+          {
+            "fileID": 9300000173
+          },
+          {
+            "fileID": 9300000188
+          },
+          {
+            "fileID": 9300000203
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pedro label and button slot",
+      "passed": true,
+      "detail": {
+        "label": 9300000151,
+        "button": 9300000143,
+        "gameObject": 9300000138
+      }
+    },
+    {
+      "name": "Romain label and button slot",
+      "passed": true,
+      "detail": {
+        "label": 9300000166,
+        "button": 9300000158,
+        "gameObject": 9300000153
+      }
+    },
+    {
+      "name": "Suzie label and button slot",
+      "passed": true,
+      "detail": {
+        "label": 9300000181,
+        "button": 9300000173,
+        "gameObject": 9300000168
+      }
+    },
+    {
+      "name": "Eliza label and button slot",
+      "passed": true,
+      "detail": {
+        "label": 9300000196,
+        "button": 9300000188,
+        "gameObject": 9300000183
+      }
+    },
+    {
+      "name": "Elina label and button slot",
+      "passed": true,
+      "detail": {
+        "label": 9300000211,
+        "button": 9300000203,
+        "gameObject": 9300000198
+      }
+    },
+    {
+      "name": "Button event count Call Pedro",
+      "passed": true,
+      "detail": {
+        "button": 9300000143,
+        "calls": 1
+      }
+    },
+    {
+      "name": "Button callable Call Pedro",
+      "passed": true,
+      "detail": {
+        "method": "SelectContact",
+        "mode": 3,
+        "target": 122658819,
+        "arg": 0
+      }
+    },
+    {
+      "name": "Hand button binding Call Pedro",
+      "passed": true,
+      "detail": {
+        "button": 9300000143,
+        "handComponent": [
+          9300000152
+        ]
+      }
+    },
+    {
+      "name": "Hand touch/ray collider Call Pedro",
+      "passed": true,
+      "detail": {
+        "boxColliders": [
+          9300000142
+        ]
+      }
+    },
+    {
+      "name": "Button enabled and UI layer Call Pedro",
+      "passed": true,
+      "detail": {
+        "layer": 5,
+        "gameObject": 9300000138
+      }
+    },
+    {
+      "name": "Button event count Call Romain",
+      "passed": true,
+      "detail": {
+        "button": 9300000158,
+        "calls": 1
+      }
+    },
+    {
+      "name": "Button callable Call Romain",
+      "passed": true,
+      "detail": {
+        "method": "SelectContact",
+        "mode": 3,
+        "target": 122658819,
+        "arg": 1
+      }
+    },
+    {
+      "name": "Hand button binding Call Romain",
+      "passed": true,
+      "detail": {
+        "button": 9300000158,
+        "handComponent": [
+          9300000167
+        ]
+      }
+    },
+    {
+      "name": "Hand touch/ray collider Call Romain",
+      "passed": true,
+      "detail": {
+        "boxColliders": [
+          9300000157
+        ]
+      }
+    },
+    {
+      "name": "Button enabled and UI layer Call Romain",
+      "passed": true,
+      "detail": {
+        "layer": 5,
+        "gameObject": 9300000153
+      }
+    },
+    {
+      "name": "Button event count Call Suzie",
+      "passed": true,
+      "detail": {
+        "button": 9300000173,
+        "calls": 1
+      }
+    },
+    {
+      "name": "Button callable Call Suzie",
+      "passed": true,
+      "detail": {
+        "method": "SelectContact",
+        "mode": 3,
+        "target": 122658819,
+        "arg": 2
+      }
+    },
+    {
+      "name": "Hand button binding Call Suzie",
+      "passed": true,
+      "detail": {
+        "button": 9300000173,
+        "handComponent": [
+          9300000182
+        ]
+      }
+    },
+    {
+      "name": "Hand touch/ray collider Call Suzie",
+      "passed": true,
+      "detail": {
+        "boxColliders": [
+          9300000172
+        ]
+      }
+    },
+    {
+      "name": "Button enabled and UI layer Call Suzie",
+      "passed": true,
+      "detail": {
+        "layer": 5,
+        "gameObject": 9300000168
+      }
+    },
+    {
+      "name": "Button event count Call Eliza",
+      "passed": true,
+      "detail": {
+        "button": 9300000188,
+        "calls": 1
+      }
+    },
+    {
+      "name": "Button callable Call Eliza",
+      "passed": true,
+      "detail": {
+        "method": "SelectContact",
+        "mode": 3,
+        "target": 122658819,
+        "arg": 3
+      }
+    },
+    {
+      "name": "Hand button binding Call Eliza",
+      "passed": true,
+      "detail": {
+        "button": 9300000188,
+        "handComponent": [
+          9300000197
+        ]
+      }
+    },
+    {
+      "name": "Hand touch/ray collider Call Eliza",
+      "passed": true,
+      "detail": {
+        "boxColliders": [
+          9300000187
+        ]
+      }
+    },
+    {
+      "name": "Button enabled and UI layer Call Eliza",
+      "passed": true,
+      "detail": {
+        "layer": 5,
+        "gameObject": 9300000183
+      }
+    },
+    {
+      "name": "Button event count Call Elina",
+      "passed": true,
+      "detail": {
+        "button": 9300000203,
+        "calls": 1
+      }
+    },
+    {
+      "name": "Button callable Call Elina",
+      "passed": true,
+      "detail": {
+        "method": "SelectContact",
+        "mode": 3,
+        "target": 122658819,
+        "arg": 4
+      }
+    },
+    {
+      "name": "Hand button binding Call Elina",
+      "passed": true,
+      "detail": {
+        "button": 9300000203,
+        "handComponent": [
+          9300000212
+        ]
+      }
+    },
+    {
+      "name": "Hand touch/ray collider Call Elina",
+      "passed": true,
+      "detail": {
+        "boxColliders": [
+          9300000202
+        ]
+      }
+    },
+    {
+      "name": "Button enabled and UI layer Call Elina",
+      "passed": true,
+      "detail": {
+        "layer": 5,
+        "gameObject": 9300000198
+      }
+    },
+    {
+      "name": "Button event count Frequency Mode",
+      "passed": true,
+      "detail": {
+        "button": 9300000218,
+        "calls": 1
+      }
+    },
+    {
+      "name": "Button callable Frequency Mode",
+      "passed": true,
+      "detail": {
+        "method": "SetFrequencyMode",
+        "mode": 1,
+        "target": 122658819,
+        "arg": 0
+      }
+    },
+    {
+      "name": "Hand button binding Frequency Mode",
+      "passed": true,
+      "detail": {
+        "button": 9300000218,
+        "handComponent": [
+          9300000227
+        ]
+      }
+    },
+    {
+      "name": "Hand touch/ray collider Frequency Mode",
+      "passed": true,
+      "detail": {
+        "boxColliders": [
+          9300000217
+        ]
+      }
+    },
+    {
+      "name": "Button enabled and UI layer Frequency Mode",
+      "passed": true,
+      "detail": {
+        "layer": 5,
+        "gameObject": 9300000213
+      }
+    },
+    {
+      "name": "Button event count Phone Mode",
+      "passed": true,
+      "detail": {
+        "button": 9300000233,
+        "calls": 1
+      }
+    },
+    {
+      "name": "Button callable Phone Mode",
+      "passed": true,
+      "detail": {
+        "method": "SetPhoneMode",
+        "mode": 1,
+        "target": 122658819,
+        "arg": 0
+      }
+    },
+    {
+      "name": "Hand button binding Phone Mode",
+      "passed": true,
+      "detail": {
+        "button": 9300000233,
+        "handComponent": [
+          9300000242
+        ]
+      }
+    },
+    {
+      "name": "Hand touch/ray collider Phone Mode",
+      "passed": true,
+      "detail": {
+        "boxColliders": [
+          9300000232
+        ]
+      }
+    },
+    {
+      "name": "Button enabled and UI layer Phone Mode",
+      "passed": true,
+      "detail": {
+        "layer": 5,
+        "gameObject": 9300000228
+      }
+    },
+    {
+      "name": "Button event count Key 1",
+      "passed": true,
+      "detail": {
+        "button": 9300000256,
+        "calls": 1
+      }
+    },
+    {
+      "name": "Button callable Key 1",
+      "passed": true,
+      "detail": {
+        "method": "PressDigit",
+        "mode": 3,
+        "target": 122658819,
+        "arg": 1
+      }
+    },
+    {
+      "name": "Hand button binding Key 1",
+      "passed": true,
+      "detail": {
+        "button": 9300000256,
+        "handComponent": [
+          9300000265
+        ]
+      }
+    },
+    {
+      "name": "Hand touch/ray collider Key 1",
+      "passed": true,
+      "detail": {
+        "boxColliders": [
+          9300000255
+        ]
+      }
+    },
+    {
+      "name": "Button enabled and UI layer Key 1",
+      "passed": true,
+      "detail": {
+        "layer": 5,
+        "gameObject": 9300000251
+      }
+    },
+    {
+      "name": "Button event count Key 2",
+      "passed": true,
+      "detail": {
+        "button": 9300000271,
+        "calls": 1
+      }
+    },
+    {
+      "name": "Button callable Key 2",
+      "passed": true,
+      "detail": {
+        "method": "PressDigit",
+        "mode": 3,
+        "target": 122658819,
+        "arg": 2
+      }
+    },
+    {
+      "name": "Hand button binding Key 2",
+      "passed": true,
+      "detail": {
+        "button": 9300000271,
+        "handComponent": [
+          9300000280
+        ]
+      }
+    },
+    {
+      "name": "Hand touch/ray collider Key 2",
+      "passed": true,
+      "detail": {
+        "boxColliders": [
+          9300000270
+        ]
+      }
+    },
+    {
+      "name": "Button enabled and UI layer Key 2",
+      "passed": true,
+      "detail": {
+        "layer": 5,
+        "gameObject": 9300000266
+      }
+    },
+    {
+      "name": "Button event count Key 3",
+      "passed": true,
+      "detail": {
+        "button": 9300000286,
+        "calls": 1
+      }
+    },
+    {
+      "name": "Button callable Key 3",
+      "passed": true,
+      "detail": {
+        "method": "PressDigit",
+        "mode": 3,
+        "target": 122658819,
+        "arg": 3
+      }
+    },
+    {
+      "name": "Hand button binding Key 3",
+      "passed": true,
+      "detail": {
+        "button": 9300000286,
+        "handComponent": [
+          9300000295
+        ]
+      }
+    },
+    {
+      "name": "Hand touch/ray collider Key 3",
+      "passed": true,
+      "detail": {
+        "boxColliders": [
+          9300000285
+        ]
+      }
+    },
+    {
+      "name": "Button enabled and UI layer Key 3",
+      "passed": true,
+      "detail": {
+        "layer": 5,
+        "gameObject": 9300000281
+      }
+    },
+    {
+      "name": "Button event count Key 4",
+      "passed": true,
+      "detail": {
+        "button": 9300000301,
+        "calls": 1
+      }
+    },
+    {
+      "name": "Button callable Key 4",
+      "passed": true,
+      "detail": {
+        "method": "PressDigit",
+        "mode": 3,
+        "target": 122658819,
+        "arg": 4
+      }
+    },
+    {
+      "name": "Hand button binding Key 4",
+      "passed": true,
+      "detail": {
+        "button": 9300000301,
+        "handComponent": [
+          9300000310
+        ]
+      }
+    },
+    {
+      "name": "Hand touch/ray collider Key 4",
+      "passed": true,
+      "detail": {
+        "boxColliders": [
+          9300000300
+        ]
+      }
+    },
+    {
+      "name": "Button enabled and UI layer Key 4",
+      "passed": true,
+      "detail": {
+        "layer": 5,
+        "gameObject": 9300000296
+      }
+    },
+    {
+      "name": "Button event count Key 5",
+      "passed": true,
+      "detail": {
+        "button": 9300000316,
+        "calls": 1
+      }
+    },
+    {
+      "name": "Button callable Key 5",
+      "passed": true,
+      "detail": {
+        "method": "PressDigit",
+        "mode": 3,
+        "target": 122658819,
+        "arg": 5
+      }
+    },
+    {
+      "name": "Hand button binding Key 5",
+      "passed": true,
+      "detail": {
+        "button": 9300000316,
+        "handComponent": [
+          9300000325
+        ]
+      }
+    },
+    {
+      "name": "Hand touch/ray collider Key 5",
+      "passed": true,
+      "detail": {
+        "boxColliders": [
+          9300000315
+        ]
+      }
+    },
+    {
+      "name": "Button enabled and UI layer Key 5",
+      "passed": true,
+      "detail": {
+        "layer": 5,
+        "gameObject": 9300000311
+      }
+    },
+    {
+      "name": "Button event count Key 6",
+      "passed": true,
+      "detail": {
+        "button": 9300000331,
+        "calls": 1
+      }
+    },
+    {
+      "name": "Button callable Key 6",
+      "passed": true,
+      "detail": {
+        "method": "PressDigit",
+        "mode": 3,
+        "target": 122658819,
+        "arg": 6
+      }
+    },
+    {
+      "name": "Hand button binding Key 6",
+      "passed": true,
+      "detail": {
+        "button": 9300000331,
+        "handComponent": [
+          9300000340
+        ]
+      }
+    },
+    {
+      "name": "Hand touch/ray collider Key 6",
+      "passed": true,
+      "detail": {
+        "boxColliders": [
+          9300000330
+        ]
+      }
+    },
+    {
+      "name": "Button enabled and UI layer Key 6",
+      "passed": true,
+      "detail": {
+        "layer": 5,
+        "gameObject": 9300000326
+      }
+    },
+    {
+      "name": "Button event count Key 7",
+      "passed": true,
+      "detail": {
+        "button": 9300000346,
+        "calls": 1
+      }
+    },
+    {
+      "name": "Button callable Key 7",
+      "passed": true,
+      "detail": {
+        "method": "PressDigit",
+        "mode": 3,
+        "target": 122658819,
+        "arg": 7
+      }
+    },
+    {
+      "name": "Hand button binding Key 7",
+      "passed": true,
+      "detail": {
+        "button": 9300000346,
+        "handComponent": [
+          9300000355
+        ]
+      }
+    },
+    {
+      "name": "Hand touch/ray collider Key 7",
+      "passed": true,
+      "detail": {
+        "boxColliders": [
+          9300000345
+        ]
+      }
+    },
+    {
+      "name": "Button enabled and UI layer Key 7",
+      "passed": true,
+      "detail": {
+        "layer": 5,
+        "gameObject": 9300000341
+      }
+    },
+    {
+      "name": "Button event count Key 8",
+      "passed": true,
+      "detail": {
+        "button": 9300000361,
+        "calls": 1
+      }
+    },
+    {
+      "name": "Button callable Key 8",
+      "passed": true,
+      "detail": {
+        "method": "PressDigit",
+        "mode": 3,
+        "target": 122658819,
+        "arg": 8
+      }
+    },
+    {
+      "name": "Hand button binding Key 8",
+      "passed": true,
+      "detail": {
+        "button": 9300000361,
+        "handComponent": [
+          9300000370
+        ]
+      }
+    },
+    {
+      "name": "Hand touch/ray collider Key 8",
+      "passed": true,
+      "detail": {
+        "boxColliders": [
+          9300000360
+        ]
+      }
+    },
+    {
+      "name": "Button enabled and UI layer Key 8",
+      "passed": true,
+      "detail": {
+        "layer": 5,
+        "gameObject": 9300000356
+      }
+    },
+    {
+      "name": "Button event count Key 9",
+      "passed": true,
+      "detail": {
+        "button": 9300000376,
+        "calls": 1
+      }
+    },
+    {
+      "name": "Button callable Key 9",
+      "passed": true,
+      "detail": {
+        "method": "PressDigit",
+        "mode": 3,
+        "target": 122658819,
+        "arg": 9
+      }
+    },
+    {
+      "name": "Hand button binding Key 9",
+      "passed": true,
+      "detail": {
+        "button": 9300000376,
+        "handComponent": [
+          9300000385
+        ]
+      }
+    },
+    {
+      "name": "Hand touch/ray collider Key 9",
+      "passed": true,
+      "detail": {
+        "boxColliders": [
+          9300000375
+        ]
+      }
+    },
+    {
+      "name": "Button enabled and UI layer Key 9",
+      "passed": true,
+      "detail": {
+        "layer": 5,
+        "gameObject": 9300000371
+      }
+    },
+    {
+      "name": "Button event count Key CLEAR",
+      "passed": true,
+      "detail": {
+        "button": 9300000391,
+        "calls": 1
+      }
+    },
+    {
+      "name": "Button callable Key CLEAR",
+      "passed": true,
+      "detail": {
+        "method": "ClearNumber",
+        "mode": 1,
+        "target": 122658819,
+        "arg": 0
+      }
+    },
+    {
+      "name": "Hand button binding Key CLEAR",
+      "passed": true,
+      "detail": {
+        "button": 9300000391,
+        "handComponent": [
+          9300000400
+        ]
+      }
+    },
+    {
+      "name": "Hand touch/ray collider Key CLEAR",
+      "passed": true,
+      "detail": {
+        "boxColliders": [
+          9300000390
+        ]
+      }
+    },
+    {
+      "name": "Button enabled and UI layer Key CLEAR",
+      "passed": true,
+      "detail": {
+        "layer": 5,
+        "gameObject": 9300000386
+      }
+    },
+    {
+      "name": "Button event count Key 0",
+      "passed": true,
+      "detail": {
+        "button": 9300000406,
+        "calls": 1
+      }
+    },
+    {
+      "name": "Button callable Key 0",
+      "passed": true,
+      "detail": {
+        "method": "PressDigit",
+        "mode": 3,
+        "target": 122658819,
+        "arg": 0
+      }
+    },
+    {
+      "name": "Hand button binding Key 0",
+      "passed": true,
+      "detail": {
+        "button": 9300000406,
+        "handComponent": [
+          9300000415
+        ]
+      }
+    },
+    {
+      "name": "Hand touch/ray collider Key 0",
+      "passed": true,
+      "detail": {
+        "boxColliders": [
+          9300000405
+        ]
+      }
+    },
+    {
+      "name": "Button enabled and UI layer Key 0",
+      "passed": true,
+      "detail": {
+        "layer": 5,
+        "gameObject": 9300000401
+      }
+    },
+    {
+      "name": "Button event count Key <",
+      "passed": true,
+      "detail": {
+        "button": 9300000421,
+        "calls": 1
+      }
+    },
+    {
+      "name": "Button callable Key <",
+      "passed": true,
+      "detail": {
+        "method": "Backspace",
+        "mode": 1,
+        "target": 122658819,
+        "arg": 0
+      }
+    },
+    {
+      "name": "Hand button binding Key <",
+      "passed": true,
+      "detail": {
+        "button": 9300000421,
+        "handComponent": [
+          9300000430
+        ]
+      }
+    },
+    {
+      "name": "Hand touch/ray collider Key <",
+      "passed": true,
+      "detail": {
+        "boxColliders": [
+          9300000420
+        ]
+      }
+    },
+    {
+      "name": "Button enabled and UI layer Key <",
+      "passed": true,
+      "detail": {
+        "layer": 5,
+        "gameObject": 9300000416
+      }
+    },
+    {
+      "name": "Button event count Dial Address",
+      "passed": true,
+      "detail": {
+        "button": 9300000436,
+        "calls": 1
+      }
+    },
+    {
+      "name": "Button callable Dial Address",
+      "passed": true,
+      "detail": {
+        "method": "DialAddress",
+        "mode": 1,
+        "target": 122658819,
+        "arg": 0
+      }
+    },
+    {
+      "name": "Hand button binding Dial Address",
+      "passed": true,
+      "detail": {
+        "button": 9300000436,
+        "handComponent": [
+          9300000445
+        ]
+      }
+    },
+    {
+      "name": "Hand touch/ray collider Dial Address",
+      "passed": true,
+      "detail": {
+        "boxColliders": [
+          9300000435
+        ]
+      }
+    },
+    {
+      "name": "Button enabled and UI layer Dial Address",
+      "passed": true,
+      "detail": {
+        "layer": 5,
+        "gameObject": 9300000431
+      }
+    },
+    {
+      "name": "Button event count End Call",
+      "passed": true,
+      "detail": {
+        "button": 9300000451,
+        "calls": 1
+      }
+    },
+    {
+      "name": "Button callable End Call",
+      "passed": true,
+      "detail": {
+        "method": "EndCall",
+        "mode": 1,
+        "target": 122658819,
+        "arg": 0
+      }
+    },
+    {
+      "name": "Hand button binding End Call",
+      "passed": true,
+      "detail": {
+        "button": 9300000451,
+        "handComponent": [
+          9300000460
+        ]
+      }
+    },
+    {
+      "name": "Hand touch/ray collider End Call",
+      "passed": true,
+      "detail": {
+        "boxColliders": [
+          9300000450
+        ]
+      }
+    },
+    {
+      "name": "Button enabled and UI layer End Call",
+      "passed": true,
+      "detail": {
+        "layer": 5,
+        "gameObject": 9300000446
+      }
+    },
+    {
+      "name": "Button event count SOS",
+      "passed": true,
+      "detail": {
+        "button": 9300000658,
+        "calls": 1
+      }
+    },
+    {
+      "name": "Button callable SOS",
+      "passed": true,
+      "detail": {
+        "method": "CallEmergency",
+        "mode": 1,
+        "target": 122658819,
+        "arg": 0
+      }
+    },
+    {
+      "name": "Hand button binding SOS",
+      "passed": true,
+      "detail": {
+        "button": 9300000658,
+        "handComponent": [
+          9300000667
+        ]
+      }
+    },
+    {
+      "name": "Hand touch/ray collider SOS",
+      "passed": true,
+      "detail": {
+        "boxColliders": [
+          9300000657
+        ]
+      }
+    },
+    {
+      "name": "Button enabled and UI layer SOS",
+      "passed": true,
+      "detail": {
+        "layer": 5,
+        "gameObject": 9300000653
+      }
+    },
+    {
+      "name": "Button event count SOS",
+      "passed": true,
+      "detail": {
+        "button": 9300000762,
+        "calls": 1
+      }
+    },
+    {
+      "name": "Button callable SOS",
+      "passed": true,
+      "detail": {
+        "method": "CallEmergency",
+        "mode": 1,
+        "target": 122658819,
+        "arg": 0
+      }
+    },
+    {
+      "name": "Hand button binding SOS",
+      "passed": true,
+      "detail": {
+        "button": 9300000762,
+        "handComponent": [
+          9300000771
+        ]
+      }
+    },
+    {
+      "name": "Hand touch/ray collider SOS",
+      "passed": true,
+      "detail": {
+        "boxColliders": [
+          9300000761
+        ]
+      }
+    },
+    {
+      "name": "Button enabled and UI layer SOS",
+      "passed": true,
+      "detail": {
+        "layer": 5,
+        "gameObject": 9300000757
+      }
+    },
+    {
+      "name": "Button event count Answer Call",
+      "passed": true,
+      "detail": {
+        "button": 9300000927,
+        "calls": 1
+      }
+    },
+    {
+      "name": "Button callable Answer Call",
+      "passed": true,
+      "detail": {
+        "method": "Answer",
+        "mode": 1,
+        "target": 2126120168,
+        "arg": 0
+      }
+    },
+    {
+      "name": "Hand button binding Answer Call",
+      "passed": true,
+      "detail": {
+        "button": 9300000927,
+        "handComponent": [
+          9300000936
+        ]
+      }
+    },
+    {
+      "name": "Hand touch/ray collider Answer Call",
+      "passed": true,
+      "detail": {
+        "boxColliders": [
+          9300000926
+        ]
+      }
+    },
+    {
+      "name": "Button enabled and UI layer Answer Call",
+      "passed": true,
+      "detail": {
+        "layer": 5,
+        "gameObject": 9300000922
+      }
+    },
+    {
+      "name": "Button event count Hang Up",
+      "passed": true,
+      "detail": {
+        "button": 9300000942,
+        "calls": 1
+      }
+    },
+    {
+      "name": "Button callable Hang Up",
+      "passed": true,
+      "detail": {
+        "method": "HangUp",
+        "mode": 1,
+        "target": 2126120168,
+        "arg": 0
+      }
+    },
+    {
+      "name": "Hand button binding Hang Up",
+      "passed": true,
+      "detail": {
+        "button": 9300000942,
+        "handComponent": [
+          9300000951
+        ]
+      }
+    },
+    {
+      "name": "Hand touch/ray collider Hang Up",
+      "passed": true,
+      "detail": {
+        "boxColliders": [
+          9300000941
+        ]
+      }
+    },
+    {
+      "name": "Button enabled and UI layer Hang Up",
+      "passed": true,
+      "detail": {
+        "layer": 5,
+        "gameObject": 9300000937
+      }
+    },
+    {
+      "name": "Contacts 0..4 exactly once",
+      "passed": true,
+      "detail": [
+        {
+          "name": "Call Pedro",
+          "button": 9300000143,
+          "target": 122658819,
+          "method": "SelectContact",
+          "mode": 3,
+          "integerArgument": 0,
+          "handButton": 9300000152
+        },
+        {
+          "name": "Call Romain",
+          "button": 9300000158,
+          "target": 122658819,
+          "method": "SelectContact",
+          "mode": 3,
+          "integerArgument": 1,
+          "handButton": 9300000167
+        },
+        {
+          "name": "Call Suzie",
+          "button": 9300000173,
+          "target": 122658819,
+          "method": "SelectContact",
+          "mode": 3,
+          "integerArgument": 2,
+          "handButton": 9300000182
+        },
+        {
+          "name": "Call Eliza",
+          "button": 9300000188,
+          "target": 122658819,
+          "method": "SelectContact",
+          "mode": 3,
+          "integerArgument": 3,
+          "handButton": 9300000197
+        },
+        {
+          "name": "Call Elina",
+          "button": 9300000203,
+          "target": 122658819,
+          "method": "SelectContact",
+          "mode": 3,
+          "integerArgument": 4,
+          "handButton": 9300000212
+        }
+      ]
+    },
+    {
+      "name": "Digits 0..9 exactly once",
+      "passed": true,
+      "detail": [
+        {
+          "name": "Key 1",
+          "button": 9300000256,
+          "target": 122658819,
+          "method": "PressDigit",
+          "mode": 3,
+          "integerArgument": 1,
+          "handButton": 9300000265
+        },
+        {
+          "name": "Key 2",
+          "button": 9300000271,
+          "target": 122658819,
+          "method": "PressDigit",
+          "mode": 3,
+          "integerArgument": 2,
+          "handButton": 9300000280
+        },
+        {
+          "name": "Key 3",
+          "button": 9300000286,
+          "target": 122658819,
+          "method": "PressDigit",
+          "mode": 3,
+          "integerArgument": 3,
+          "handButton": 9300000295
+        },
+        {
+          "name": "Key 4",
+          "button": 9300000301,
+          "target": 122658819,
+          "method": "PressDigit",
+          "mode": 3,
+          "integerArgument": 4,
+          "handButton": 9300000310
+        },
+        {
+          "name": "Key 5",
+          "button": 9300000316,
+          "target": 122658819,
+          "method": "PressDigit",
+          "mode": 3,
+          "integerArgument": 5,
+          "handButton": 9300000325
+        },
+        {
+          "name": "Key 6",
+          "button": 9300000331,
+          "target": 122658819,
+          "method": "PressDigit",
+          "mode": 3,
+          "integerArgument": 6,
+          "handButton": 9300000340
+        },
+        {
+          "name": "Key 7",
+          "button": 9300000346,
+          "target": 122658819,
+          "method": "PressDigit",
+          "mode": 3,
+          "integerArgument": 7,
+          "handButton": 9300000355
+        },
+        {
+          "name": "Key 8",
+          "button": 9300000361,
+          "target": 122658819,
+          "method": "PressDigit",
+          "mode": 3,
+          "integerArgument": 8,
+          "handButton": 9300000370
+        },
+        {
+          "name": "Key 9",
+          "button": 9300000376,
+          "target": 122658819,
+          "method": "PressDigit",
+          "mode": 3,
+          "integerArgument": 9,
+          "handButton": 9300000385
+        },
+        {
+          "name": "Key 0",
+          "button": 9300000406,
+          "target": 122658819,
+          "method": "PressDigit",
+          "mode": 3,
+          "integerArgument": 0,
+          "handButton": 9300000415
+        }
+      ]
+    },
+    {
+      "name": "Required callback SetFrequencyMode",
+      "passed": true,
+      "detail": [
+        {
+          "name": "Frequency Mode",
+          "button": 9300000218,
+          "target": 122658819,
+          "method": "SetFrequencyMode",
+          "mode": 1,
+          "integerArgument": null,
+          "handButton": 9300000227
+        }
+      ]
+    },
+    {
+      "name": "Required callback SetPhoneMode",
+      "passed": true,
+      "detail": [
+        {
+          "name": "Phone Mode",
+          "button": 9300000233,
+          "target": 122658819,
+          "method": "SetPhoneMode",
+          "mode": 1,
+          "integerArgument": null,
+          "handButton": 9300000242
+        }
+      ]
+    },
+    {
+      "name": "Required callback ClearNumber",
+      "passed": true,
+      "detail": [
+        {
+          "name": "Key CLEAR",
+          "button": 9300000391,
+          "target": 122658819,
+          "method": "ClearNumber",
+          "mode": 1,
+          "integerArgument": null,
+          "handButton": 9300000400
+        }
+      ]
+    },
+    {
+      "name": "Required callback Backspace",
+      "passed": true,
+      "detail": [
+        {
+          "name": "Key <",
+          "button": 9300000421,
+          "target": 122658819,
+          "method": "Backspace",
+          "mode": 1,
+          "integerArgument": null,
+          "handButton": 9300000430
+        }
+      ]
+    },
+    {
+      "name": "Required callback DialAddress",
+      "passed": true,
+      "detail": [
+        {
+          "name": "Dial Address",
+          "button": 9300000436,
+          "target": 122658819,
+          "method": "DialAddress",
+          "mode": 1,
+          "integerArgument": null,
+          "handButton": 9300000445
+        }
+      ]
+    },
+    {
+      "name": "Required callback EndCall",
+      "passed": true,
+      "detail": [
+        {
+          "name": "End Call",
+          "button": 9300000451,
+          "target": 122658819,
+          "method": "EndCall",
+          "mode": 1,
+          "integerArgument": null,
+          "handButton": 9300000460
+        }
+      ]
+    },
+    {
+      "name": "Required callback Answer",
+      "passed": true,
+      "detail": [
+        {
+          "name": "Answer Call",
+          "button": 9300000927,
+          "target": 2126120168,
+          "method": "Answer",
+          "mode": 1,
+          "integerArgument": null,
+          "handButton": 9300000936
+        }
+      ]
+    },
+    {
+      "name": "Required callback HangUp",
+      "passed": true,
+      "detail": [
+        {
+          "name": "Hang Up",
+          "button": 9300000942,
+          "target": 2126120168,
+          "method": "HangUp",
+          "mode": 1,
+          "integerArgument": null,
+          "handButton": 9300000951
+        }
+      ]
+    },
+    {
+      "name": "Required callback CallEmergency",
+      "passed": true,
+      "detail": [
+        {
+          "name": "SOS",
+          "button": 9300000658,
+          "target": 122658819,
+          "method": "CallEmergency",
+          "mode": 1,
+          "integerArgument": null,
+          "handButton": 9300000667
+        },
+        {
+          "name": "SOS",
+          "button": 9300000762,
+          "target": 122658819,
+          "method": "CallEmergency",
+          "mode": 1,
+          "integerArgument": null,
+          "handButton": 9300000771
+        }
+      ]
+    },
+    {
+      "name": "One call audio ducking component",
+      "passed": true,
+      "detail": [
+        9300000013
+      ]
+    },
+    {
+      "name": "Ducking matches transmitter and underwater ambience",
+      "passed": true,
+      "detail": {
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "b36e6a576776547d8dbd1551e551fae0",
+          "type": 3
+        },
+        "m_Name": "",
+        "m_EditorClassIdentifier": "",
+        "dial": {
+          "fileID": 1618581351
+        },
+        "ambient": {
+          "fileID": 746461938
+        },
+        "normalVolume": 0.16,
+        "callVolume": 0.035,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 9300000006
+        }
+      }
+    },
+    {
+      "name": "Scene remained unchanged during read-only audit",
+      "passed": true,
+      "detail": {
+        "sha256": "cd63ba065cb0c585cb2708af49e730aed77e17b01c07fa0ce806ce3f647180b7"
+      }
+    }
+  ]
+}

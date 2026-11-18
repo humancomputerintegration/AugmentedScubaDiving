@@ -1,0 +1,263 @@
+{
+  "scope": "Static final project/Scene integration checks only. No Unity import, player build, Unity physics/raycast, HMD interaction or device audio execution.",
+  "sceneSha256": "cd63ba065cb0c585cb2708af49e730aed77e17b01c07fa0ce806ce3f647180b7",
+  "checkCount": 48,
+  "passedCount": 48,
+  "errors": [],
+  "checks": [
+    {
+      "check": "No duplicate asset GUID",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Every internal Scene fileID resolves",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Head-based InformationManager depth",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Five contacts registered in order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Phone extensions present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Five large contact controls",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "SimpleDial always-active host",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CallDashboardManager always-active host",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "IncomingCallPopup always-active host",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Legacy component 2126120165 disabled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Legacy component 2126120167 disabled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Legacy component 170676173 disabled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Legacy component 1138812383 disabled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Legacy component 225748332 disabled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Legacy component 300256271 disabled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rigidbody no competing gravity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Duplicate capsule disabled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Native UI input module disabled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Actual hand input references shared",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "DIVE TIME source configured",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Battery threshold 15 inclusive in actual C#",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MudStorm preserved enabled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "24 new environment and creature placements",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "15 previous marine instances archived",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Marine source 115607202 inactive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Marine source 141982000 inactive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Marine source 217702078 inactive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Marine source 663063538 inactive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Marine source 702101897 inactive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Marine source 1018787511 inactive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Marine source 1245875487 inactive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Marine source 1332130916 inactive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Marine source 1564139250 inactive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Marine source 1707845083 inactive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Marine source 1723765660 inactive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Marine source 1725226979 inactive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Marine source 1872495476 inactive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Marine source 2059562963 inactive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Marine source 7153455038942208533 inactive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "New custom scene scripts all exist",
+      "passed": true,
+      "detail": [
+        "Assets/Diving Simulation/Scripts/CallAudioDucking.cs",
+        "Assets/Diving Simulation/Scripts/CircleGraphic.cs",
+        "Assets/Diving Simulation/Scripts/CrewmateBehavior.cs",
+        "Assets/Diving Simulation/Scripts/DiveStatusHUD.cs",
+        "Assets/Diving Simulation/Scripts/HandPointerLight.cs",
+        "Assets/Diving Simulation/Scripts/HandUIAnchor.cs",
+        "Assets/Diving Simulation/Scripts/HandUIButton.cs",
+        "Assets/Diving Simulation/Scripts/HandUIInteractor.cs",
+        "Assets/Diving Simulation/Scripts/HandsInput.cs",
+        "Assets/Diving Simulation/Scripts/HeadMountedUI.cs",
+        "Assets/Diving Simulation/Scripts/World/ClearWaterLook.cs"
+      ]
+    },
+    {
+      "check": "Elina recording Elina_answering.wav",
+      "passed": true,
+      "detail": "/workspace/scratch/425325bd7160/output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Audio/Elina/Elina_answering.wav"
+    },
+    {
+      "check": "Elina recording Elina_calling.wav",
+      "passed": true,
+      "detail": "/workspace/scratch/425325bd7160/output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Audio/Elina/Elina_calling.wav"
+    },
+    {
+      "check": "No synthetic Elina placeholder folder",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MTL names submarine.obj.meta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MTL names seaweed.obj.meta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MTL names coral-reef.obj.meta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Evidence file source_parser_results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Evidence file hands_logic_test_results.json",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "unityCompileExecuted": false,
+  "questExecuted": false
+}

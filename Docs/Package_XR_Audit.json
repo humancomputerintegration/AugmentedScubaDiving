@@ -1,0 +1,654 @@
+{
+  "scope": "Read-only package/XR/Scene serialization audit plus three direct dependency declarations; not Unity or Quest execution.",
+  "unityExecuted": false,
+  "questExecuted": false,
+  "unityVersion": "m_EditorVersion: 6000.3.27f2\nm_EditorVersionWithRevision: 6000.3.27f2 (22188f149405)",
+  "directPackages": {
+    "com.unity.inputsystem": "1.20.1",
+    "com.unity.render-pipelines.universal": "17.3.0",
+    "com.unity.ugui": "2.0.0",
+    "com.unity.xr.core-utils": "2.6.0",
+    "com.unity.xr.hands": "1.7.3",
+    "com.unity.xr.interaction.toolkit": "3.3.2",
+    "com.unity.xr.management": "4.6.1",
+    "com.unity.xr.openxr": "1.16.1"
+  },
+  "manifestLockedVersionsAgree": true,
+  "manifestAdditions": {
+    "com.unity.inputsystem": "1.20.1",
+    "com.unity.xr.core-utils": "2.6.0",
+    "com.unity.xr.management": "4.6.1"
+  },
+  "manifestExistingVersionsChanged": {},
+  "lockChanges": {
+    "com.unity.inputsystem": {
+      "before": {
+        "version": "1.20.1",
+        "depth": 1,
+        "source": "registry",
+        "dependencies": {
+          "com.unity.modules.uielements": "1.0.0"
+        },
+        "url": "https://packages.unity.com"
+      },
+      "after": {
+        "version": "1.20.1",
+        "depth": 0,
+        "source": "registry",
+        "dependencies": {
+          "com.unity.modules.uielements": "1.0.0"
+        },
+        "url": "https://packages.unity.com"
+      }
+    },
+    "com.unity.xr.core-utils": {
+      "before": {
+        "version": "2.6.0",
+        "depth": 1,
+        "source": "registry",
+        "dependencies": {
+          "com.unity.modules.xr": "1.0.0"
+        },
+        "url": "https://packages.unity.com"
+      },
+      "after": {
+        "version": "2.6.0",
+        "depth": 0,
+        "source": "registry",
+        "dependencies": {
+          "com.unity.modules.xr": "1.0.0"
+        },
+        "url": "https://packages.unity.com"
+      }
+    },
+    "com.unity.xr.management": {
+      "before": {
+        "version": "4.6.1",
+        "depth": 1,
+        "source": "registry",
+        "dependencies": {
+          "com.unity.modules.xr": "1.0.0",
+          "com.unity.xr.core-utils": "2.2.1",
+          "com.unity.modules.subsystems": "1.0.0",
+          "com.unity.xr.legacyinputhelpers": "2.1.11"
+        },
+        "url": "https://packages.unity.com"
+      },
+      "after": {
+        "version": "4.6.1",
+        "depth": 0,
+        "source": "registry",
+        "dependencies": {
+          "com.unity.modules.xr": "1.0.0",
+          "com.unity.xr.core-utils": "2.2.1",
+          "com.unity.modules.subsystems": "1.0.0",
+          "com.unity.xr.legacyinputhelpers": "2.1.11"
+        },
+        "url": "https://packages.unity.com"
+      }
+    }
+  },
+  "openXRSettings": [
+    {
+      "buildTargetGroup": 1,
+      "settingsId": -7291123481475530389,
+      "features": [
+        {
+          "fileID": 8115019050883431293,
+          "name": "ConformanceAutomationFeature Standalone",
+          "featureId": "com.unity.openxr.feature.conformance",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_EXT_conformance_automation",
+          "targetDevices": null
+        },
+        {
+          "fileID": -2316172864154154987,
+          "name": "DPadInteraction Standalone",
+          "featureId": "com.unity.openxr.feature.input.dpadinteraction",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_KHR_binding_modification XR_EXT_dpad_binding",
+          "targetDevices": null
+        },
+        {
+          "fileID": 4707603195258761640,
+          "name": "EyeGazeInteraction Standalone",
+          "featureId": "com.unity.openxr.feature.input.eyetracking",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_EXT_eye_gaze_interaction",
+          "targetDevices": null
+        },
+        {
+          "fileID": 3799410745263292411,
+          "name": "FoveatedRenderingFeature Standalone",
+          "featureId": "com.unity.openxr.feature.foveatedrendering",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_UNITY_foveation XR_FB_foveation XR_FB_foveation_configuration XR_FB_swapchain_update_state XR_FB_foveation_vulkan XR_META_foveation_eye_tracked XR_META_vulkan_swapchain_create_info",
+          "targetDevices": null
+        },
+        {
+          "fileID": -6779583312159240217,
+          "name": "HandCommonPosesInteraction Standalone",
+          "featureId": "com.unity.openxr.feature.input.handinteractionposes",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_EXT_hand_interaction",
+          "targetDevices": null
+        },
+        {
+          "fileID": -5434693424891459103,
+          "name": "HandInteractionProfile Standalone",
+          "featureId": "com.unity.openxr.feature.input.handinteraction",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_EXT_hand_interaction",
+          "targetDevices": null
+        },
+        {
+          "fileID": 6384186286014025733,
+          "name": "HPReverbG2ControllerProfile Standalone",
+          "featureId": "com.unity.openxr.feature.input.hpreverb",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_EXT_hp_mixed_reality_controller",
+          "targetDevices": null
+        },
+        {
+          "fileID": 5677179667216970361,
+          "name": "HTCViveControllerProfile Standalone",
+          "featureId": "com.unity.openxr.feature.input.htcvive",
+          "featureEnabled": 0,
+          "extensionStrings": null,
+          "targetDevices": null
+        },
+        {
+          "fileID": 8635039234860116730,
+          "name": "KHRSimpleControllerProfile Standalone",
+          "featureId": "com.unity.openxr.feature.input.khrsimpleprofile",
+          "featureEnabled": 0,
+          "extensionStrings": null,
+          "targetDevices": null
+        },
+        {
+          "fileID": 8013390308300258548,
+          "name": "MetaHandTrackingAim Standalone",
+          "featureId": "com.unity.openxr.feature.input.metahandtrackingaim",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_FB_hand_tracking_aim",
+          "targetDevices": null
+        },
+        {
+          "fileID": 6504960506880330490,
+          "name": "MetaQuestTouchPlusControllerProfile Standalone",
+          "featureId": "com.unity.openxr.feature.input.metaquestplus",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_META_touch_controller_plus",
+          "targetDevices": null
+        },
+        {
+          "fileID": -8572284453785030392,
+          "name": "MetaQuestTouchProControllerProfile Standalone",
+          "featureId": "com.unity.openxr.feature.input.metaquestpro",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_FB_touch_controller_pro",
+          "targetDevices": null
+        },
+        {
+          "fileID": -4778655282558890189,
+          "name": "MicrosoftHandInteraction Standalone",
+          "featureId": "com.unity.openxr.feature.input.handtracking",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_MSFT_hand_interaction",
+          "targetDevices": null
+        },
+        {
+          "fileID": -3713776100817759307,
+          "name": "MicrosoftMotionControllerProfile Standalone",
+          "featureId": "com.unity.openxr.feature.input.microsoftmotioncontroller",
+          "featureEnabled": 0,
+          "extensionStrings": null,
+          "targetDevices": null
+        },
+        {
+          "fileID": -722109770784641953,
+          "name": "MockRuntime Standalone",
+          "featureId": "com.unity.openxr.feature.mockruntime",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_UNITY_null_gfx XR_UNITY_android_present",
+          "targetDevices": null
+        },
+        {
+          "fileID": 3718770767503418448,
+          "name": "OculusTouchControllerProfile Standalone",
+          "featureId": "com.unity.openxr.feature.input.oculustouch",
+          "featureEnabled": 0,
+          "extensionStrings": null,
+          "targetDevices": null
+        },
+        {
+          "fileID": 6018098982550742124,
+          "name": "PalmPoseInteraction Standalone",
+          "featureId": "com.unity.openxr.feature.input.palmpose",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_EXT_palm_pose",
+          "targetDevices": null
+        },
+        {
+          "fileID": -6134981103127075680,
+          "name": "RuntimeDebuggerOpenXRFeature Standalone",
+          "featureId": "com.unity.openxr.features.runtimedebugger",
+          "featureEnabled": 0,
+          "extensionStrings": null,
+          "targetDevices": null
+        },
+        {
+          "fileID": 7343205553414064583,
+          "name": "ValveIndexControllerProfile Standalone",
+          "featureId": "com.unity.openxr.feature.input.valveindex",
+          "featureEnabled": 0,
+          "extensionStrings": null,
+          "targetDevices": null
+        },
+        {
+          "fileID": -4917644632778701595,
+          "name": "XrPerformanceSettingsFeature Standalone",
+          "featureId": "com.unity.openxr.feature.extension.performance_settings",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_EXT_performance_settings",
+          "targetDevices": null
+        },
+        {
+          "fileID": -9155377779633419932,
+          "name": "HandTracking Standalone",
+          "featureId": "com.unity.openxr.feature.input.handtracking",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_EXT_hand_tracking",
+          "targetDevices": null
+        }
+      ]
+    },
+    {
+      "buildTargetGroup": 7,
+      "settingsId": -3286219184841671887,
+      "features": [
+        {
+          "fileID": 2257268482601033032,
+          "name": "SpaceWarpFeature Android",
+          "featureId": "com.unity.openxr.feature.spacewarp",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_FB_space_warp",
+          "targetDevices": null
+        },
+        {
+          "fileID": 4231423090170801580,
+          "name": "AutomaticDynamicResolutionFeature Android",
+          "featureId": "com.unity.openxr.feature.ViewportDynamicResolution",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_META_recommended_layer_resolution XR_ANDROID_recommended_resolution",
+          "targetDevices": null
+        },
+        {
+          "fileID": -1493318259296675991,
+          "name": "ConformanceAutomationFeature Android",
+          "featureId": "com.unity.openxr.feature.conformance",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_EXT_conformance_automation",
+          "targetDevices": null
+        },
+        {
+          "fileID": 8576410358412422088,
+          "name": "DPadInteraction Android",
+          "featureId": "com.unity.openxr.feature.input.dpadinteraction",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_KHR_binding_modification XR_EXT_dpad_binding",
+          "targetDevices": null
+        },
+        {
+          "fileID": 2347539166159446830,
+          "name": "EyeGazeInteraction Android",
+          "featureId": "com.unity.openxr.feature.input.eyetracking",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_EXT_eye_gaze_interaction",
+          "targetDevices": null
+        },
+        {
+          "fileID": 7449582741104291939,
+          "name": "FoveatedRenderingFeature Android",
+          "featureId": "com.unity.openxr.feature.foveatedrendering",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_UNITY_foveation XR_FB_foveation XR_FB_foveation_configuration XR_FB_swapchain_update_state XR_FB_foveation_vulkan XR_META_foveation_eye_tracked XR_META_vulkan_swapchain_create_info",
+          "targetDevices": null
+        },
+        {
+          "fileID": -3812881616652463180,
+          "name": "HandCommonPosesInteraction Android",
+          "featureId": "com.unity.openxr.feature.input.handinteractionposes",
+          "featureEnabled": 1,
+          "extensionStrings": "XR_EXT_hand_interaction",
+          "targetDevices": null
+        },
+        {
+          "fileID": 3174844249789581321,
+          "name": "HandInteractionProfile Android",
+          "featureId": "com.unity.openxr.feature.input.handinteraction",
+          "featureEnabled": 1,
+          "extensionStrings": "XR_EXT_hand_interaction",
+          "targetDevices": null
+        },
+        {
+          "fileID": 5250509833580986984,
+          "name": "KHRSimpleControllerProfile Android",
+          "featureId": "com.unity.openxr.feature.input.khrsimpleprofile",
+          "featureEnabled": 0,
+          "extensionStrings": null,
+          "targetDevices": null
+        },
+        {
+          "fileID": 6404528204889310261,
+          "name": "MetaHandTrackingAim Android",
+          "featureId": "com.unity.openxr.feature.input.metahandtrackingaim",
+          "featureEnabled": 1,
+          "extensionStrings": "XR_FB_hand_tracking_aim",
+          "targetDevices": null
+        },
+        {
+          "fileID": 8208848777925612153,
+          "name": "MetaQuestFeature Android",
+          "featureId": "com.unity.openxr.feature.metaquest",
+          "featureEnabled": 1,
+          "extensionStrings": "XR_OCULUS_android_initialize_loader",
+          "targetDevices": [
+            {
+              "visibleName": "Quest",
+              "manifestName": "quest",
+              "enabled": 1
+            },
+            {
+              "visibleName": "Quest 2",
+              "manifestName": "quest2",
+              "enabled": 1
+            },
+            {
+              "visibleName": "Quest Pro",
+              "manifestName": "cambria",
+              "enabled": 1
+            },
+            {
+              "visibleName": "Quest 3",
+              "manifestName": "eureka",
+              "enabled": 1
+            },
+            {
+              "visibleName": "Quest 3S",
+              "manifestName": "quest3s",
+              "enabled": 1
+            }
+          ]
+        },
+        {
+          "fileID": -4405672152136951754,
+          "name": "MetaQuestTouchPlusControllerProfile Android",
+          "featureId": "com.unity.openxr.feature.input.metaquestplus",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_META_touch_controller_plus",
+          "targetDevices": null
+        },
+        {
+          "fileID": 8478632382632854138,
+          "name": "MetaQuestTouchProControllerProfile Android",
+          "featureId": "com.unity.openxr.feature.input.metaquestpro",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_FB_touch_controller_pro",
+          "targetDevices": null
+        },
+        {
+          "fileID": -5804991275166158198,
+          "name": "MicrosoftHandInteraction Android",
+          "featureId": "com.unity.openxr.feature.input.handtracking",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_MSFT_hand_interaction",
+          "targetDevices": null
+        },
+        {
+          "fileID": 1662917218053185303,
+          "name": "MockRuntime Android",
+          "featureId": "com.unity.openxr.feature.mockruntime",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_UNITY_null_gfx XR_UNITY_android_present",
+          "targetDevices": null
+        },
+        {
+          "fileID": -1665573605157863316,
+          "name": "OculusQuestFeature Android",
+          "featureId": "com.unity.openxr.feature.oculusquest",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_OCULUS_android_initialize_loader",
+          "targetDevices": null
+        },
+        {
+          "fileID": -805610959601333169,
+          "name": "OculusTouchControllerProfile Android",
+          "featureId": "com.unity.openxr.feature.input.oculustouch",
+          "featureEnabled": 0,
+          "extensionStrings": null,
+          "targetDevices": null
+        },
+        {
+          "fileID": 2176986124096841866,
+          "name": "PalmPoseInteraction Android",
+          "featureId": "com.unity.openxr.feature.input.palmpose",
+          "featureEnabled": 1,
+          "extensionStrings": "XR_EXT_palm_pose",
+          "targetDevices": null
+        },
+        {
+          "fileID": -4615606902957482864,
+          "name": "RuntimeDebuggerOpenXRFeature Android",
+          "featureId": "com.unity.openxr.features.runtimedebugger",
+          "featureEnabled": 0,
+          "extensionStrings": null,
+          "targetDevices": null
+        },
+        {
+          "fileID": -4865714342238360348,
+          "name": "XrPerformanceSettingsFeature Android",
+          "featureId": "com.unity.openxr.feature.extension.performance_settings",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_EXT_performance_settings",
+          "targetDevices": null
+        },
+        {
+          "fileID": -5853226534398741481,
+          "name": "HandTracking Android",
+          "featureId": "com.unity.openxr.feature.input.handtracking",
+          "featureEnabled": 1,
+          "extensionStrings": "XR_EXT_hand_tracking",
+          "targetDevices": null
+        }
+      ]
+    },
+    {
+      "buildTargetGroup": 13,
+      "settingsId": 7520351020142071894,
+      "features": [
+        {
+          "fileID": -7243576759749780832,
+          "name": "XrPerformanceSettingsFeature WebGL",
+          "featureId": "com.unity.openxr.feature.extension.performance_settings",
+          "featureEnabled": 0,
+          "extensionStrings": "XR_EXT_performance_settings",
+          "targetDevices": null
+        }
+      ]
+    }
+  ],
+  "xrGeneralSettings": {
+    "-4932357663574285309": {
+      "m_ObjectHideFlags": 0,
+      "m_CorrespondingSourceObject": {
+        "fileID": 0
+      },
+      "m_PrefabInstance": {
+        "fileID": 0
+      },
+      "m_PrefabAsset": {
+        "fileID": 0
+      },
+      "m_GameObject": {
+        "fileID": 0
+      },
+      "m_Enabled": 1,
+      "m_EditorHideFlags": 0,
+      "m_Script": {
+        "fileID": 11500000,
+        "guid": "d236b7d11115f2143951f1e14045df39",
+        "type": 3
+      },
+      "m_Name": "Android Settings",
+      "m_EditorClassIdentifier": null,
+      "m_LoaderManagerInstance": {
+        "fileID": 1135316902995708970
+      },
+      "m_InitManagerOnStart": 1
+    },
+    "11400000": {
+      "m_ObjectHideFlags": 0,
+      "m_CorrespondingSourceObject": {
+        "fileID": 0
+      },
+      "m_PrefabInstance": {
+        "fileID": 0
+      },
+      "m_PrefabAsset": {
+        "fileID": 0
+      },
+      "m_GameObject": {
+        "fileID": 0
+      },
+      "m_Enabled": 1,
+      "m_EditorHideFlags": 0,
+      "m_Script": {
+        "fileID": 11500000,
+        "guid": "d2dc886499c26824283350fa532d087d",
+        "type": 3
+      },
+      "m_Name": "XRGeneralSettings",
+      "m_EditorClassIdentifier": null,
+      "Keys": 1835008,
+      "Values": [
+        {
+          "fileID": -4932357663574285309
+        }
+      ]
+    },
+    "1135316902995708970": {
+      "m_ObjectHideFlags": 0,
+      "m_CorrespondingSourceObject": {
+        "fileID": 0
+      },
+      "m_PrefabInstance": {
+        "fileID": 0
+      },
+      "m_PrefabAsset": {
+        "fileID": 0
+      },
+      "m_GameObject": {
+        "fileID": 0
+      },
+      "m_Enabled": 1,
+      "m_EditorHideFlags": 0,
+      "m_Script": {
+        "fileID": 11500000,
+        "guid": "f4c3631f5e58749a59194e0cf6baf6d5",
+        "type": 3
+      },
+      "m_Name": "Android Providers",
+      "m_EditorClassIdentifier": null,
+      "m_RequiresSettingsUpdate": 0,
+      "m_AutomaticLoading": 0,
+      "m_AutomaticRunning": 0,
+      "m_Loaders": [
+        {
+          "fileID": 11400000,
+          "guid": "4f22314ca21474ff5a09b6aff69b549d",
+          "type": 2
+        }
+      ]
+    }
+  },
+  "playerSettings": {
+    "AndroidMinSdkVersion": 29,
+    "AndroidTargetSdkVersion": 0,
+    "AndroidTargetArchitectures": 2,
+    "scriptingBackend": {
+      "Android": 1
+    },
+    "activeInputHandler": 1,
+    "m_BuildTargetGraphicsAPIs": [
+      {
+        "m_BuildTarget": "iOSSupport",
+        "m_APIs": 10000000,
+        "m_Automatic": 1
+      },
+      {
+        "m_BuildTarget": "AndroidPlayer",
+        "m_APIs": 15000000,
+        "m_Automatic": 0
+      }
+    ]
+  },
+  "scene": {
+    "path": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Scenes/Simulation.unity",
+    "sha256": "8d6c2ef7ec18cff8748356fe44a8bac42c786465845f639465c888d8715a3a1d",
+    "mtimeUtcEpoch": 1794983665.2598264,
+    "rigOverrides": [
+      {
+        "name": "XRInputModalityManager",
+        "sourceId": 6468442521412095314,
+        "field": "m_Enabled",
+        "value": "0"
+      },
+      {
+        "name": "Left Hand root",
+        "sourceId": 6355494128053973299,
+        "field": "m_IsActive",
+        "value": "1"
+      },
+      {
+        "name": "Right Hand root",
+        "sourceId": 1800725127586568702,
+        "field": "m_IsActive",
+        "value": "1"
+      },
+      {
+        "name": "Left Controller root",
+        "sourceId": 657184243640684908,
+        "field": "m_IsActive",
+        "value": "0"
+      },
+      {
+        "name": "Right Controller root",
+        "sourceId": 657184242222895507,
+        "field": "m_IsActive",
+        "value": "0"
+      },
+      {
+        "name": "CharacterController",
+        "sourceId": 6873022368256633593,
+        "field": "m_Enabled",
+        "value": "1"
+      }
+    ]
+  },
+  "unchangedXRSettings": {
+    "Assets/XR/Settings/OpenXR Package Settings.asset.meta": true,
+    "Assets/XR/Settings/OpenXR Editor Settings.asset": true,
+    "Assets/XR/Settings/Oculus Settings.asset.meta": true,
+    "Assets/XR/Settings/OpenXR Editor Settings.asset.meta": true,
+    "Assets/XR/Settings/OpenXR Package Settings.asset": true,
+    "Assets/XR/Settings/Oculus Settings.asset": true
+  },
+  "sourceCompilationLimit": "Roslyn parse and .NET harness doubles are separate evidence, not Unity assembly/package compilation.",
+  "validator": {
+    "path": "Assets/Diving Simulation/Scripts/Editor/HandsDemoValidator.cs",
+    "guid": "9afdc09c7f4c48bca1b754f761d31474",
+    "menu": "HCI/Validate Hands Demo",
+    "automaticSceneMutation": false
+  }
+}

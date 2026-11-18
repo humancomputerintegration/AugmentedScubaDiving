@@ -109,3 +109,7 @@ InitTestScene*.unity*
 /[Aa]ssets/Addressables_Temp*
 /[Aa]ssets/AddressableAssetsData/*/*.bin*
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Local test harness build output
+/Docs/Call_Logic_Harness/bin/
+/Docs/Call_Logic_Harness/obj/
