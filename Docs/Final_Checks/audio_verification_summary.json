@@ -1,0 +1,31 @@
+{
+  "scope": "Actual production C# with Unity API doubles, not Unity build or device audio",
+  "source_sha256": {
+    "SimpleDial.cs": "edadda6120b1f09c131904ed580d5e3d33a197f27b94711c5c58d3049b130211",
+    "CallTowerManager.cs": "00b8b2a58c83ab3b027807cf5f0e73c9104be32693f3194d895db9b6b81befe5",
+    "CrewmateBehavior.cs": "d922bf942c5aea2a18ab275cb7490b86d58f9f49410d731b36bdac3d221b7be1",
+    "CrewInfo.cs": "0597c37f1dfafc787b1dca0d431688dd557eb71c8fe58743fccf8375aba88c85",
+    "AudioDoubles.cs": "bff7f539c0746a600062313e0fdc51bcb3f33299f643bc020f682f4a5ef379c0",
+    "AudioMatrix.cs": "b357e2bbf05bda3a456fea09ec61da0cea8d4e04102e588a7bb827d0407a6b8c"
+  },
+  "variants": [
+    {
+      "variant": "android",
+      "cases": 13,
+      "assertions": 52,
+      "failures": 0
+    },
+    {
+      "variant": "editor_android",
+      "cases": 13,
+      "assertions": 52,
+      "failures": 0
+    },
+    {
+      "variant": "desktop",
+      "cases": 13,
+      "assertions": 52,
+      "failures": 0
+    }
+  ]
+}

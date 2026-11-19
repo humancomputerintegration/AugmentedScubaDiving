@@ -1,0 +1,20 @@
+{
+  "InformationManager.cs": {
+    "only_comments_changed": true,
+    "non_comment_leaf_tokens": 465,
+    "before_sha256": "6e593c1c7a3a05d818b14729414cb153f282ef8a540b0479e9aaf3c0d65dd437",
+    "after_sha256": "e59682d2cdd87336310a3c55aac4fe3fea8456c4242d9683d8bdcb5df812bf5b"
+  },
+  "BatteryLevel.cs": {
+    "only_comments_changed": true,
+    "non_comment_leaf_tokens": 285,
+    "before_sha256": "87a825a804e582894d565db9819bfc43dec08590c2c7d460bf39689aa0e36ecb",
+    "after_sha256": "a941b84d1fb5e5641f0aca3b73c661a8d321b7feb23360da9265a81227f39ba5"
+  },
+  "OxygenBar.cs": {
+    "only_comments_changed": true,
+    "non_comment_leaf_tokens": 120,
+    "before_sha256": "8c19aad222699ecd141eb217ee4425da7e12c09f3924719f5aad86f9dabd69e2",
+    "after_sha256": "7d9d2cec067ed80c8271594590b224f74cf0d0085a1823b061731edd448a8c4f"
+  }
+}

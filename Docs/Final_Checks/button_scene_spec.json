@@ -1,0 +1,36 @@
+{
+  "modified_script": "Assets/Diving Simulation/Scripts/CircleGraphic.cs",
+  "circle_guid": "4a2d8801745d53b6ac38e886c633f0c0",
+  "new_script_guids": {
+    "SoftButtonFeedback.cs": "21cd2d1c6a934ede995f124785833e56",
+    "Editor/CircleGraphicEditor.cs": "2f65b6e9f4bd415a9e6b2020fe4fe0a0"
+  },
+  "button_style": {
+    "roundness": 0.55,
+    "rimWidth": 0,
+    "phoneIcon": false,
+    "symbolColor": {
+      "r": 0.1607843137254902,
+      "g": 0.25882352941176473,
+      "b": 0.30196078431372547,
+      "a": 1
+    }
+  },
+  "palette_hex": {
+    "INFO": "#AEDFF2",
+    "SOS": "#F5AAA9",
+    "CALL": "#ACDDBF",
+    "FIND": "#F7C592",
+    "CREW": "#F4E5A0",
+    "FLASHLIGHT": "#BFDDEB"
+  },
+  "scene_instructions": [
+    "Apply roundness 0.55 only to the 10 actual menu button face CircleGraphic components and the one wrist flashlight face; leave hover CircleGraphic roundness 0.",
+    "Use requested per-purpose pastel face colors in both Swipe Round Menu and Left Forearm Buttons. Set internal icon/text to #29424D for contrast.",
+    "For both CALL faces set phoneIcon: 1 and symbolColor #29424D. Empty only inner CALL text; retain external CALL caption and all callbacks.",
+    "Add SoftButtonFeedback to these 11 existing button GameObjects. Set button and face refs. Optional symbol points at existing inner text/icon RectTransform, never the button root, caption, collider, or hover.",
+    "Use pressDuration 0.07 and releaseDuration 0.14. Symbol may be zero for a multi-piece icon or phone icon (the phone is drawn and moved by CircleGraphic).",
+    "Do not change existing RectTransforms, BoxCollider sizes, HandUIButton data, event callbacks, or input scripts.",
+    "Do not apply rounded styling to normal rectangular dashboard keys or invisible ray blockers."
+  ]
+}

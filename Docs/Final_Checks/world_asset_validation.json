@@ -1,0 +1,232 @@
+{
+  "checks": [
+    {
+      "name": "Preserved Assets/Diving Simulation/Scripts/World/CreatureSwim.cs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Preserved Assets/Diving Simulation/Scripts/World/ReefModel.cs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Preserved Assets/Diving Simulation/Prefabs/World/Swimmer_ElinaPrimitiveDiver.prefab",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "New asset GUIDs unique",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Only shader reference changed Diver_Turquoise.mat",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Only shader reference changed Diver_Tank.mat",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Only shader reference changed Diver_Navy.mat",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Only shader reference changed Diver_Skin.mat",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Only shader reference changed Diver_Mask.mat",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Shader balanced braces",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Shader declaration UNITY_VERTEX_INPUT_INSTANCE_ID",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Shader declaration UNITY_VERTEX_OUTPUT_STEREO",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Shader declaration UNITY_SETUP_INSTANCE_ID(input)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Shader declaration UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(output)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Shader declaration UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(input)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Shader declaration #pragma multi_compile_instancing",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Shader declaration #pragma multi_compile_fog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Shader declaration CBUFFER_START(UnityPerMaterial)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Shader declaration TransformObjectToHClip",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Shader declaration TransformObjectToWorldNormal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Shader declaration GetMainLight()",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Shader declaration MixFog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "20 additional coral placements",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Normal rotation Reef_CoralReef Wide 01",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Normal rotation Reef_CoralReef Wide 02",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Normal rotation Reef_CoralReef Wide 03",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Normal rotation Reef_CoralReef Wide 04",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Normal rotation Reef_CoralReef Wide 05",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Normal rotation Reef_CoralReef Wide 06",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Normal rotation Reef_CoralReef Wide 07",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Normal rotation Reef_CoralReef Wide 08",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Normal rotation Reef_CoralReef Wide 09",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Normal rotation Reef_CoralReef Wide 10",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Normal rotation Reef_CoralReef Wide 11",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Normal rotation Reef_CoralReef Wide 12",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Normal rotation Reef_CoralReef Wide 13",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Normal rotation Reef_CoralReef Wide 14",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Normal rotation Reef_CoralReef Wide 15",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Normal rotation Reef_CoralReef Wide 16",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Normal rotation Reef_CoralReef Wide 17",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Normal rotation Reef_CoralReef Wide 18",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Normal rotation Reef_CoralReef Wide 19",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Normal rotation Reef_CoralReef Wide 20",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "4 new complete swim orbit samples",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "limits": [
+    "No Unity shader import/compiler run.",
+    "No Quest rendering or frame-rate test."
+  ],
+  "summary": {
+    "passed": 44,
+    "total": 44
+  }
+}

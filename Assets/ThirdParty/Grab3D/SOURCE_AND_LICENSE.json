@@ -1,0 +1,38 @@
+[
+  {
+    "name": "CoralReef",
+    "creator": "Grab3D",
+    "page": "https://grab3d.com/models/nature/coral-reef/",
+    "download": "https://grab3d.com/dl/coral-reef/coral-reef-obj.zip",
+    "license": "CC0 1.0 Universal",
+    "licenseURL": "https://grab3d.com/license/",
+    "licenseFile": "Assets/ThirdParty/Grab3D/Resources/Grab3D/CoralReef/LICENSE.txt",
+    "zipSha256": "093516ab93cb4c43cb3b47c0629c7dc9c52baaea569f9db8301d958987d6b5a3",
+    "zipBytes": 1420606,
+    "importChanges": "Original OBJ/MTL/JPG content retained; importer max texture size 1024, URP materials added; no external package dependency. Roughness/metallic source maps preserved but constant URP values used."
+  },
+  {
+    "name": "Seaweed",
+    "creator": "Grab3D",
+    "page": "https://grab3d.com/models/nature/seaweed/",
+    "download": "https://grab3d.com/dl/seaweed/seaweed-obj.zip",
+    "license": "CC0 1.0 Universal",
+    "licenseURL": "https://grab3d.com/license/",
+    "licenseFile": "Assets/ThirdParty/Grab3D/Resources/Grab3D/Seaweed/LICENSE.txt",
+    "zipSha256": "f5765ff0b46763838b250e56adf42da4ef6a36c569ec7e08b187210aaa3b8ae4",
+    "zipBytes": 1107720,
+    "importChanges": "Original OBJ/MTL/JPG content retained; importer max texture size 1024, URP materials added; no external package dependency. Roughness/metallic source maps preserved but constant URP values used."
+  },
+  {
+    "name": "Submarine",
+    "creator": "Grab3D",
+    "page": "https://grab3d.com/models/vehicles/submarine/",
+    "download": "https://grab3d.com/dl/submarine/submarine-obj.zip",
+    "license": "CC0 1.0 Universal",
+    "licenseURL": "https://grab3d.com/license/",
+    "licenseFile": "Assets/ThirdParty/Grab3D/Resources/Grab3D/Submarine/LICENSE.txt",
+    "zipSha256": "f0b9d3dbbeaf7703f6d902e4a337f2f602512cb63df938d400660dd7162c02e4",
+    "zipBytes": 921979,
+    "importChanges": "Original OBJ/MTL/JPG content retained; importer max texture size 1024, URP materials added; no external package dependency. Roughness/metallic source maps preserved but constant URP values used."
+  }
+]

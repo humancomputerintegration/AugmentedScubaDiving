@@ -1,0 +1,303 @@
+{
+  "source": "actual Eliza Terrain.asset, GUID 427b32d391da3c14892a9a0366dc86c3",
+  "calculation": "UnityPy stored height / 32767 * m_Heightmap.m_Scale.y; bilinear 1025x1025; Terrain transform identity. Static height approximation, actual TerrainCollider raycasts and Quest runtime not executed.",
+  "waterY": 13,
+  "terrainSizeXZ": 1000.0,
+  "starterRigXZFloor": 17.867951110812708,
+  "props": [
+    {
+      "prefab": "Reef_Submarine",
+      "position": [
+        401,
+        7,
+        510
+      ],
+      "rootScale": 0.65,
+      "terrainAtCenter": 3.0699,
+      "clearanceAtCenter": 3.9301
+    },
+    {
+      "prefab": "Reef_CoralReef",
+      "position": [
+        389,
+        6.0387,
+        504
+      ],
+      "rootScale": 4,
+      "terrainAtCenter": 5.9187,
+      "clearanceAtCenter": 0.12
+    },
+    {
+      "prefab": "Reef_CoralReef",
+      "position": [
+        394,
+        3.9027,
+        510
+      ],
+      "rootScale": 4,
+      "terrainAtCenter": 3.7827,
+      "clearanceAtCenter": 0.12
+    },
+    {
+      "prefab": "Reef_CoralReef",
+      "position": [
+        405,
+        2.8869,
+        511
+      ],
+      "rootScale": 4.5,
+      "terrainAtCenter": 2.7669,
+      "clearanceAtCenter": 0.12
+    },
+    {
+      "prefab": "Reef_CoralReef",
+      "position": [
+        399,
+        2.7321,
+        518
+      ],
+      "rootScale": 3.8,
+      "terrainAtCenter": 2.6121,
+      "clearanceAtCenter": 0.12
+    },
+    {
+      "prefab": "Reef_Seaweed",
+      "position": [
+        390,
+        5.0967,
+        507
+      ],
+      "rootScale": 1.6,
+      "terrainAtCenter": 4.9767,
+      "clearanceAtCenter": 0.12
+    },
+    {
+      "prefab": "Reef_Seaweed",
+      "position": [
+        395,
+        3.2876,
+        515
+      ],
+      "rootScale": 1.6,
+      "terrainAtCenter": 3.1676,
+      "clearanceAtCenter": 0.12
+    },
+    {
+      "prefab": "Reef_Seaweed",
+      "position": [
+        406,
+        3.5227,
+        506
+      ],
+      "rootScale": 1.8,
+      "terrainAtCenter": 3.4027,
+      "clearanceAtCenter": 0.12
+    },
+    {
+      "prefab": "Reef_Seaweed",
+      "position": [
+        407,
+        2.5442,
+        515
+      ],
+      "rootScale": 1.5,
+      "terrainAtCenter": 2.4242,
+      "clearanceAtCenter": 0.12
+    },
+    {
+      "prefab": "Reef_Seaweed",
+      "position": [
+        388,
+        4.8214,
+        511
+      ],
+      "rootScale": 1.5,
+      "terrainAtCenter": 4.7014,
+      "clearanceAtCenter": 0.12
+    }
+  ],
+  "animals": [
+    {
+      "prefab": "Swimmer_Turtle",
+      "ellipseCenter": [
+        391,
+        9.8,
+        511
+      ],
+      "radii": [
+        5,
+        3
+      ],
+      "bodyRadius": 0.9,
+      "speed": 0.45,
+      "sampleCount": 360,
+      "floorMaxFiveProbes": 5.4584,
+      "allColumnsValid": true,
+      "allUnclampedYValid": true,
+      "surfaceMinimumDepth": 0.6,
+      "bottomClearance": 0.45,
+      "instancesRecommended": 1,
+      "phaseForInstancesRadians": [
+        0,
+        2.0944,
+        4.1888
+      ],
+      "verticalAmplitude": 0.4,
+      "submarineExpandedBoundsOverlapSamples": 0
+    },
+    {
+      "prefab": "Swimmer_ElinaPrimitiveDiver",
+      "ellipseCenter": [
+        407,
+        8.5,
+        511
+      ],
+      "radii": [
+        2.5,
+        1.7
+      ],
+      "bodyRadius": 1.45,
+      "speed": 0.38,
+      "sampleCount": 360,
+      "floorMaxFiveProbes": 3.0942,
+      "allColumnsValid": true,
+      "allUnclampedYValid": true,
+      "surfaceMinimumDepth": 0.6,
+      "bottomClearance": 0.45,
+      "instancesRecommended": 1,
+      "phaseForInstancesRadians": [
+        0,
+        2.0944,
+        4.1888
+      ],
+      "verticalAmplitude": 0.2,
+      "submarineExpandedBoundsOverlapSamples": 0
+    },
+    {
+      "prefab": "Swimmer_RoyalGramma",
+      "ellipseCenter": [
+        390,
+        10,
+        505
+      ],
+      "radii": [
+        3.5,
+        2
+      ],
+      "bodyRadius": 0.5,
+      "speed": 0.75,
+      "sampleCount": 360,
+      "floorMaxFiveProbes": 6.5308,
+      "allColumnsValid": true,
+      "allUnclampedYValid": true,
+      "surfaceMinimumDepth": 0.6,
+      "bottomClearance": 0.45,
+      "instancesRecommended": 3,
+      "phaseForInstancesRadians": [
+        0,
+        2.0944,
+        4.1888
+      ],
+      "verticalAmplitude": 0.4,
+      "submarineExpandedBoundsOverlapSamples": 0
+    },
+    {
+      "prefab": "Swimmer_ButterflyFish",
+      "ellipseCenter": [
+        397,
+        8.7,
+        504
+      ],
+      "radii": [
+        4,
+        2.5
+      ],
+      "bodyRadius": 0.55,
+      "speed": 0.6,
+      "sampleCount": 360,
+      "floorMaxFiveProbes": 5.729,
+      "allColumnsValid": true,
+      "allUnclampedYValid": true,
+      "surfaceMinimumDepth": 0.6,
+      "bottomClearance": 0.45,
+      "instancesRecommended": 3,
+      "phaseForInstancesRadians": [
+        0,
+        2.0944,
+        4.1888
+      ],
+      "verticalAmplitude": 0.4,
+      "submarineExpandedBoundsOverlapSamples": 0
+    },
+    {
+      "prefab": "Swimmer_Lionfish",
+      "ellipseCenter": [
+        397,
+        7.7,
+        515
+      ],
+      "radii": [
+        3.5,
+        2
+      ],
+      "bodyRadius": 0.65,
+      "speed": 0.5,
+      "sampleCount": 360,
+      "floorMaxFiveProbes": 3.4655,
+      "allColumnsValid": true,
+      "allUnclampedYValid": true,
+      "surfaceMinimumDepth": 0.6,
+      "bottomClearance": 0.45,
+      "instancesRecommended": 3,
+      "phaseForInstancesRadians": [
+        0,
+        2.0944,
+        4.1888
+      ],
+      "verticalAmplitude": 0.4,
+      "submarineExpandedBoundsOverlapSamples": 0
+    },
+    {
+      "prefab": "Swimmer_OriginalFish",
+      "ellipseCenter": [
+        404,
+        9.5,
+        517
+      ],
+      "radii": [
+        4,
+        2.5
+      ],
+      "bodyRadius": 0.8,
+      "speed": 0.8,
+      "sampleCount": 360,
+      "floorMaxFiveProbes": 2.6899,
+      "allColumnsValid": true,
+      "allUnclampedYValid": true,
+      "surfaceMinimumDepth": 0.6,
+      "bottomClearance": 0.45,
+      "instancesRecommended": 3,
+      "phaseForInstancesRadians": [
+        0,
+        2.0944,
+        4.1888
+      ],
+      "verticalAmplitude": 0.4,
+      "submarineExpandedBoundsOverlapSamples": 0
+    }
+  ],
+  "warning": "Root starting position (364.1,21.42,493.4) is above terrain higher than water. Go toward +X and +Z to reach underwater demonstration zone. All scripts use actual runtime Collider.Raycast.",
+  "submarineBoundsAtRecommendedPlacement": {
+    "min": [
+      399.9015,
+      7,
+      507.63725
+    ],
+    "max": [
+      402.0985,
+      9.6695201,
+      512.36275
+    ]
+  },
+  "collisionScope": "All six animal ellipses sample outside submarine AABB expanded by bodyRadius; only static 360-angle checks, not Unity physics. Animals do not implement mutual avoidance; vegetation is decoration."
+}

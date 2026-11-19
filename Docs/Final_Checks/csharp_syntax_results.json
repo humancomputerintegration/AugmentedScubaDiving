@@ -1,0 +1,1228 @@
+{
+  "scope": "Roslyn C# 9 syntax parsing only; no Unity assembly compilation, package linking, scene execution, or device test.",
+  "source_count": 42,
+  "configuration_count": 2,
+  "parse_count": 84,
+  "error_count": 0,
+  "warning_count": 0,
+  "results": [
+    {
+      "path": "Assets/Diving Simulation/Scripts/BatteryLevel.cs",
+      "sha256": "a941b84d1fb5e5641f0aca3b73c661a8d321b7feb23360da9265a81227f39ba5",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/BatteryLevel.cs",
+      "sha256": "a941b84d1fb5e5641f0aca3b73c661a8d321b7feb23360da9265a81227f39ba5",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/CallAudioDucking.cs",
+      "sha256": "fa5548c3c2a4b25db2d07ccd24aa964dc420c8f1ae8c74d6b526fe88ff14744a",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/CallAudioDucking.cs",
+      "sha256": "fa5548c3c2a4b25db2d07ccd24aa964dc420c8f1ae8c74d6b526fe88ff14744a",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/CallDashboardManager.cs",
+      "sha256": "334efcdac706f0c2821ab724549da205e3d49a04b7193469e0cd680008639045",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/CallDashboardManager.cs",
+      "sha256": "334efcdac706f0c2821ab724549da205e3d49a04b7193469e0cd680008639045",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/CallTowerManager.cs",
+      "sha256": "00b8b2a58c83ab3b027807cf5f0e73c9104be32693f3194d895db9b6b81befe5",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/CallTowerManager.cs",
+      "sha256": "00b8b2a58c83ab3b027807cf5f0e73c9104be32693f3194d895db9b6b81befe5",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/CircleGraphic.cs",
+      "sha256": "3591d48dcebddd9e5c80fdc63a7d69e19312ce930aec7192d6db1aa7c29dec0d",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/CircleGraphic.cs",
+      "sha256": "3591d48dcebddd9e5c80fdc63a7d69e19312ce930aec7192d6db1aa7c29dec0d",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/Compass.cs",
+      "sha256": "7e6d760969763c1c34f71afb2f7df349a5720cad6bb92f0caa01c962b040b872",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/Compass.cs",
+      "sha256": "7e6d760969763c1c34f71afb2f7df349a5720cad6bb92f0caa01c962b040b872",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/CrewArrowNavigator.cs",
+      "sha256": "aba361cef28624fafdccc21b3541e8b3f4a10b6d401efcb5d3e8a95c6b99c2f0",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/CrewArrowNavigator.cs",
+      "sha256": "aba361cef28624fafdccc21b3541e8b3f4a10b6d401efcb5d3e8a95c6b99c2f0",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/CrewInfo.cs",
+      "sha256": "0597c37f1dfafc787b1dca0d431688dd557eb71c8fe58743fccf8375aba88c85",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/CrewInfo.cs",
+      "sha256": "0597c37f1dfafc787b1dca0d431688dd557eb71c8fe58743fccf8375aba88c85",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/CrewInfodashboardManager.cs",
+      "sha256": "942c8f6d603bb24ec8d2e09d20ff35a0ab2cfe635a30c0d232c4a045f96b2d45",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/CrewInfodashboardManager.cs",
+      "sha256": "942c8f6d603bb24ec8d2e09d20ff35a0ab2cfe635a30c0d232c4a045f96b2d45",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/CrewmateBehavior.cs",
+      "sha256": "d922bf942c5aea2a18ab275cb7490b86d58f9f49410d731b36bdac3d221b7be1",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/CrewmateBehavior.cs",
+      "sha256": "d922bf942c5aea2a18ab275cb7490b86d58f9f49410d731b36bdac3d221b7be1",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/CrewmateNames.cs",
+      "sha256": "b2fdefbd885b0e2b9ab863f383de8a476b0a2490e510a386a77e69bc49be35f7",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/CrewmateNames.cs",
+      "sha256": "b2fdefbd885b0e2b9ab863f383de8a476b0a2490e510a386a77e69bc49be35f7",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/DiveInfo.cs",
+      "sha256": "cdd15ef6002cf5a718df1d64faca8ccd432445c5974b3088628ccb7078f82325",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/DiveInfo.cs",
+      "sha256": "cdd15ef6002cf5a718df1d64faca8ccd432445c5974b3088628ccb7078f82325",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/DiveStatusHUD.cs",
+      "sha256": "f1edc4eb2bce6a927b082bb5cd5bcc9028d44afd0ab0d13e8a02a9a2b24feb09",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/DiveStatusHUD.cs",
+      "sha256": "f1edc4eb2bce6a927b082bb5cd5bcc9028d44afd0ab0d13e8a02a9a2b24feb09",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/Editor/CircleGraphicEditor.cs",
+      "sha256": "2ef75e849a8d9a60ad8781c0e76fb32027c54e642324ba36f84bea0153dc7d43",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/Editor/CircleGraphicEditor.cs",
+      "sha256": "2ef75e849a8d9a60ad8781c0e76fb32027c54e642324ba36f84bea0153dc7d43",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/Editor/HandsDemoValidator.cs",
+      "sha256": "51ad7456fa48831b23b34ceb94742981f21acd8f8dbf9134e10f9501945f9c24",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/Editor/HandsDemoValidator.cs",
+      "sha256": "51ad7456fa48831b23b34ceb94742981f21acd8f8dbf9134e10f9501945f9c24",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/FishMovements.cs",
+      "sha256": "7973dd466c4f111ad05b5c688ecc1ec063f5bb88b0ab5a3c2285b1204003b774",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/FishMovements.cs",
+      "sha256": "7973dd466c4f111ad05b5c688ecc1ec063f5bb88b0ab5a3c2285b1204003b774",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/HandColliderFollower.cs",
+      "sha256": "05d62624f61738c7e8a759ae0156e1837c81074dc5e2ac3436376f353e921761",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/HandColliderFollower.cs",
+      "sha256": "05d62624f61738c7e8a759ae0156e1837c81074dc5e2ac3436376f353e921761",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/HandPointerLight.cs",
+      "sha256": "53eee6ac5eace48302f1b9fbc59773723f49a643cbd6fa50ec063685ac248bb3",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/HandPointerLight.cs",
+      "sha256": "53eee6ac5eace48302f1b9fbc59773723f49a643cbd6fa50ec063685ac248bb3",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/HandUIAnchor.cs",
+      "sha256": "d1adb8bafc1f892bffd33095454873b9833a4f027dee392b266b7c2e12adbd4b",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/HandUIAnchor.cs",
+      "sha256": "d1adb8bafc1f892bffd33095454873b9833a4f027dee392b266b7c2e12adbd4b",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/HandUIButton.cs",
+      "sha256": "f2cbccdc1cb437e109b3b378c95793af9ee83e40c0cce0d5caa60c6eaf2f8c1c",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/HandUIButton.cs",
+      "sha256": "f2cbccdc1cb437e109b3b378c95793af9ee83e40c0cce0d5caa60c6eaf2f8c1c",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/HandUIInteractor.cs",
+      "sha256": "2a1d2ab21a80f766510a602d5ccc54e89a6f58505fbdca55c21b655a107ad774",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/HandUIInteractor.cs",
+      "sha256": "2a1d2ab21a80f766510a602d5ccc54e89a6f58505fbdca55c21b655a107ad774",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/HandsInput.cs",
+      "sha256": "d0b34ece1c743088da36494be6962f39e7561d4618088f31c154c0c564148bfc",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/HandsInput.cs",
+      "sha256": "d0b34ece1c743088da36494be6962f39e7561d4618088f31c154c0c564148bfc",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/HeadMountedUI.cs",
+      "sha256": "9b45f9b3106adae19dafd3548e116429850bbfc0a1c291f39ab3357080ad005d",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/HeadMountedUI.cs",
+      "sha256": "9b45f9b3106adae19dafd3548e116429850bbfc0a1c291f39ab3357080ad005d",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/IncomingCallPopup.cs",
+      "sha256": "e6bc8ba235b0c60091b47a89f0a7835ba2200c7b4d201bc42b6b08ee372fb2ca",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/IncomingCallPopup.cs",
+      "sha256": "e6bc8ba235b0c60091b47a89f0a7835ba2200c7b4d201bc42b6b08ee372fb2ca",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/InformationManager.cs",
+      "sha256": "e59682d2cdd87336310a3c55aac4fe3fea8456c4242d9683d8bdcb5df812bf5b",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/InformationManager.cs",
+      "sha256": "e59682d2cdd87336310a3c55aac4fe3fea8456c4242d9683d8bdcb5df812bf5b",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/MinimapUI.cs",
+      "sha256": "d9002d38559ebe7e761522d95103ca2b2cf02450c79a1ebb8e897e3427da3424",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/MinimapUI.cs",
+      "sha256": "d9002d38559ebe7e761522d95103ca2b2cf02450c79a1ebb8e897e3427da3424",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/MudPinchNavigator.cs",
+      "sha256": "3e2ec468047bc219377389dd4dca4876a66b398e2854435173d9bafe79fb2d48",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/MudPinchNavigator.cs",
+      "sha256": "3e2ec468047bc219377389dd4dca4876a66b398e2854435173d9bafe79fb2d48",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/MudStorm.cs",
+      "sha256": "d0d94260ea3b06398d8673918047e426c95b866760777e57b089e269110118c0",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/MudStorm.cs",
+      "sha256": "d0d94260ea3b06398d8673918047e426c95b866760777e57b089e269110118c0",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/OxygenBar.cs",
+      "sha256": "7d9d2cec067ed80c8271594590b224f74cf0d0085a1823b061731edd448a8c4f",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/OxygenBar.cs",
+      "sha256": "7d9d2cec067ed80c8271594590b224f74cf0d0085a1823b061731edd448a8c4f",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/ScreenManager.cs",
+      "sha256": "aae58ba1e66b797a4fdc3b9c12d6b4151bbd0310f8025874e499c72c2a605d47",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/ScreenManager.cs",
+      "sha256": "aae58ba1e66b797a4fdc3b9c12d6b4151bbd0310f8025874e499c72c2a605d47",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/SimpleDial.cs",
+      "sha256": "edadda6120b1f09c131904ed580d5e3d33a197f27b94711c5c58d3049b130211",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/SimpleDial.cs",
+      "sha256": "edadda6120b1f09c131904ed580d5e3d33a197f27b94711c5c58d3049b130211",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/SimpleMovement.cs",
+      "sha256": "d09391e6c0dadf7003baa98554684fb6647f4c552793a53a8c3eae7173e6264c",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/SimpleMovement.cs",
+      "sha256": "d09391e6c0dadf7003baa98554684fb6647f4c552793a53a8c3eae7173e6264c",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/SoftButtonFeedback.cs",
+      "sha256": "133e066a7de7114fbe36e6f36ab541706b89cbd4f2e82a7de27078da9e716fc5",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/SoftButtonFeedback.cs",
+      "sha256": "133e066a7de7114fbe36e6f36ab541706b89cbd4f2e82a7de27078da9e716fc5",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/StrokeZone.cs",
+      "sha256": "7e98f21587a06fa7ff625ffd66d72e4f34a0b8378117aa82fbaa8c877c76d697",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/StrokeZone.cs",
+      "sha256": "7e98f21587a06fa7ff625ffd66d72e4f34a0b8378117aa82fbaa8c877c76d697",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/ThumbsUpAscend.cs",
+      "sha256": "79c38f2b45fecc77709e155baa1f71e01e40d50d4b02e507d4d8afcccc614493",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/ThumbsUpAscend.cs",
+      "sha256": "79c38f2b45fecc77709e155baa1f71e01e40d50d4b02e507d4d8afcccc614493",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/ToggleTracking.cs",
+      "sha256": "4f12dc2294e267ebff22b2b8cdb670f0a9b94791f79cecf5a990092216878906",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/ToggleTracking.cs",
+      "sha256": "4f12dc2294e267ebff22b2b8cdb670f0a9b94791f79cecf5a990092216878906",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/UnderwaterWarning.cs",
+      "sha256": "64dd544e1ff2d74402c0a65ea9b0ad4be636b1b4385f8c2a8bc870c77bc86eae",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/UnderwaterWarning.cs",
+      "sha256": "64dd544e1ff2d74402c0a65ea9b0ad4be636b1b4385f8c2a8bc870c77bc86eae",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/WaveMenuController.cs",
+      "sha256": "da74843cb7edf2ec12b82392b7aefdb2f82007eacd8e6e0aefb37173d9983232",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/WaveMenuController.cs",
+      "sha256": "da74843cb7edf2ec12b82392b7aefdb2f82007eacd8e6e0aefb37173d9983232",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/World/ClearWaterLook.cs",
+      "sha256": "bd8269378ad559ae53d628a251f7c63093530fddd309f340617de9473023aa5b",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/World/ClearWaterLook.cs",
+      "sha256": "bd8269378ad559ae53d628a251f7c63093530fddd309f340617de9473023aa5b",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/World/CreatureSwim.cs",
+      "sha256": "2ad1c5f474c3e494fef4be2f3dd4c671ed01a3e6d24958f7041674f2cff17503",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/World/CreatureSwim.cs",
+      "sha256": "2ad1c5f474c3e494fef4be2f3dd4c671ed01a3e6d24958f7041674f2cff17503",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/World/ReefModel.cs",
+      "sha256": "fd07616352499676876cdf4ce5590e48c4e6e631953287248ac51b23918e2914",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/World/ReefModel.cs",
+      "sha256": "fd07616352499676876cdf4ce5590e48c4e6e631953287248ac51b23918e2914",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/graphics/WaterMirrorReflection.cs",
+      "sha256": "7e4a22ff395dfb1366314916c948fd636f7f79d5aa4fd416e376a967ef22e025",
+      "configuration": "AndroidPlayer",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    },
+    {
+      "path": "Assets/Diving Simulation/Scripts/graphics/WaterMirrorReflection.cs",
+      "sha256": "7e4a22ff395dfb1366314916c948fd636f7f79d5aa4fd416e376a967ef22e025",
+      "configuration": "AndroidEditor",
+      "symbols": [
+        "UNITY_ANDROID",
+        "UNITY_EDITOR",
+        "UNITY_6000_0_OR_NEWER",
+        "UNITY_6000_3_OR_NEWER",
+        "ENABLE_INPUT_SYSTEM"
+      ],
+      "error_count": 0,
+      "warning_count": 0,
+      "diagnostics": []
+    }
+  ]
+}

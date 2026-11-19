@@ -1,0 +1,302 @@
+{
+  "scope": "Read-only comparison of actual UI scene records against uploaded baseline ZIP. No project edits performed. World additions may change overall scene SHA after review. Not Unity engine rendering, Android build, or headset test.",
+  "scene_sha256_at_review": "a8489fedd4a4b64c097886ee447500227a3a669124a430bca01f19244aa77631",
+  "reviewed_ui_subset_sha256": "dd3c92771698c83a778cfa54cb28e861d283eb3073dfd119af172b71c2c1e95a",
+  "checks": [
+    {
+      "name": "All existing Unity Button serialized callbacks and settings identical",
+      "count": 76,
+      "pass": true,
+      "changed_ids": []
+    },
+    {
+      "name": "All existing HandUIButton interaction records identical",
+      "count": 48,
+      "pass": true,
+      "changed_ids": []
+    },
+    {
+      "name": "All existing UI BoxCollider records identical",
+      "count": 65,
+      "pass": true,
+      "changed_ids": []
+    },
+    {
+      "name": "All existing button RectTransform records identical",
+      "count": 76,
+      "pass": true,
+      "changed_ids": []
+    },
+    {
+      "name": "Only approved guide RectTransforms changed",
+      "pass": true,
+      "changed_ids": [
+        "9300000837",
+        "9300000840",
+        "9300000844",
+        "9300000895",
+        "9300000898",
+        "9300000902"
+      ]
+    },
+    {
+      "name": "Exactly eleven correctly colored soft faces, two CALL phone icons",
+      "pass": true
+    },
+    {
+      "name": "All eleven feedback records point only to own button/face and optional icon child",
+      "pass": true
+    },
+    {
+      "name": "HUD approved offset saved",
+      "pass": true
+    },
+    {
+      "name": "Both guide anchors use Palm, 10cm lift and raised desktop offsets",
+      "pass": true
+    }
+  ],
+  "soft_faces": [
+    {
+      "id": "9300000637",
+      "name": "INFO",
+      "color": "#AEDFF2",
+      "roundness": 0.55,
+      "phone": false,
+      "color_matches": true
+    },
+    {
+      "id": "9300000656",
+      "name": "SOS",
+      "color": "#F5AAA9",
+      "roundness": 0.55,
+      "phone": false,
+      "color_matches": true
+    },
+    {
+      "id": "9300000675",
+      "name": "CALL",
+      "color": "#ACDDBF",
+      "roundness": 0.55,
+      "phone": true,
+      "color_matches": true
+    },
+    {
+      "id": "9300000694",
+      "name": "FIND",
+      "color": "#F7C592",
+      "roundness": 0.55,
+      "phone": false,
+      "color_matches": true
+    },
+    {
+      "id": "9300000713",
+      "name": "CREW",
+      "color": "#F4E5A0",
+      "roundness": 0.55,
+      "phone": false,
+      "color_matches": true
+    },
+    {
+      "id": "9300000741",
+      "name": "INFO",
+      "color": "#AEDFF2",
+      "roundness": 0.55,
+      "phone": false,
+      "color_matches": true
+    },
+    {
+      "id": "9300000760",
+      "name": "SOS",
+      "color": "#F5AAA9",
+      "roundness": 0.55,
+      "phone": false,
+      "color_matches": true
+    },
+    {
+      "id": "9300000779",
+      "name": "CALL",
+      "color": "#ACDDBF",
+      "roundness": 0.55,
+      "phone": true,
+      "color_matches": true
+    },
+    {
+      "id": "9300000798",
+      "name": "FIND",
+      "color": "#F7C592",
+      "roundness": 0.55,
+      "phone": false,
+      "color_matches": true
+    },
+    {
+      "id": "9300000817",
+      "name": "CREW",
+      "color": "#F4E5A0",
+      "roundness": 0.55,
+      "phone": false,
+      "color_matches": true
+    },
+    {
+      "id": "9300000859",
+      "name": "Flashlight Toggle",
+      "color": "#BFDDEB",
+      "roundness": 0.55,
+      "phone": false,
+      "color_matches": true
+    }
+  ],
+  "feedback": [
+    {
+      "id": "9600000000",
+      "name": "INFO",
+      "button": "9300000639",
+      "face": "9300000637",
+      "symbol": "9300000646",
+      "valid": true
+    },
+    {
+      "id": "9600000001",
+      "name": "SOS",
+      "button": "9300000658",
+      "face": "9300000656",
+      "symbol": "9300000664",
+      "valid": true
+    },
+    {
+      "id": "9600000002",
+      "name": "CALL",
+      "button": "9300000677",
+      "face": "9300000675",
+      "symbol": "0",
+      "valid": true
+    },
+    {
+      "id": "9600000003",
+      "name": "FIND",
+      "button": "9300000696",
+      "face": "9300000694",
+      "symbol": "9300000703",
+      "valid": true
+    },
+    {
+      "id": "9600000004",
+      "name": "CREW",
+      "button": "9300000715",
+      "face": "9300000713",
+      "symbol": "9300000722",
+      "valid": true
+    },
+    {
+      "id": "9600000005",
+      "name": "INFO",
+      "button": "9300000743",
+      "face": "9300000741",
+      "symbol": "9300000750",
+      "valid": true
+    },
+    {
+      "id": "9600000006",
+      "name": "SOS",
+      "button": "9300000762",
+      "face": "9300000760",
+      "symbol": "9300000768",
+      "valid": true
+    },
+    {
+      "id": "9600000007",
+      "name": "CALL",
+      "button": "9300000781",
+      "face": "9300000779",
+      "symbol": "0",
+      "valid": true
+    },
+    {
+      "id": "9600000008",
+      "name": "FIND",
+      "button": "9300000800",
+      "face": "9300000798",
+      "symbol": "9300000807",
+      "valid": true
+    },
+    {
+      "id": "9600000009",
+      "name": "CREW",
+      "button": "9300000819",
+      "face": "9300000817",
+      "symbol": "9300000826",
+      "valid": true
+    },
+    {
+      "id": "9600000010",
+      "name": "Flashlight Toggle",
+      "button": "9300000861",
+      "face": "9300000859",
+      "symbol": "0",
+      "valid": true
+    }
+  ],
+  "hints": [
+    {
+      "id": "9300000846",
+      "text": "PINCH = FOLLOW YOUR VIEW\nOPEN = STOP\nSWIPE > MENU / < CLOSE",
+      "font_size": 24,
+      "text_width": 392.0,
+      "Arial_compatible_line_widths": [
+        346.98,
+        160.31,
+        297.48
+      ],
+      "approx_wrap_risk": false
+    },
+    {
+      "id": "9300000904",
+      "text": "UNDERWATER: THUMB UP/DOWN\nSWIM UP / DOWN\nLIGHT: TAP WITH LEFT HAND",
+      "font_size": 23,
+      "text_width": 380.0,
+      "Arial_compatible_line_widths": [
+        373.52,
+        192.5,
+        319.06
+      ],
+      "approx_wrap_risk": false
+    }
+  ],
+  "popup": {
+    "background_id": "9300000912",
+    "baseline_alpha": 0.96,
+    "current_alpha": 0.98,
+    "sprite_guid": "affa059594145a843b81788037b4ee21",
+    "sprite_center_rgba": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "sprite_border": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "image_type": 1,
+    "pixels_per_unit_multiplier": 0.4,
+    "existing_dimensions_preserved": true
+  },
+  "contrast": {
+    "ink": "#29424D",
+    "nominal_srgb_ratio_range": [
+      5.66,
+      8.36
+    ],
+    "limit": "Color calculation only, not headset readability or accessibility certification."
+  },
+  "editor_dependency": {
+    "package_manifest": "com.unity.ugui 2.0.0",
+    "official_api": "https://docs.unity3d.com/Packages/com.unity.ugui@2.0/api/UnityEditor.UI.ImageEditor.html",
+    "verified": "Public UnityEditor.UI.ImageEditor in UnityEditor.UI.dll with public override OnInspectorGUI(). Script is in Editor folder and no ancestor custom asmdef exists.",
+    "unity_compile_performed": false
+  },
+  "warnings": [],
+  "all_structural_checks_pass": true
+}

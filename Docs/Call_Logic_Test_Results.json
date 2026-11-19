@@ -1,0 +1,77 @@
+{
+  "scope": "Actual six production C# files compiled and executed against narrow Unity API test doubles; NOT Unity Editor/Quest.",
+  "total_cases": 14,
+  "assertions": 272,
+  "results": [
+    {
+      "name": "Five contacts: phone strings and unique radio channels address the same objects",
+      "status": "PASS",
+      "assertions": 30
+    },
+    {
+      "name": "Independent phone/frequency buffers and both modes reach the same voice",
+      "status": "PASS",
+      "assertions": 7
+    },
+    {
+      "name": "Incoming true means accepted; a busy second incoming cannot overwrite first",
+      "status": "PASS",
+      "assertions": 6
+    },
+    {
+      "name": "Natural voice completion ends even while independent feedback still plays",
+      "status": "PASS",
+      "assertions": 5
+    },
+    {
+      "name": "Decline a ringing call, then outgoing voice does not inherit loop",
+      "status": "PASS",
+      "assertions": 2
+    },
+    {
+      "name": "SOS preempts connected or ringing calls and schedules restart exactly once",
+      "status": "PASS",
+      "assertions": 12
+    },
+    {
+      "name": "1001 typed in either mode works while busy and FREQ permits four digits",
+      "status": "PASS",
+      "assertions": 4
+    },
+    {
+      "name": "Empty, unknown and missing audio paths never count as connected",
+      "status": "PASS",
+      "assertions": 6
+    },
+    {
+      "name": "Playback that never starts gives explicit failure, not normal completion",
+      "status": "PASS",
+      "assertions": 3
+    },
+    {
+      "name": "Global listener pause is not treated as finished speech",
+      "status": "PASS",
+      "assertions": 2
+    },
+    {
+      "name": "Popup follows real incoming/connected/ended states and a three-second timeout",
+      "status": "PASS",
+      "assertions": 6
+    },
+    {
+      "name": "Crewmate random calls use one coroutine after many accepted and rejected attempts",
+      "status": "PASS",
+      "assertions": 183
+    },
+    {
+      "name": "Invalid fixed frequencies safely fall back; valid fixed frequencies remain",
+      "status": "PASS",
+      "assertions": 3
+    },
+    {
+      "name": "Contact buttons use current mode and old name wrapper remains callable",
+      "status": "PASS",
+      "assertions": 3
+    }
+  ]
+}

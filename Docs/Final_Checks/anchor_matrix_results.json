@@ -1,0 +1,88 @@
+{
+  "scope": "Actual HandUIAnchor C# executed with narrow Unity pose/math API doubles. Not Unity Editor, headset tracking or a visual/device test.",
+  "total_cases": 16,
+  "assertions": 63,
+  "failures": 0,
+  "results": [
+    {
+      "name": "Serialized anchor enum values remain unchanged",
+      "status": "PASS",
+      "assertions": 4
+    },
+    {
+      "name": "Each missing required reference exits safely",
+      "status": "PASS",
+      "assertions": 6
+    },
+    {
+      "name": "Desktop offset follows head translation rotation and scale without hand reads",
+      "status": "PASS",
+      "assertions": 3
+    },
+    {
+      "name": "Left old anchor positions preserve all three saved formulas",
+      "status": "PASS",
+      "assertions": 6
+    },
+    {
+      "name": "Left old wrist rotation still controls surface lift",
+      "status": "PASS",
+      "assertions": 3
+    },
+    {
+      "name": "Left either missing hand joint hides content until reacquired",
+      "status": "PASS",
+      "assertions": 8
+    },
+    {
+      "name": "Left palm hint lifts ten centimeters and shifts three centimeters toward head",
+      "status": "PASS",
+      "assertions": 2
+    },
+    {
+      "name": "Right old anchor positions preserve all three saved formulas",
+      "status": "PASS",
+      "assertions": 6
+    },
+    {
+      "name": "Right old wrist rotation still controls surface lift",
+      "status": "PASS",
+      "assertions": 3
+    },
+    {
+      "name": "Right either missing hand joint hides content until reacquired",
+      "status": "PASS",
+      "assertions": 8
+    },
+    {
+      "name": "Right palm hint lifts ten centimeters and shifts three centimeters toward head",
+      "status": "PASS",
+      "assertions": 2
+    },
+    {
+      "name": "Palm lift follows tilted head up rather than wrist rotation",
+      "status": "PASS",
+      "assertions": 1
+    },
+    {
+      "name": "Negative palm lift is clamped without changing old anchors",
+      "status": "PASS",
+      "assertions": 1
+    },
+    {
+      "name": "Coincident head and palm guard avoids invalid LookRotation",
+      "status": "PASS",
+      "assertions": 3
+    },
+    {
+      "name": "Face rotation guard preserves the previous one-centimeter threshold",
+      "status": "PASS",
+      "assertions": 3
+    },
+    {
+      "name": "Desktop to missing hands and back to desktop transitions remain correct",
+      "status": "PASS",
+      "assertions": 4
+    }
+  ]
+}
