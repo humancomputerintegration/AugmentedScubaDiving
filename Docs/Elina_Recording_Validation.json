@@ -1,0 +1,49 @@
+{
+  "scope": "Original bytes, decoded PCM sample count/correlation, constant gain, audio asset GUID uniqueness. No Unity/Quest playback performed.",
+  "all_passed": true,
+  "old_elina_placeholder_directory_absent": true,
+  "recordings": [
+    {
+      "source": "Docs/Audio_Sources/Elina_answering_original.m4a",
+      "wav": "Assets/Diving Simulation/Audio/Elina/Elina_answering.wav",
+      "source_byte_identical_to_upload": true,
+      "source_sha256": "db69da361a14faf40a86bb0be1c8c1eb6c02fb5a27fa0dbb017dcb7462e5bf13",
+      "guid": "fea885d660925eed8abe47f879e32bdb",
+      "guid_occurrences": [
+        "Assets/Diving Simulation/Audio/Elina/Elina_answering.wav.meta"
+      ],
+      "source_samples": 207872,
+      "wav_samples": 207872,
+      "sample_count_unchanged": true,
+      "sample_rate_unchanged": true,
+      "channels_unchanged": true,
+      "constant_gain_db": -1.957,
+      "correlation_after_constant_gain": 0.9999999951238374,
+      "max_sample_error_due_to_pcm16_quantization": 1.5277294519888684e-05,
+      "peak_dbfs": -2.001,
+      "rms_dbfs": -21.009,
+      "full_scale_samples": 0
+    },
+    {
+      "source": "Docs/Audio_Sources/Elina_calling_original.m4a",
+      "wav": "Assets/Diving Simulation/Audio/Elina/Elina_calling.wav",
+      "source_byte_identical_to_upload": true,
+      "source_sha256": "0b0d9f3b95193cf43a114bd23c257e1f6dcef111be2c717e984a0851e042f1ad",
+      "guid": "3eb62d3408b25d869dd850963990a5a3",
+      "guid_occurrences": [
+        "Assets/Diving Simulation/Audio/Elina/Elina_calling.wav.meta"
+      ],
+      "source_samples": 206848,
+      "wav_samples": 206848,
+      "sample_count_unchanged": true,
+      "sample_rate_unchanged": true,
+      "channels_unchanged": true,
+      "constant_gain_db": -1.637,
+      "correlation_after_constant_gain": 0.9999999944987258,
+      "max_sample_error_due_to_pcm16_quantization": 1.5278406780283582e-05,
+      "peak_dbfs": -2.0,
+      "rms_dbfs": -21.528,
+      "full_scale_samples": 0
+    }
+  ]
+}

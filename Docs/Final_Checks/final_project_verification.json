@@ -1,0 +1,490 @@
+{
+  "scope": "Archive/source/serialized-scene checks only; no Unity import/build/GPU/Quest runtime validation.",
+  "baseline_zip_sha256": "0424b84a047a320baa540520a35043c46c01188fb0919e805f66469771e0faa6",
+  "baseline_file_count": 1980,
+  "current_file_count": 2009,
+  "modified": [
+    "Assets/Diving Simulation/Materials/World/Diver_Mask.mat",
+    "Assets/Diving Simulation/Materials/World/Diver_Navy.mat",
+    "Assets/Diving Simulation/Materials/World/Diver_Skin.mat",
+    "Assets/Diving Simulation/Materials/World/Diver_Tank.mat",
+    "Assets/Diving Simulation/Materials/World/Diver_Turquoise.mat",
+    "Assets/Diving Simulation/Scenes/Simulation.unity",
+    "Assets/Diving Simulation/Scripts/CircleGraphic.cs",
+    "Assets/Diving Simulation/Scripts/HandUIAnchor.cs",
+    "Assets/Diving Simulation/Scripts/SimpleDial.cs",
+    "README_KO.md"
+  ],
+  "added": [
+    "Docs/Final_Update_KO.md",
+    "Assets/Diving Simulation/Scripts/SoftButtonFeedback.cs.meta",
+    "Assets/Diving Simulation/Scripts/SoftButtonFeedback.cs",
+    "Assets/Diving Simulation/Scripts/Editor/CircleGraphicEditor.cs",
+    "Assets/Diving Simulation/Scripts/Editor/CircleGraphicEditor.cs.meta",
+    "Assets/Diving Simulation/Prefabs/World/Crew_StandingDiver.prefab",
+    "Assets/Diving Simulation/Prefabs/World/Swimmer_PedroPrimitiveDiver.prefab",
+    "Assets/Diving Simulation/Prefabs/World/Swimmer_ElizaPrimitiveDiver.prefab",
+    "Assets/Diving Simulation/Prefabs/World/Swimmer_PedroPrimitiveDiver.prefab.meta",
+    "Assets/Diving Simulation/Prefabs/World/Crew_StandingDiver.prefab.meta",
+    "Assets/Diving Simulation/Prefabs/World/Swimmer_ElizaPrimitiveDiver.prefab.meta",
+    "Assets/Diving Simulation/Materials/World/Diver_ElizaPink.mat",
+    "Assets/Diving Simulation/Materials/World/DiverMobile.shader.meta",
+    "Assets/Diving Simulation/Materials/World/DiverMobile.shader",
+    "Assets/Diving Simulation/Materials/World/Diver_ElizaPink.mat.meta",
+    "Docs/Final_Checks/anchor_matrix_results.json",
+    "Docs/Final_Checks/button_scene_spec.json",
+    "Docs/Final_Checks/csharp_syntax_results.json",
+    "Docs/Final_Checks/audio_change_notes.json",
+    "Docs/Final_Checks/audio_verification_summary.json",
+    "Docs/Final_Checks/final_scene_world_review.json",
+    "Docs/Final_Checks/scene_world_changes.json",
+    "Docs/Final_Checks/scene_ui_changes.json",
+    "Docs/Final_Checks/world_scene_plan.json",
+    "Docs/Final_Checks/anchor_verification_summary.json",
+    "Docs/Final_Checks/world_asset_validation.json",
+    "Docs/Final_Checks/soft_buttons_preview.png",
+    "Docs/Final_Checks/ui_scene_review.json",
+    "Docs/Final_Checks/button_mesh_validation.json"
+  ],
+  "removed": [],
+  "checks": [
+    {
+      "name": "No baseline files removed",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Existing changes limited to approved files",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "All package versions unchanged",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "All project settings unchanged",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Saved XR configuration unchanged",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "All existing recordings/imports unchanged",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Preserved HandsInput.cs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preserved SimpleMovement.cs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preserved HandUIInteractor.cs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preserved HandUIButton.cs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preserved WaveMenuController.cs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preserved HandPointerLight.cs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preserved CallTowerManager.cs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preserved CallDashboardManager.cs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preserved IncomingCallPopup.cs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preserved CrewmateBehavior.cs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preserved CallAudioDucking.cs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preserved DiveStatusHUD.cs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preserved World/CreatureSwim.cs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preserved World/ReefModel.cs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No new unresolved local scene references",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "All existing scene object IDs retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Every scene record parses as YAML",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "No duplicate asset GUIDs",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "All new scene asset references have metadata",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "New asset has meta: Assets/Diving Simulation/Scripts/SoftButtonFeedback.cs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "New asset has meta: Assets/Diving Simulation/Scripts/Editor/CircleGraphicEditor.cs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "New asset has meta: Assets/Diving Simulation/Prefabs/World/Crew_StandingDiver.prefab",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "New asset has meta: Assets/Diving Simulation/Prefabs/World/Swimmer_PedroPrimitiveDiver.prefab",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "New asset has meta: Assets/Diving Simulation/Prefabs/World/Swimmer_ElizaPrimitiveDiver.prefab",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "New asset has meta: Assets/Diving Simulation/Materials/World/Diver_ElizaPink.mat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "New asset has meta: Assets/Diving Simulation/Materials/World/DiverMobile.shader",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Exactly eleven softly raised button faces",
+      "passed": true,
+      "detail": 11
+    },
+    {
+      "name": "Exactly two phone pictograms",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Exactly eleven visual-only press feedback components",
+      "passed": true,
+      "detail": 11
+    },
+    {
+      "name": "Feedback references its own existing button 9600000000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Feedback references its own existing button 9600000001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Feedback references its own existing button 9600000002",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Feedback references its own existing button 9600000003",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Feedback references its own existing button 9600000004",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Feedback references its own existing button 9600000005",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Feedback references its own existing button 9600000006",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Feedback references its own existing button 9600000007",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Feedback references its own existing button 9600000008",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Feedback references its own existing button 9600000009",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Feedback references its own existing button 9600000010",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All existing Button records/callbacks unchanged",
+      "passed": true,
+      "detail": 76
+    },
+    {
+      "name": "All hand-button input records unchanged",
+      "passed": true,
+      "detail": 48
+    },
+    {
+      "name": "Forearm/wrist anchor component records unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Palm help only uses appended enum value three",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HUD moved left/up with full fixed time area",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Popup alpha raised to .98",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Existing dedicated voice source assigned",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Crew audio/tower/seed preserved for Pedro",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Roster and map follow real swimmer Pedro",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Crew audio/tower/seed preserved for Eliza",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Roster and map follow real swimmer Eliza",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Three active new-system turtle prefab instances",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Twenty-four active coral clusters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Existing turtle and Elina instance records unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C# syntax parse has no errors",
+      "passed": true,
+      "detail": {
+        "sources": 42,
+        "parses": 84
+      }
+    }
+  ],
+  "passed": 61,
+  "failed": 0,
+  "scene_sha256": "288987961db571ff9facdfaf49eec45d3410138290226a5a3d54687fd6ff702e",
+  "changed_existing_scene_records": [
+    "264486945",
+    "873617700",
+    "1150354824",
+    "1250243420",
+    "1618581351",
+    "1740762271",
+    "1901407917",
+    "9300000634",
+    "9300000637",
+    "9300000648",
+    "9300000653",
+    "9300000656",
+    "9300000666",
+    "9300000672",
+    "9300000675",
+    "9300000685",
+    "9300000691",
+    "9300000694",
+    "9300000705",
+    "9300000710",
+    "9300000713",
+    "9300000724",
+    "9300000738",
+    "9300000741",
+    "9300000752",
+    "9300000757",
+    "9300000760",
+    "9300000770",
+    "9300000776",
+    "9300000779",
+    "9300000789",
+    "9300000795",
+    "9300000798",
+    "9300000809",
+    "9300000814",
+    "9300000817",
+    "9300000828",
+    "9300000836",
+    "9300000837",
+    "9300000840",
+    "9300000844",
+    "9300000846",
+    "9300000847",
+    "9300000856",
+    "9300000859",
+    "9300000870",
+    "9300000874",
+    "9300000894",
+    "9300000895",
+    "9300000898",
+    "9300000902",
+    "9300000904",
+    "9300000905",
+    "9300000912",
+    "9300000955",
+    "9400000001",
+    "9400000082",
+    "9400000085"
+  ],
+  "added_scene_records": [
+    "9600000000",
+    "9600000001",
+    "9600000002",
+    "9600000003",
+    "9600000004",
+    "9600000005",
+    "9600000006",
+    "9600000007",
+    "9600000008",
+    "9600000009",
+    "9600000010",
+    "9700000000",
+    "9700000001",
+    "9700000010",
+    "9700000011",
+    "9700000020",
+    "9700000021",
+    "9700000030",
+    "9700000031",
+    "9700000040",
+    "9700000041",
+    "9700000050",
+    "9700000051",
+    "9700000060",
+    "9700000061",
+    "9700000070",
+    "9700000071",
+    "9700000080",
+    "9700000081",
+    "9700000090",
+    "9700000091",
+    "9700000100",
+    "9700000101",
+    "9700000110",
+    "9700000111",
+    "9700000120",
+    "9700000121",
+    "9700000130",
+    "9700000131",
+    "9700000140",
+    "9700000141",
+    "9700000150",
+    "9700000151",
+    "9700000160",
+    "9700000161",
+    "9700000170",
+    "9700000171",
+    "9700000180",
+    "9700000181",
+    "9700000190",
+    "9700000191",
+    "9700000200",
+    "9700000201",
+    "9700000210",
+    "9700000211",
+    "9700000220",
+    "9700000221",
+    "9700000222",
+    "9700000230",
+    "9700000231",
+    "9700000232",
+    "9700000240",
+    "9700000241",
+    "9700000250",
+    "9700000251"
+  ]
+}

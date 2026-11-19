@@ -1,0 +1,50 @@
+{
+  "SimpleDial.cs": {
+    "tree_sitter_syntax_errors": [],
+    "original_public_methods_missing": [],
+    "lines_without_comment": [],
+    "original_meta_unchanged": true,
+    "sha256": "06dec9dc0b4f39fc706d3237978144895affd2ac4d01b6a009758eea21000bb8",
+    "line_count": 195
+  },
+  "CallTowerManager.cs": {
+    "tree_sitter_syntax_errors": [],
+    "original_public_methods_missing": [],
+    "lines_without_comment": [],
+    "original_meta_unchanged": true,
+    "sha256": "c6196b16a56f06f5020c45d04c661aa62439c9a50d903533e83a287fb043945d",
+    "line_count": 146
+  },
+  "CallDashboardManager.cs": {
+    "tree_sitter_syntax_errors": [],
+    "original_public_methods_missing": [],
+    "lines_without_comment": [],
+    "original_meta_unchanged": true,
+    "sha256": "0eb07b444237d298f56b5ed467325c0a5462a1c0fe3431142e865ed8851aac36",
+    "line_count": 185
+  },
+  "IncomingCallPopup.cs": {
+    "tree_sitter_syntax_errors": [],
+    "original_public_methods_missing": [],
+    "lines_without_comment": [],
+    "original_meta_unchanged": true,
+    "sha256": "3558f46db40adfee094fd6967160667ea22bb6f8d900549bb22bbebd4e737a8d",
+    "line_count": 72
+  },
+  "CrewInfo.cs": {
+    "tree_sitter_syntax_errors": [],
+    "original_public_methods_missing": [],
+    "lines_without_comment": [],
+    "original_meta_unchanged": true,
+    "sha256": "0597c37f1dfafc787b1dca0d431688dd557eb71c8fe58743fccf8375aba88c85",
+    "line_count": 23
+  },
+  "CrewmateBehavior.cs": {
+    "tree_sitter_syntax_errors": [],
+    "original_public_methods_missing": [],
+    "lines_without_comment": [],
+    "original_meta_unchanged": true,
+    "sha256": "b131888e5424d411267b2bd9238f849f2447a8d7a02eeb28c2ecfc6a9a3d1d3b",
+    "line_count": 51
+  }
+}

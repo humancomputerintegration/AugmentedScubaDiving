@@ -1,0 +1,13 @@
+{
+  "source_sha256": {
+    "HandUIAnchor.cs": "d1adb8bafc1f892bffd33095454873b9833a4f027dee392b266b7c2e12adbd4b",
+    "AnchorDoubles.cs": "cc93e7305fd6c1388d6c3bf159dd6f4daf0aad67647c61d048667121deba5e5b",
+    "AnchorMatrix.cs": "56b2022ac4b39104cfe2aa37bc7e2d514662e419a585e13e71ef3346263e382d"
+  },
+  "cases": 16,
+  "assertions": 63,
+  "failures": 0,
+  "compiler_output": "",
+  "scope": "Actual HandUIAnchor C# executed with narrow Unity pose/math API doubles. Not Unity Editor, headset tracking or a visual/device test.",
+  "audio_source_unchanged_since_test": true
+}

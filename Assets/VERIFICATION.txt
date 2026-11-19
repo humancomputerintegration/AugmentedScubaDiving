@@ -1,0 +1,11 @@
+QuestAudioProbe verification
+Status: diagnostic only; not a confirmed audio repair.
+C# parser: tree-sitter-c-sharp 0.24.0.
+Android Player conditional parse: zero syntax errors.
+Editor conditional parse: zero syntax errors.
+Every nonempty C# source line has a Korean explanation.
+Reviewed: no AudioSettings.Reset, extra AudioListener, global audio state writes, permission edits, or edits to existing project files.
+Unity compilation: NOT RUN (Unity unavailable here).
+Android build: NOT RUN.
+Quest playback/audibility: NOT TESTED; requires wearer observation.
+Source SHA-256: 31e0a84f61b62a8c8bbe0123f5e3cbffb1ae57f7acb822ea3694268516c6cda2

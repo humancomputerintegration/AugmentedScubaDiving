@@ -1,0 +1,47 @@
+{
+  "scope": "Source read/serialization-contract/official API review only; not a Unity compilation",
+  "files": [
+    {
+      "file": "HandsInput.cs",
+      "sha256": "3cf0eba1f2c504aaa225277897d0f1b1e9af74cceca8bcc39514041ca8df767a",
+      "guid": "43ff927242ab49dba8b60514dd30299a",
+      "delimiter_balance_ok": true,
+      "runtime_compile_tested": false
+    },
+    {
+      "file": "SimpleMovement.cs",
+      "sha256": "a4e580938a3406445a04c7493d7b982ee1373f7b285316423ce7b8a4cbb6375e",
+      "guid": "77cf96133e6df48e0b174a90346af4cf",
+      "delimiter_balance_ok": true,
+      "runtime_compile_tested": false,
+      "original_meta_unchanged": true,
+      "Move_call_count": 1,
+      "Coroutine_calls": 0
+    },
+    {
+      "file": "HandColliderFollower.cs",
+      "sha256": "05d62624f61738c7e8a759ae0156e1837c81074dc5e2ac3436376f353e921761",
+      "guid": "c37eaa9218bed4d8cafd5bc1bf6b11a7",
+      "delimiter_balance_ok": true,
+      "runtime_compile_tested": false,
+      "original_meta_unchanged": true
+    },
+    {
+      "file": "StrokeZone.cs",
+      "sha256": "7e98f21587a06fa7ff625ffd66d72e4f34a0b8378117aa82fbaa8c877c76d697",
+      "guid": "94c1236ee7d79421f919d8c8aa819b22",
+      "delimiter_balance_ok": true,
+      "runtime_compile_tested": false,
+      "original_meta_unchanged": true
+    }
+  ],
+  "independent_read_review": "template_audit reviewed HandsInput.cs and SimpleMovement.cs; no definite defect found in scoped review",
+  "Unity_or_Quest_executed": false,
+  "needs_device_validation": [
+    "Scene references and execution order",
+    "Fist and thumb thresholds on Quest",
+    "UI occupancy integration",
+    "Collision on real terrain",
+    "Controller roots inactive and no duplicate native UI input"
+  ]
+}

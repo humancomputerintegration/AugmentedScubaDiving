@@ -1,0 +1,44 @@
+{
+  "scope": "Source/static asset checks only",
+  "unityEditorAvailable": false,
+  "unityCompileExecuted": false,
+  "questExecuted": false,
+  "csharp": {
+    "scope": "source parser and inline-comment audit only; no Unity compile or Quest runtime",
+    "files": [
+      {
+        "file": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Scripts/World/ClearWaterLook.cs",
+        "syntaxErrors": false,
+        "codeLines": 25,
+        "linesWithoutKoreanComment": []
+      },
+      {
+        "file": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Scripts/World/ReefModel.cs",
+        "syntaxErrors": false,
+        "codeLines": 31,
+        "linesWithoutKoreanComment": []
+      },
+      {
+        "file": "output/HCI_Diver_Hands_Final/Assets/Diving Simulation/Scripts/World/CreatureSwim.cs",
+        "syntaxErrors": false,
+        "codeLines": 172,
+        "linesWithoutKoreanComment": []
+      }
+    ]
+  },
+  "assetYamlAndGuidChecks": {
+    "newPrefabAndMaterialsCount": 43,
+    "duplicateGuids": [],
+    "errors": []
+  },
+  "terrainChecks": {
+    "actualTerrainGUID": "427b32d391da3c14892a9a0366dc86c3",
+    "ellipses": 6,
+    "anglesPerEllipse": 360,
+    "floorProbesPerAngle": 5,
+    "allColumnsValid": true,
+    "allUnclampedHeightsValid": true,
+    "expandedSubmarineOverlapSamples": 0
+  },
+  "blenderPreview": "An actual Blender render of project and downloaded assets, explicitly not a Unity/Quest capture. FBX materials made opaque to match new URP material intent."
+}

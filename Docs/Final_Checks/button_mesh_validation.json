@@ -1,0 +1,10 @@
+{
+  "scope": "Actual CircleGraphic and SoftButtonFeedback compiled/run against minimal deterministic Unity API doubles; not Unity engine, Android build or headset validation. Preview draws actual generated mesh vertices.",
+  "compile_exit": 0,
+  "run_exit": 0,
+  "result": "Actual mesh geometry stayed inside fixed button rectangles; finite positions and valid indices for 18 meshes. Existing onClick remained one action; feedback restored icon and did not duplicate listeners across reopening.\n",
+  "source_sha256": {
+    "/workspace/scratch/425325bd7160/work/final_baseline_update/project/HCI_Team15_Final/Assets/Diving Simulation/Scripts/CircleGraphic.cs": "3591d48dcebddd9e5c80fdc63a7d69e19312ce930aec7192d6db1aa7c29dec0d",
+    "/workspace/scratch/425325bd7160/work/final_baseline_update/project/HCI_Team15_Final/Assets/Diving Simulation/Scripts/SoftButtonFeedback.cs": "133e066a7de7114fbe36e6f36ab541706b89cbd4f2e82a7de27078da9e716fc5"
+  }
+}

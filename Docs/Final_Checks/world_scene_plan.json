@@ -1,0 +1,560 @@
+{
+  "preserve_existing_turtle_and_corals": true,
+  "parent_transform_id": 9400000001,
+  "water_surface_transform_id": 1793043608,
+  "sea_floor_collider_id": 1994264211,
+  "coral_additions": [
+    {
+      "name": "Reef_CoralReef Wide 01",
+      "prefab_guid": "a5ac103c14795346b8c6c1ef9fcf24f0",
+      "position": [
+        379,
+        7.46848,
+        510
+      ],
+      "scale": 4.0,
+      "yaw_degrees": 0.0,
+      "rotation_quaternion": [
+        0.080354519,
+        0.0,
+        -0.163510167,
+        0.983263737
+      ],
+      "terrain_height_m": 7.34848
+    },
+    {
+      "name": "Reef_CoralReef Wide 02",
+      "prefab_guid": "a5ac103c14795346b8c6c1ef9fcf24f0",
+      "position": [
+        383,
+        8.55195,
+        501
+      ],
+      "scale": 4.6,
+      "yaw_degrees": 137.5,
+      "rotation_quaternion": [
+        0.188557242,
+        0.907772917,
+        0.125602187,
+        0.353013581
+      ],
+      "terrain_height_m": 8.43195
+    },
+    {
+      "name": "Reef_CoralReef Wide 03",
+      "prefab_guid": "a5ac103c14795346b8c6c1ef9fcf24f0",
+      "position": [
+        385,
+        4.82725,
+        518
+      ],
+      "scale": 5.1,
+      "yaw_degrees": 275.0,
+      "rotation_quaternion": [
+        0.049693436,
+        0.670620134,
+        0.110407066,
+        -0.731853454
+      ],
+      "terrain_height_m": 4.70725
+    },
+    {
+      "name": "Reef_CoralReef Wide 04",
+      "prefab_guid": "a5ac103c14795346b8c6c1ef9fcf24f0",
+      "position": [
+        378,
+        6.43174,
+        523
+      ],
+      "scale": 3.8,
+      "yaw_degrees": 52.5,
+      "rotation_quaternion": [
+        0.093831794,
+        0.436584866,
+        -0.129698093,
+        0.885306531
+      ],
+      "terrain_height_m": 6.31174
+    },
+    {
+      "name": "Reef_CoralReef Wide 05",
+      "prefab_guid": "a5ac103c14795346b8c6c1ef9fcf24f0",
+      "position": [
+        390,
+        9.8673,
+        495
+      ],
+      "scale": 4.4,
+      "yaw_degrees": 190.0,
+      "rotation_quaternion": [
+        0.074847349,
+        0.962697742,
+        0.246002149,
+        -0.084225139
+      ],
+      "terrain_height_m": 9.7473
+    },
+    {
+      "name": "Reef_CoralReef Wide 06",
+      "prefab_guid": "a5ac103c14795346b8c6c1ef9fcf24f0",
+      "position": [
+        396,
+        7.15619,
+        498
+      ],
+      "scale": 4.0,
+      "yaw_degrees": 327.5,
+      "rotation_quaternion": [
+        -0.196137837,
+        0.271688018,
+        0.137364717,
+        -0.932119362
+      ],
+      "terrain_height_m": 7.03619
+    },
+    {
+      "name": "Reef_CoralReef Wide 07",
+      "prefab_guid": "a5ac103c14795346b8c6c1ef9fcf24f0",
+      "position": [
+        402,
+        8.73781,
+        493
+      ],
+      "scale": 4.6,
+      "yaw_degrees": 105.0,
+      "rotation_quaternion": [
+        0.1913334,
+        0.770967239,
+        0.137947288,
+        0.591583969
+      ],
+      "terrain_height_m": 8.61781
+    },
+    {
+      "name": "Reef_CoralReef Wide 08",
+      "prefab_guid": "a5ac103c14795346b8c6c1ef9fcf24f0",
+      "position": [
+        410,
+        8.58681,
+        491
+      ],
+      "scale": 5.1,
+      "yaw_degrees": 242.5,
+      "rotation_quaternion": [
+        -0.05226648,
+        0.835728786,
+        0.204063864,
+        -0.507132676
+      ],
+      "terrain_height_m": 8.46681
+    },
+    {
+      "name": "Reef_CoralReef Wide 09",
+      "prefab_guid": "a5ac103c14795346b8c6c1ef9fcf24f0",
+      "position": [
+        415,
+        5.19747,
+        498
+      ],
+      "scale": 3.8,
+      "yaw_degrees": 20.0,
+      "rotation_quaternion": [
+        0.179954402,
+        0.170813115,
+        -0.001676817,
+        0.968729313
+      ],
+      "terrain_height_m": 5.07747
+    },
+    {
+      "name": "Reef_CoralReef Wide 10",
+      "prefab_guid": "a5ac103c14795346b8c6c1ef9fcf24f0",
+      "position": [
+        420,
+        6.64883,
+        493
+      ],
+      "scale": 4.4,
+      "yaw_degrees": 157.5,
+      "rotation_quaternion": [
+        0.078232177,
+        0.965431015,
+        0.157939199,
+        0.192036169
+      ],
+      "terrain_height_m": 6.52883
+    },
+    {
+      "name": "Reef_CoralReef Wide 11",
+      "prefab_guid": "a5ac103c14795346b8c6c1ef9fcf24f0",
+      "position": [
+        422,
+        2.91534,
+        507
+      ],
+      "scale": 4.0,
+      "yaw_degrees": 295.0,
+      "rotation_quaternion": [
+        -0.046421067,
+        0.536437403,
+        0.032433171,
+        -0.842038055
+      ],
+      "terrain_height_m": 2.79534
+    },
+    {
+      "name": "Reef_CoralReef Wide 12",
+      "prefab_guid": "a5ac103c14795346b8c6c1ef9fcf24f0",
+      "position": [
+        430,
+        2.6993,
+        510
+      ],
+      "scale": 4.6,
+      "yaw_degrees": 72.5,
+      "rotation_quaternion": [
+        0.025595483,
+        0.59084963,
+        0.030003253,
+        0.805817219
+      ],
+      "terrain_height_m": 2.5793
+    },
+    {
+      "name": "Reef_CoralReef Wide 13",
+      "prefab_guid": "a5ac103c14795346b8c6c1ef9fcf24f0",
+      "position": [
+        427,
+        2.16141,
+        520
+      ],
+      "scale": 5.1,
+      "yaw_degrees": 210.0,
+      "rotation_quaternion": [
+        -0.010061295,
+        0.965757442,
+        0.015728583,
+        -0.258773927
+      ],
+      "terrain_height_m": 2.04141
+    },
+    {
+      "name": "Reef_CoralReef Wide 14",
+      "prefab_guid": "a5ac103c14795346b8c6c1ef9fcf24f0",
+      "position": [
+        435,
+        2.18256,
+        523
+      ],
+      "scale": 3.8,
+      "yaw_degrees": 347.5,
+      "rotation_quaternion": [
+        -0.016496323,
+        0.108848293,
+        -0.008319692,
+        -0.993886665
+      ],
+      "terrain_height_m": 2.06256
+    },
+    {
+      "name": "Reef_CoralReef Wide 15",
+      "prefab_guid": "a5ac103c14795346b8c6c1ef9fcf24f0",
+      "position": [
+        419,
+        1.94481,
+        526
+      ],
+      "scale": 4.4,
+      "yaw_degrees": 125.0,
+      "rotation_quaternion": [
+        0.002581416,
+        0.8869854,
+        0.007119022,
+        0.461735374
+      ],
+      "terrain_height_m": 1.82481
+    },
+    {
+      "name": "Reef_CoralReef Wide 16",
+      "prefab_guid": "a5ac103c14795346b8c6c1ef9fcf24f0",
+      "position": [
+        397,
+        2.50346,
+        529
+      ],
+      "scale": 4.0,
+      "yaw_degrees": 262.5,
+      "rotation_quaternion": [
+        0.032065848,
+        0.751109984,
+        0.030203858,
+        -0.658705777
+      ],
+      "terrain_height_m": 2.38346
+    },
+    {
+      "name": "Reef_CoralReef Wide 17",
+      "prefab_guid": "a5ac103c14795346b8c6c1ef9fcf24f0",
+      "position": [
+        404,
+        2.11817,
+        535
+      ],
+      "scale": 4.6,
+      "yaw_degrees": 40.0,
+      "rotation_quaternion": [
+        -0.000405925,
+        0.341891549,
+        -0.027416435,
+        0.939339312
+      ],
+      "terrain_height_m": 1.99817
+    },
+    {
+      "name": "Reef_CoralReef Wide 18",
+      "prefab_guid": "a5ac103c14795346b8c6c1ef9fcf24f0",
+      "position": [
+        411,
+        1.91086,
+        539
+      ],
+      "scale": 5.1,
+      "yaw_degrees": 177.5,
+      "rotation_quaternion": [
+        0.008877996,
+        0.999719957,
+        -0.002310817,
+        0.021813967
+      ],
+      "terrain_height_m": 1.79086
+    },
+    {
+      "name": "Reef_CoralReef Wide 19",
+      "prefab_guid": "a5ac103c14795346b8c6c1ef9fcf24f0",
+      "position": [
+        419,
+        1.88113,
+        538
+      ],
+      "scale": 3.8,
+      "yaw_degrees": 315.0,
+      "rotation_quaternion": [
+        -0.00070037,
+        0.382683288,
+        -0.000514263,
+        -0.923879184
+      ],
+      "terrain_height_m": 1.76113
+    },
+    {
+      "name": "Reef_CoralReef Wide 20",
+      "prefab_guid": "a5ac103c14795346b8c6c1ef9fcf24f0",
+      "position": [
+        429,
+        1.96322,
+        535
+      ],
+      "scale": 4.4,
+      "yaw_degrees": 92.5,
+      "rotation_quaternion": [
+        -0.003131526,
+        0.722355455,
+        0.003707527,
+        0.691504912
+      ],
+      "terrain_height_m": 1.84322
+    }
+  ],
+  "turtle_additions": [
+    {
+      "name": "Turtle 2",
+      "prefab_guid": "53ed6f47dcf35420a6b561d63e8cce26",
+      "position": [
+        401,
+        9.4,
+        524
+      ],
+      "radii": [
+        5.2,
+        3.4
+      ],
+      "speed": 0.44,
+      "phase": 2.15,
+      "verticalAmplitude": 0.35,
+      "bodyRadius": 0.9,
+      "modelScale": 0.68,
+      "terrain_orbit_check": {
+        "samples": 721,
+        "valid_water_points": true,
+        "min_clearance_above_required_bounds_m": 1.75,
+        "max_sampled_floor_m": 2.7122,
+        "height_range_m": [
+          9.05,
+          9.75
+        ],
+        "clamped_samples": 0
+      }
+    },
+    {
+      "name": "Turtle 3",
+      "prefab_guid": "53ed6f47dcf35420a6b561d63e8cce26",
+      "position": [
+        417,
+        8.8,
+        509
+      ],
+      "radii": [
+        4.5,
+        3.0
+      ],
+      "speed": 0.48,
+      "phase": 4.3,
+      "verticalAmplitude": 0.45,
+      "bodyRadius": 0.9,
+      "modelScale": 0.72,
+      "terrain_orbit_check": {
+        "samples": 721,
+        "valid_water_points": true,
+        "min_clearance_above_required_bounds_m": 2.25,
+        "max_sampled_floor_m": 3.1437,
+        "height_range_m": [
+          8.35,
+          9.25
+        ],
+        "clamped_samples": 0
+      }
+    }
+  ],
+  "swimmer_additions": [
+    {
+      "name": "Pedro",
+      "prefab_guid": "f477837b2b88504da1858583ea20c9a5",
+      "position": [
+        312.27,
+        8.5,
+        342.13
+      ],
+      "radii": [
+        2.5,
+        1.7
+      ],
+      "speed": 0.36,
+      "phase": 3.2,
+      "verticalAmplitude": 0.2,
+      "bodyRadius": 1.45,
+      "reuse_behavior_component_id": 873617700,
+      "old_boat_instance_id": 264486945,
+      "old_boat_transform_id": 264486946,
+      "terrain_orbit_check": {
+        "samples": 721,
+        "valid_water_points": true,
+        "min_clearance_above_required_bounds_m": 2.25,
+        "max_sampled_floor_m": 0.0197,
+        "height_range_m": [
+          8.3,
+          8.7
+        ],
+        "clamped_samples": 0
+      }
+    },
+    {
+      "name": "Eliza",
+      "prefab_guid": "ebf8f52525f359949594a45771865fd0",
+      "position": [
+        416,
+        8.5,
+        517
+      ],
+      "radii": [
+        2.5,
+        1.7
+      ],
+      "speed": 0.4,
+      "phase": 1.8,
+      "verticalAmplitude": 0.2,
+      "bodyRadius": 1.45,
+      "reuse_behavior_component_id": 9400000085,
+      "old_boat_instance_id": 9400000082,
+      "old_boat_transform_id": 9400000083,
+      "terrain_orbit_check": {
+        "samples": 721,
+        "valid_water_points": true,
+        "min_clearance_above_required_bounds_m": 2.25,
+        "max_sampled_floor_m": 2.2811,
+        "height_range_m": [
+          8.3,
+          8.7
+        ],
+        "clamped_samples": 0
+      }
+    }
+  ],
+  "standing_diver_additions": [
+    {
+      "name": "Romain Diver",
+      "prefab_guid": "c2b2ebeedde450248ab145e38c347481",
+      "parent_boat_transform_id": 1150354825,
+      "parent_boat_instance_id": 1150354824,
+      "parent_source_transform_file_id": 400002,
+      "local_position": [
+        0,
+        1.35,
+        0
+      ],
+      "local_rotation_quaternion": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "local_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Suzie Diver",
+      "prefab_guid": "c2b2ebeedde450248ab145e38c347481",
+      "parent_boat_transform_id": 1740762272,
+      "parent_boat_instance_id": 1740762271,
+      "parent_source_transform_file_id": 400002,
+      "local_position": [
+        0,
+        1.35,
+        0
+      ],
+      "local_rotation_quaternion": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "local_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "scene_transfer_instructions": [
+    "For Pedro and Eliza keep existing CrewmateBehavior component IDs and every audio/tower/seed field unchanged. Change only m_GameObject to the new swimmer root and relocate the prefab-added component record from old boat to new swimmer.",
+    "IMPORTANT: CallTowerManager1901407917.crewmates and MinimapUI1250243420.markers store Transform refs. Replace Pedro264486946 and Eliza9400000083 only inside these two component bodies with the new swimmer Transform IDs. Do not globally replace; original boat hierarchy links remain.",
+    "Keep old boat prefabs active as decor, rename for clarity; do not remove or move original boats.",
+    "A prefabricated visual child added beneath a Boat instance needs matching m_AddedGameObjects record targetCorrespondingSourceObject {fileID:400002,guid:37aa9932f21a5324b8955f268ae625df,type:3},insertIndex:-1,addedObject:{fileID:NEW_CHILD_TRANSFORM_ID}. Nested prefab child m_TransformParent uses stripped boat Transform ID.",
+    "Do not add CrewmateBehavior to standing visual children: original Romain/Suzie roots continue as same contacts and destinations.",
+    "New swimmer root/component fileIDs100000/400000/11400000 match original Elina prefab. Use existing CreatureSwim water, floor, bodyRadius and path settings.",
+    "New turtle metadata mirrors existing Turtle1 with only listed value differences. Default minDepth .6 and bottomClearance .45 remain."
+  ],
+  "height_validation": {
+    "terrain_asset": "Assets/Diving Simulation/Resources/Ocean Assets/Terrain.asset",
+    "resolution": 1025,
+    "height_divisor": 32767,
+    "world_height_scale": 50.0,
+    "water_height": 13,
+    "calibration": "Existing four coral Y coordinates match interpolated terrain+0.12m to <0.0001m.",
+    "limits": "Offline terrain interpolation/full-orbit sampling; Unity physics, visual appearance and Quest frame rate still require runtime verification."
+  },
+  "roster_component_id": 1901407917,
+  "minimap_component_id": 1250243420
+}

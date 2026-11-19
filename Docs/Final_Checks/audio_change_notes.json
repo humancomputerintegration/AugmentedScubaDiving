@@ -1,0 +1,61 @@
+{
+  "changed_project_files": [
+    "Assets/Diving Simulation/Scripts/SimpleDial.cs"
+  ],
+  "description_ko": "Android 오디오 출력 작업이 실제로 멈췄을 때, 통화/벨/피드백 재생 요청 또는 앱 복귀 시 출력 재시작을 한 번 요청한다. 이미 실행 중이거나 앱/청취자가 일시정지된 경우는 그대로 둔다.",
+  "preserved": [
+    "Call APIs and call state rules",
+    "Audio assets and imports",
+    "CallTower automatic incoming total 2 and >=60-second gap",
+    "Hand input, XR and package settings",
+    "OS device/volume and global listener pause/volume"
+  ],
+  "scene_changes_for_root": {
+    "component": 1618581351,
+    "voiceSource": {
+      "fileID": 1618581352,
+      "reason": "Existing dedicated AudioSource on same Call System object, no other reference found. Explicit wiring replaces fallback allocation, not a proven silence root cause."
+    },
+    "audioTestClip": {
+      "fileID": 8300000,
+      "guid": "fea885d660925eed8abe47f879e32bdb",
+      "type": 3,
+      "reason": "Existing actual Elina answering WAV for already present method. Do not add new UI button automatically."
+    }
+  },
+  "validation": {
+    "variants": [
+      "UNITY_ANDROID",
+      "UNITY_ANDROID + UNITY_EDITOR",
+      "UNITY_STANDALONE_WIN"
+    ],
+    "cases_per_variant": 13,
+    "assertions_per_variant": 52,
+    "compiler_errors": 0,
+    "compiler_warnings": 0,
+    "test_failures": 0,
+    "scope": "Actual four production C# files + Unity API doubles; no Unity Editor compilation, APK build, DSP or headset execution."
+  },
+  "source_sha256": "edadda6120b1f09c131904ed580d5e3d33a197f27b94711c5c58d3049b130211",
+  "official_sources": [
+    {
+      "url": "https://docs.unity3d.com/6000.3/Documentation/ScriptReference/AudioSettings.Mobile-audioOutputStarted.html",
+      "web_ref": "turn274253643view0",
+      "claim": "True means mobile output thread is running."
+    },
+    {
+      "url": "https://docs.unity3d.com/6000.3/Documentation/ScriptReference/AudioSettings.Mobile.StartAudioOutput.html",
+      "web_ref": "turn539894722view1",
+      "claim": "Starts Android/iOS output thread; has no effect when already running."
+    },
+    {
+      "url": "https://docs.unity3d.com/6000.3/Documentation/ScriptReference/AudioSettings.Mobile.StopAudioOutput.html",
+      "web_ref": "turn274253643view1",
+      "claim": "Stopped output freezes audio time/DSP but can retain isPlaying=true."
+    }
+  ],
+  "limitations": [
+    "No device log proves the user headset output thread was stopped. This is a guarded recovery safeguard, not a confirmed root cause or proof of audible Quest playback.",
+    "Physical Quest volume, Bluetooth/output route, installed APK identity and actual sound remain hardware verification items."
+  ]
+}

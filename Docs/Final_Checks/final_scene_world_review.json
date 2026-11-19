@@ -1,0 +1,726 @@
+{
+  "scene_sha256": "288987961db571ff9facdfaf49eec45d3410138290226a5a3d54687fd6ff702e",
+  "counts": {
+    "coral_roots": 24,
+    "turtle_swimmers": 3,
+    "diver_swimmers": 3,
+    "standing_people": 2
+  },
+  "checks": [
+    {
+      "check": "Active world root",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Unchanged original coral2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Unchanged original coral3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Unchanged original coral4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Unchanged original coral5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Unchanged original turtle1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Unchanged original Elina",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 01 correct source/parent/active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 01 planned position",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 01 one root transform/hierarchy child",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 01 scale and slope rotation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 02 correct source/parent/active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 02 planned position",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 02 one root transform/hierarchy child",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 02 scale and slope rotation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 03 correct source/parent/active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 03 planned position",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 03 one root transform/hierarchy child",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 03 scale and slope rotation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 04 correct source/parent/active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 04 planned position",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 04 one root transform/hierarchy child",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 04 scale and slope rotation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 05 correct source/parent/active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 05 planned position",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 05 one root transform/hierarchy child",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 05 scale and slope rotation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 06 correct source/parent/active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 06 planned position",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 06 one root transform/hierarchy child",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 06 scale and slope rotation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 07 correct source/parent/active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 07 planned position",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 07 one root transform/hierarchy child",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 07 scale and slope rotation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 08 correct source/parent/active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 08 planned position",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 08 one root transform/hierarchy child",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 08 scale and slope rotation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 09 correct source/parent/active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 09 planned position",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 09 one root transform/hierarchy child",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 09 scale and slope rotation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 10 correct source/parent/active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 10 planned position",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 10 one root transform/hierarchy child",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 10 scale and slope rotation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 11 correct source/parent/active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 11 planned position",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 11 one root transform/hierarchy child",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 11 scale and slope rotation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 12 correct source/parent/active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 12 planned position",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 12 one root transform/hierarchy child",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 12 scale and slope rotation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 13 correct source/parent/active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 13 planned position",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 13 one root transform/hierarchy child",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 13 scale and slope rotation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 14 correct source/parent/active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 14 planned position",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 14 one root transform/hierarchy child",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 14 scale and slope rotation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 15 correct source/parent/active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 15 planned position",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 15 one root transform/hierarchy child",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 15 scale and slope rotation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 16 correct source/parent/active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 16 planned position",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 16 one root transform/hierarchy child",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 16 scale and slope rotation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 17 correct source/parent/active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 17 planned position",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 17 one root transform/hierarchy child",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 17 scale and slope rotation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 18 correct source/parent/active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 18 planned position",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 18 one root transform/hierarchy child",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 18 scale and slope rotation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 19 correct source/parent/active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 19 planned position",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 19 one root transform/hierarchy child",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 19 scale and slope rotation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 20 correct source/parent/active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 20 planned position",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 20 one root transform/hierarchy child",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reef_CoralReef Wide 20 scale and slope rotation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Turtle 2 correct source/parent/active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Turtle 2 planned position",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Turtle 2 one root transform/hierarchy child",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Turtle 2 preserved swim settings",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Turtle 2 correct water/floor references",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Turtle 3 correct source/parent/active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Turtle 3 planned position",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Turtle 3 one root transform/hierarchy child",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Turtle 3 preserved swim settings",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Turtle 3 correct water/floor references",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Pedro correct source/parent/active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Pedro planned position",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Pedro one root transform/hierarchy child",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Pedro preserved swim settings",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Pedro correct water/floor references",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Eliza correct source/parent/active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Eliza planned position",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Eliza one root transform/hierarchy child",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Eliza preserved swim settings",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Eliza correct water/floor references",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "24 active coral roots",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "3 active swimming turtle roots",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Pedro behavior moved to correct prefab GO",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Pedro all original behavior/audio fields preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Pedro component added exactly once",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Pedro original boat no longer owns caller",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Pedro original boat transform preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Pedro roster follows actual person",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Pedro minimap follows actual person",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Eliza behavior moved to correct prefab GO",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Eliza all original behavior/audio fields preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Eliza component added exactly once",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Eliza original boat no longer owns caller",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Eliza original boat transform preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Eliza roster follows actual person",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Eliza minimap follows actual person",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "All other roster/phone/frequency/call-limit settings preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "All other map icons/targets/settings preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Unchanged other contact target 1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Unchanged other contact target 2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Unchanged other contact target 4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Romain Diver same boat parent/source",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Romain Diver corrected deck height1.35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Romain Diver upright override, no double rotation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Romain Diver valid nested added-GameObject record",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Romain Diver no duplicate caller/mover",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Suzie Diver same boat parent/source",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Suzie Diver corrected deck height1.35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Suzie Diver upright override, no double rotation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Suzie Diver valid nested added-GameObject record",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Suzie Diver no duplicate caller/mover",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "issues": [],
+  "standing_geometry": {
+    "effective_root_rotation_degrees": [
+      -90,
+      0,
+      0
+    ],
+    "visual_child_rotation": "identity",
+    "lowest_fin_y_relative_to_root": -1.31,
+    "scene_root_height_above_boat": 1.35,
+    "lowest_fin_y_above_boat_origin": 0.04,
+    "boat_max_vertex_y_after_import_scale": 0.03520816564559936,
+    "feet_clearance_above_upper_rim_bounds": 0.00479183435440064,
+    "method": "Prefab primitive bounds transformed through hierarchy; boat raw FBX mesh bounds scaled by importer0.25. Scene overrides replace the same source root rotation, not an extra parent transform. Exact deck surface/appearance needs Unity visual check."
+  },
+  "limits": [
+    "Read-only serialized scene/reference validation, not Unity scene loading.",
+    "No actual headset rendering or physics test.",
+    "Coral and swimmer water-space validations are offline terrain samples reported separately."
+  ],
+  "summary": {
+    "passed": 138,
+    "total": 138,
+    "issues": 0
+  }
+}
