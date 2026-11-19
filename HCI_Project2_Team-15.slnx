@@ -1,6 +1,6 @@
 ﻿<Solution>
-  <Project Path="Unity.XR.Hands.Samples.Gestures.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Unity.XR.Hands.Samples.Gestures.csproj" />
   <Project Path="ControllerSample.csproj" />
   <Project Path="Unity.XR.Interaction.Toolkit.Samples.Hands.csproj" />
   <Project Path="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj" />
