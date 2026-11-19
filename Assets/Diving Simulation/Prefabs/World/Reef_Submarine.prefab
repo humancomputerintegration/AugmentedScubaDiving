@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  - component: {fileID: 6500000}
+  m_Layer: 0
+  m_Name: Submarine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db6b22febf5351f6957572d6c6c2b02b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modelResource: Grab3D/Submarine/submarine
+  materialNames:
+  - submarine_body_pbr
+  - submarine_dome_navy_x
+  - submarine_dome_navy_x.001
+  - submarine_fitting_chrome_x
+  - submarine_fitting_chrome_x.001
+  - submarine_plane_aft_p_x
+  - submarine_plane_aft_s_x
+  - submarine_plane_bow_p_x
+  - submarine_plane_bow_s_x
+  - submarine_propeller_coral_x
+  - submarine_rudder_b_x
+  - submarine_rudder_t_x
+  - submarine_trim_coral_x
+  materials:
+  - {fileID: 2100000, guid: 4a3cbf1650685a3d8f06bf31769fb8b4, type: 2}
+  - {fileID: 2100000, guid: 3bad758b74ed5ddd92377474ce814d46, type: 2}
+  - {fileID: 2100000, guid: b84ddd70375c5f40913c1db97d35ac0c, type: 2}
+  - {fileID: 2100000, guid: 00203b8b008a58a8a9cac8501f1fe56d, type: 2}
+  - {fileID: 2100000, guid: 51818639a1d35a13b8392e9b211aa1a1, type: 2}
+  - {fileID: 2100000, guid: 206b7a58f8d75de9806115a0d783cf96, type: 2}
+  - {fileID: 2100000, guid: 920ee0d6be7d52b58836b02a86d9807e, type: 2}
+  - {fileID: 2100000, guid: 6a3fbf2ddafa5077accf684b5e1ea9ce, type: 2}
+  - {fileID: 2100000, guid: b4174bc3a5d555aa86a8daaaaa0068f1, type: 2}
+  - {fileID: 2100000, guid: 301bcd9147bd5cc0935b011dce540364, type: 2}
+  - {fileID: 2100000, guid: c65fe2d25deb5caf95950eac0d4aa2c3, type: 2}
+  - {fileID: 2100000, guid: 6162e0d95828521b9037f73099f670a7, type: 2}
+  - {fileID: 2100000, guid: e884a78802ed580ead3537cdbc7638e4, type: 2}
+--- !u!65 &6500000
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.38, y: 4.106954, z: 7.27}
+  m_Center: {x: 0.0, y: 2.053477, z: 0.0}
