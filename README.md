@@ -18,7 +18,7 @@ The following assets are from the Unity Asset Store. All rights belong to their 
 - **Steampunk Submarine & Diver** by **Minithulhu**, Unity Asset Store
   Folder: `Assets/DiverAndSubmarine/`
   Used for the walking scuba divers (Louis and the generated divers).
-- **<fish package name>** by **<publisher>**, Unity Asset Store
+- **Low Poly Fish** by **Floreswa**, Unity Asset Store
   Folder: `Assets/Floreswa/`
   Used for the swimming fish.
 
