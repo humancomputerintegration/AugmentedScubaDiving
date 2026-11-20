@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0f3757e8c260e504a97b2e88659373e3
+timeCreated: 1447959070
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 43772
+  packageName: Male Scuba Diver Pro
+  packageVersion: 1.5
+  assetPath: Assets/ScubaDiverAssets/UnderWaterDiver/Prefabs/DiverThirdPerson.prefab
+  uploadId: 379715

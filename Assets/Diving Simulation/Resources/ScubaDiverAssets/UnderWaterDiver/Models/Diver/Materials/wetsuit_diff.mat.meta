@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6f507d6232e51a845a99f64040254513
+timeCreated: 1439306709
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 43772
+  packageName: Male Scuba Diver Pro
+  packageVersion: 1.5
+  assetPath: Assets/ScubaDiverAssets/UnderWaterDiver/Models/Diver/Materials/wetsuit_diff.mat
+  uploadId: 379715
