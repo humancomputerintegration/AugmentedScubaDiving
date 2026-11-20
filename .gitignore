@@ -93,3 +93,19 @@ fmod_editor.log
 /Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset.meta
 
 /Assets/Plugins/FMOD/Cache/Editor.meta
+
+# Additions from newer Unity template
+.utmp/
+*.log
+*.blend1
+*.blend1.meta
+*.DotSettings.user
+mono_crash.*
+*.unitypackage.meta
+InitTestScene*.unity*
+/ServerData
+/[Aa]ssets/StreamingAssets/aa*
+/[Aa]ssets/AddressableAssetsData/link.xml*
+/[Aa]ssets/Addressables_Temp*
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*

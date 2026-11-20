@@ -16,6 +16,11 @@ public class CallTowerManager : MonoBehaviour
 
     public int[] crewmateFrequencies;
 
+    //assign frequency to each crew member
+    public bool useFixedFrequencies = true;
+    public int[] fixedFrequencies = { 111, 222, 333 };
+
+
     public AudioClip wrongFrequency;
     public AudioClip emergencyAudio;
     public float min_wait = 10f;
@@ -28,8 +33,16 @@ public class CallTowerManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        /*
         if (crewmates.Length > 0)
             InstantiateCrewmateFrequencies();
+        */
+        if (crewmates.Length == 0) return;
+        if (useFixedFrequencies && fixedFrequencies.Length == crewmates.Length)
+            AssignFixedFrequencies();
+        else
+            InstantiateCrewmateFrequencies();
+
     }
 
 
@@ -62,6 +75,14 @@ public class CallTowerManager : MonoBehaviour
             // Once unique, assign.
             crewmateFrequencies[c] = newFrequency;
             crewmates[c].GetComponent<CrewmateBehavior>().SetFrequency(newFrequency);
+        }
+    }
+
+    void AssignFixedFrequencies(){
+        crewmateFrequencies = new int[crewmates.Length];
+        for (int c = 0; c < crewmates.Length; c++){
+            crewmateFrequencies[c] = fixedFrequencies[c];
+            crewmates[c].GetComponent<CrewmateBehavior>().SetFrequency(fixedFrequencies[c]);
         }
     }
 

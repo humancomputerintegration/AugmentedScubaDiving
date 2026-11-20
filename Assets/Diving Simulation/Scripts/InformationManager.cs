@@ -28,6 +28,7 @@ public class InformationManager : MonoBehaviour
     private float batteryLevelMax = 100f;
     private float currentBatteryLevel = 100f;
     public float batteryConsumptionRate = -0.6f; // in batt/second.
+    public float batteryRechargeRate = 2.0f;
     
     /*
      * INFORMATION RETRIEVAL FUNCTIONS
@@ -70,9 +71,12 @@ public class InformationManager : MonoBehaviour
     {
         currentBatteryLevel = Mathf.Clamp(currentBatteryLevel + batteryConsumptionRate * Time.deltaTime, 0f, batteryLevelMax);
 
-        if ((currentBatteryLevel <= 0.1f) && (GetDepth() < 0f))
+        if (currentBatteryLevel <= 0.1f)
             GameOverBattery();
     }
+    
+
+    
 
     private void OxygenUpdate ()
     {
